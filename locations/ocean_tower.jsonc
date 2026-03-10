@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Ocean Tower",
+        "children": [
+            {
+                "name": "Left Chest",
+                "map_locations": []
+            },
+            {
+                "name": "Right Chest",
+                "map_locations": []
+            }
+        ]
+    }
+]

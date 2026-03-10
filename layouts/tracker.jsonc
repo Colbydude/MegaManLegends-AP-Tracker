@@ -1,0 +1,14 @@
+{
+    "layouts": {
+        "tracker_default": {
+            "type": "container",
+            "background": "#25306F",
+            "content": [
+                {
+                "type": "layout",
+                "key": "map_tabs"
+                }
+            ]
+        }
+    }
+}

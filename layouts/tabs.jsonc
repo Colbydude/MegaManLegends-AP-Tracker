@@ -1,0 +1,14 @@
+{
+    "map_tabs": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Kattelox Island",
+                "content": {
+                    "type": "map",
+                    "maps": ["overworld"]
+                }
+            }
+        ]
+    }
+}
