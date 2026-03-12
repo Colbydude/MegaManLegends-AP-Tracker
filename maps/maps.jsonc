@@ -4,5 +4,122 @@
         "location_size": 12,
         "location_border_thickness": 1,
         "img": "images/maps/overworld.png"
+    },
+    // Overworld
+    {
+        "name": "apple_market",
+        "location_size": 32,
+        "location_border_thickness": 4,
+        "img": "images/maps/apple_market.png"
+    },
+    {
+        "name": "downtown",
+        "location_size": 32,
+        "location_border_thickness": 4,
+        "img": "images/maps/downtown.png"
+    },
+    {
+        "name": "city_hall",
+        "location_size": 32,
+        "location_border_thickness": 4,
+        "img": "images/maps/city_hall.png"
+    },
+    {
+        "name": "uptown",
+        "location_size": 32,
+        "location_border_thickness": 4,
+        "img": "images/maps/uptown.png"
+    },
+    {
+        "name": "old_city",
+        "location_size": 32,
+        "location_border_thickness": 4,
+        "img": "images/maps/old_city.png"
+    },
+    {
+        "name": "cardon_forest",
+        "location_size": 32,
+        "location_border_thickness": 4,
+        "img": "images/maps/cardon_forest.png"
+    },
+    {
+        "name": "yass_plains",
+        "location_size": 32,
+        "location_border_thickness": 4,
+        "img": "images/maps/yass_plains.png"
+    },
+    {
+        "name": "clozer_woods",
+        "location_size": 32,
+        "location_border_thickness": 4,
+        "img": "images/maps/clozer_woods.png"
+    },
+    {
+        "name": "lake_jyun",
+        "location_size": 64,
+        "location_border_thickness": 8,
+        "img": "images/maps/lake_jyun.png"
+    },
+    // Underground Ruins
+    {
+        "name": "underground_ruins_zone_1",
+        "location_size": 32,
+        "location_border_thickness": 4,
+        "img": "images/maps/underground_ruins_zone_1.png"
+    },
+    {
+        "name": "underground_ruins_zone_2",
+        "location_size": 32,
+        "location_border_thickness": 4,
+        "img": "images/maps/underground_ruins_zone_2.png"
+    },
+    {
+        "name": "underground_ruins_zone_3",
+        "location_size": 32,
+        "location_border_thickness": 4,
+        "img": "images/maps/underground_ruins_zone_3.png"
+    },
+    {
+        "name": "underground_ruins_zone_4",
+        "location_size": 32,
+        "location_border_thickness": 4,
+        "img": "images/maps/underground_ruins_zone_4.png"
+    },
+    {
+        "name": "underground_ruins_zone_5",
+        "location_size": 32,
+        "location_border_thickness": 4,
+        "img": "images/maps/underground_ruins_zone_5.png"
+    },
+    // Dungeons
+    {
+        "name": "ocean_tower",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/ocean_tower.png"
+    },
+    {
+        "name": "cardon_forest_subgate",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/cardon_forest_subgate.png"
+    },
+    {
+        "name": "lake_jyun_subgate",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/lake_jyun_subgate.png"
+    },
+    {
+        "name": "clozer_woods_subgate",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/clozer_woods_subgate.png"
+    },
+    {
+        "name": "main_gate",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/main_gate.png"
     }
 ]

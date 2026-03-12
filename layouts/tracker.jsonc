@@ -5,8 +5,31 @@
             "background": "#25306F",
             "content": [
                 {
-                "type": "layout",
-                "key": "map_tabs"
+                    "type": "dock",
+                    "dropshadow": true,
+                    "content": [
+                        {
+                            "type": "dock",
+                            "dock": "bottom",
+                            "content": [
+                                {
+                                    "type": "group",
+                                    "header": "Weapons",
+                                    "dock": "left",
+                                    "content": {
+                                        "type": "layout",
+                                        "h_alignment": "center",
+                                        "v_alignment": "center",
+                                        "key": "weapon_grid"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "layout",
+                            "key": "map_tabs"
+                        }
+                    ]
                 }
             ]
         }

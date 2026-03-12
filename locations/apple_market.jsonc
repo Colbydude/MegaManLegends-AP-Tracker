@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Apple Market",
+        "children": [
+            {
+                "name": "Electric Goods Box",
+                "map_locations": [
+                    {
+                        "map": "apple_market",
+                        "x": 666,
+                        "y": 568
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Item"
+                    }
+                ]
+            },
+            {
+                "name": "Book Store Box",
+                "map_locations": [
+                    {
+                        "map": "apple_market",
+                        "x": 996,
+                        "y": 232
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Item"
+                    }
+                ]
+            },
+            {
+                "name": "Junk Store Box",
+                "map_locations": [
+                    {
+                        "map": "apple_market",
+                        "x": 974,
+                        "y": 408
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Item"
+                    }
+                ]
+            },
+            {
+                "name": "North Garbage Pail",
+                "map_locations": [
+                    {
+                        "map": "apple_market",
+                        "x": 1212,
+                        "y": 286
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Item"
+                    }
+                ]
+            },
+            {
+                "name": "South Garbage Pail",
+                "map_locations": [
+                    {
+                        "map": "apple_market",
+                        "x": 140,
+                        "y": 702
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Item"
+                    }
+                ]
+            }
+        ]
+    }
+]

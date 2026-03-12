@@ -1,0 +1,112 @@
+[
+    {
+        "name": "Downtown",
+        "children": [
+            {
+                "name": "Southeast Peace Sign Garbage Pail",
+                "map_locations": [
+                    {
+                        "map": "downtown",
+                        "x": 1225,
+                        "y": 932
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Item"
+                    }
+                ]
+            },
+            {
+                "name": "Center East Garbage Pail",
+                "map_locations": [
+                    {
+                        "map": "downtown",
+                        "x": 1220,
+                        "y": 764
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Item"
+                    }
+                ]
+            },
+            {
+                "name": "Don't Kick Us Garbage Pail",
+                "map_locations": [
+                    {
+                        "map": "downtown",
+                        "x": 858,
+                        "y": 317
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Item"
+                    }
+                ]
+            },
+            {
+                "name": "Center Garbage Pail",
+                "map_locations": [
+                    {
+                        "map": "downtown",
+                        "x": 967,
+                        "y": 475
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Item"
+                    }
+                ]
+            },
+            {
+                "name": "Library Garbage Pail",
+                "map_locations": [
+                    {
+                        "map": "downtown",
+                        "x": 1038,
+                        "y": 542
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Item"
+                    }
+                ]
+            },
+            {
+                "name": "Sub-City",
+                "map_locations": [
+                    {
+                        "map": "downtown",
+                        "x": 1186,
+                        "y": 480
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Sleeper Key"
+                    }
+                ]
+            },
+            {
+                "name": "Ferdinand",
+                "map_locations": [
+                    {
+                        "map": "downtown",
+                        "x": 1415,
+                        "y": 477
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Defeated"
+                    }
+                ]
+            }
+        ]
+    }
+]

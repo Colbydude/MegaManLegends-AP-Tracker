@@ -1,0 +1,22 @@
+[
+    {
+        "name": "City Hall",
+        "children": [
+            {
+                "name": "Bon Bonne",
+                "map_locations": [
+                    {
+                        "map": "city_hall",
+                        "x": 930,
+                        "y": 256
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Defeated"
+                    }
+                ]
+            }
+        ]
+    }
+]

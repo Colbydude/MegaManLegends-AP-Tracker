@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Old City",
+        "children": [
+            {
+                "name": "Sub-City",
+                "map_locations": [
+                    {
+                        "map": "old_city",
+                        "x": 770,
+                        "y": 916
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Watcher Key"
+                    }
+                ]
+            },
+            {
+                "name": "Theodore Bruno",
+                "map_locations": [
+                    {
+                        "map": "old_city",
+                        "x": 685,
+                        "y": 820
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Defeated"
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -3,10 +3,160 @@
         "type": "tabbed",
         "tabs": [
             {
-                "title": "Kattelox Island",
+                "title": "Overworld",
                 "content": {
-                    "type": "map",
-                    "maps": ["overworld"]
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Apple Market",
+                            "content": {
+                                "type": "map",
+                                "maps": ["apple_market"]
+                            }
+                        },
+                        {
+                            "title": "Downtown",
+                            "content": {
+                                "type": "map",
+                                "maps": ["downtown"]
+                            }
+                        },
+                        {
+                            "title": "City Hall",
+                            "content": {
+                                "type": "map",
+                                "maps": ["city_hall"]
+                            }
+                        },
+                        {
+                            "title": "Uptown",
+                            "content": {
+                                "type": "map",
+                                "maps": ["uptown"]
+                            }
+                        },
+                        {
+                            "title": "Old City",
+                            "content": {
+                                "type": "map",
+                                "maps": ["old_city"]
+                            }
+                        },
+                        {
+                            "title": "Cardon Forest",
+                            "content": {
+                                "type": "map",
+                                "maps": ["cardon_forest"]
+                            }
+                        },
+                        {
+                            "title": "Yass Plains",
+                            "content": {
+                                "type": "map",
+                                "maps": ["yass_plains"]
+                            }
+                        },
+                        {
+                            "title": "Clozer Woods",
+                            "content": {
+                                "type": "map",
+                                "maps": ["clozer_woods"]
+                            }
+                        },
+                        {
+                            "title": "Lake Jyun",
+                            "content": {
+                                "type": "map",
+                                "maps": ["lake_jyun"]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Underground Ruins",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Zone 1",
+                            "content": {
+                                "type": "map",
+                                "maps": ["underground_ruins_zone_1"]
+                            }
+                        },
+                        {
+                            "title": "Zone 2",
+                            "content": {
+                                "type": "map",
+                                "maps": ["underground_ruins_zone_2"]
+                            }
+                        },
+                        {
+                            "title": "Zone 3",
+                            "content": {
+                                "type": "map",
+                                "maps": ["underground_ruins_zone_3"]
+                            }
+                        },
+                        {
+                            "title": "Zone 4",
+                            "content": {
+                                "type": "map",
+                                "maps": ["underground_ruins_zone_4"]
+                            }
+                        },
+                        {
+                            "title": "Zone 5",
+                            "content": {
+                                "type": "map",
+                                "maps": ["underground_ruins_zone_5"]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Dungeons",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Ocean Tower",
+                            "content": {
+                                "type": "map",
+                                "maps": ["ocean_tower"]
+                            }
+                        },
+                        {
+                            "title": "Cardon Forest Sub-Gate",
+                            "content": {
+                                "type": "map",
+                                "maps": ["cardon_forest_subgate"]
+                            }
+                        },
+                        {
+                            "title": "Lake Jyun Sub-Gate",
+                            "content": {
+                                "type": "map",
+                                "maps": ["lake_jyun_subgate"]
+                            }
+                        },
+                        {
+                            "title": "Clozer Woods Sub-Gate",
+                            "content": {
+                                "type": "map",
+                                "maps": ["clozer_woods_subgate"]
+                            }
+                        },
+                        {
+                            "title": "Main Gate",
+                            "content": {
+                                "type": "map",
+                                "maps": ["main_gate"]
+                            }
+                        }
+                    ]
                 }
             }
         ]

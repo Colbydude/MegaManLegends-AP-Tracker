@@ -1,0 +1,157 @@
+[
+    {
+        "name": "Uptown",
+        "children": [
+            {
+                "name": "Hospital Garbage Pails",
+                "map_locations": [
+                    {
+                        "map": "uptown",
+                        "x": 2150,
+                        "y": 777
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Left Pail - Item"
+                    },
+                    {
+                        "name": "Right Pail - Item"
+                    }
+                ]
+            },
+            {
+                "name": "Ocean Corner Garbage Pail",
+                "map_locations": [
+                    {
+                        "map": "uptown",
+                        "x": 54,
+                        "y": 572
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Item"
+                    }
+                ]
+            },
+            {
+                "name": "Wily's Boat Boxes",
+                "map_locations": [
+                    {
+                        "map": "uptown",
+                        "x": 512,
+                        "y": 332
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Left Box - Item"
+                    },
+                    {
+                        "name": "Right Box - Item"
+                    }
+                ]
+            },
+            {
+                "name": "Wily's Boat Garbage Pail",
+                "map_locations": [
+                    {
+                        "map": "uptown",
+                        "x": 414,
+                        "y": 351
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Item"
+                    }
+                ]
+            },
+            {
+                "name": "Sub-City",
+                "map_locations": [
+                    {
+                        "map": "uptown",
+                        "x": 1733,
+                        "y": 910
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Dreamer Key"
+                    }
+                ]
+            },
+            {
+                "name": "Kattelox TV Mini-Games",
+                "map_locations": [
+                    {
+                        "map": "uptown",
+                        "x": 1450,
+                        "y": 980
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Beast Hunter - Rank A"
+                    },
+                    {
+                        "name": "Balloon Fantasy - Rank A"
+                    },
+                    {
+                        "name": "Race - Straight Course - Rank A"
+                    },
+                    {
+                        "name": "Race - Left Curve Course - Rank A"
+                    },
+                    {
+                        "name": "Race - Technical Course - Rank A"
+                    }
+                ]
+            },
+            {
+                "name": "Museum",
+                "map_locations": [
+                    {
+                        "map": "uptown",
+                        "x": 1535,
+                        "y": 760
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Donate Old Bone"
+                    },
+                    {
+                        "name": "Donate Old Heater"
+                    },
+                    {
+                        "name": "Donate Old Doll"
+                    },
+                    {
+                        "name": "Donate Antique Bell"
+                    },
+                    {
+                        "name": "Donate Giant Horn"
+                    },
+                    {
+                        "name": "Donate Shiny Object"
+                    },
+                    {
+                        "name": "Donate Old Shield"
+                    },
+                    {
+                        "name": "Donate Shiny Red Stone"
+                    },
+                    {
+                        "name": "Complete the Museum Exhibit"
+                    },
+                    {
+                        "name": "Take Dangerous Object from Museum Visitor"
+                    }
+                ]
+            }
+        ]
+    }
+]

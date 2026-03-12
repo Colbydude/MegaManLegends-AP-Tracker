@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Machine Buster",
+        "type": "toggle",
+        "img": "images/weapons/machine_buster.png",
+        "codes": "machinebuster"
+    },
+    {
+        "name": "Powered Buster",
+        "type": "toggle",
+        "img": "images/weapons/powered_buster.png",
+        "codes": "poweredbuster"
+    },
+    {
+        "name": "Drill Arm",
+        "type": "toggle",
+        "img": "images/weapons/drill_arm.png",
+        "codes": "drillarm"
+    },
+    {
+        "name": "Grenade Arm",
+        "type": "toggle",
+        "img": "images/weapons/grenade_arm.png",
+        "codes": "grenadearm"
+    },
+    {
+        "name": "Spread Buster",
+        "type": "toggle",
+        "img": "images/weapons/spread_buster.png",
+        "codes": "spreadbuster"
+    },
+    {
+        "name": "Vacuum Arm",
+        "type": "toggle",
+        "img": "images/weapons/vacuum_arm.png",
+        "codes": "vacuumarm"
+    },
+    {
+        "name": "Active Buster",
+        "type": "toggle",
+        "img": "images/weapons/active_buster.png",
+        "codes": "activebuster"
+    },
+    {
+        "name": "Blade Arm",
+        "type": "toggle",
+        "img": "images/weapons/blade_arm.png",
+        "codes": "bladearm"
+    },
+    {
+        "name": "Grand Grenade",
+        "type": "toggle",
+        "img": "images/weapons/grand_grenade.png",
+        "codes": "grandgrenade"
+    },
+    {
+        "name": "Splash Mine",
+        "type": "toggle",
+        "img": "images/weapons/splash_mine.png",
+        "codes": "splashmine"
+    },
+    {
+        "name": "Shield Arm",
+        "type": "toggle",
+        "img": "images/weapons/shield_arm.png",
+        "codes": "shieldarm"
+    },
+    {
+        "name": "Shining Laser",
+        "type": "toggle",
+        "img": "images/weapons/shining_laser.png",
+        "codes": "shininglaser"
+    }
+]
