@@ -2,7 +2,141 @@
     {
         "name": "Cardon Forest Sub-Gate",
         "children": [
-            
+            {
+                "name": "Sharukurusu floor hole",
+                "map_locations": [
+                    {
+                        "map": "cardon_forest_subgate",
+                        "x": 1072,
+                        "y": 666
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Item"
+                    }
+                ]
+            },
+            {
+                "name": "Cliff hole",
+                "map_locations": [
+                    {
+                        "map": "cardon_forest_subgate",
+                        "x": 846,
+                        "y": 222
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Item"
+                    }
+                ]
+            },
+            {
+                "name": "Cliff chest",
+                "map_locations": [
+                    {
+                        "map": "cardon_forest_subgate",
+                        "x": 708,
+                        "y": 382
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Item"
+                    }
+                ]
+            },
+            {
+                "name": "Bottom conveyor hole",
+                "map_locations": [
+                    {
+                        "map": "cardon_forest_subgate",
+                        "x": 810,
+                        "y": 782
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Item"
+                    }
+                ]
+            },
+            {
+                "name": "Middle conveyor hole",
+                "map_locations": [
+                    {
+                        "map": "cardon_forest_subgate",
+                        "x": 630,
+                        "y": 724
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Item"
+                    }
+                ]
+            },
+            {
+                "name": "Middle switch chest",
+                "map_locations": [
+                    {
+                        "map": "cardon_forest_subgate",
+                        "x": 412,
+                        "y": 836
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Item"
+                    }
+                ]
+            },
+            {
+                "name": "Sharukurusu starter key get",
+                "map_locations": [
+                    {
+                        "map": "cardon_forest_subgate",
+                        "x": 1110,
+                        "y": 420
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Cardon Forest Sub-Gate Key 1"
+                    }
+                ]
+            },
+            {
+                "name": "Conveyor key get",
+                "map_locations": [
+                    {
+                        "map": "cardon_forest_subgate",
+                        "x": 798,
+                        "y": 862
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Cardon Forest Sub-Gate Key 2"
+                    }
+                ]
+            },
+            {
+                "name": "barrier room key get",
+                "map_locations": [
+                    {
+                        "map": "cardon_forest_subgate",
+                        "x": 1220,
+                        "y": 200
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Cardon Forest Sub-Gate Key 3"
+                    }
+                ]
+            }
         ]
     }
 ]

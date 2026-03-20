@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Lake Jyun",
+        "children": [
+            {
+                "name": "Balkon Gerät",
+                "map_locations": [
+                    {
+                        "map": "lake_jyun",
+                        "x": 322,
+                        "y": 1088
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Defeated"
+                    }
+                ]
+            }
+        ]
+    }
+]

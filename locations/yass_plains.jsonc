@@ -1,0 +1,55 @@
+[
+    {
+        "name": "Yass Plains",
+        "children": [
+            {
+                "name": "Plateau",
+                "map_locations": [
+                    {
+                        "map": "yass_plains",
+                        "x": 1674,
+                        "y": 394
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Garbage Pail"
+                    },
+                    {
+                        "name": "Box"
+                    }
+                ]
+            },
+            {
+                "name": "Behind Hideout Garbage Pail",
+                "map_locations": [
+                    {
+                        "map": "yass_plains",
+                        "x": 1272,
+                        "y": 812
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Item"
+                    }
+                ]
+            },
+            {
+                "name": "Across Hideout Pail",
+                "map_locations": [
+                    {
+                        "map": "yass_plains",
+                        "x": 1004,
+                        "y": 695
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Item"
+                    }
+                ]
+            }
+        ]
+    }
+]

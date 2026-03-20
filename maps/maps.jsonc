@@ -44,8 +44,8 @@
     },
     {
         "name": "yass_plains",
-        "location_size": 32,
-        "location_border_thickness": 4,
+        "location_size": 48,
+        "location_border_thickness": 6,
         "img": "images/maps/yass_plains.png"
     },
     {
@@ -63,8 +63,8 @@
     // Underground Ruins
     {
         "name": "underground_ruins_zone_1",
-        "location_size": 32,
-        "location_border_thickness": 4,
+        "location_size": 16,
+        "location_border_thickness": 2,
         "img": "images/maps/underground_ruins_zone_1.png"
     },
     {
@@ -94,8 +94,8 @@
     // Dungeons
     {
         "name": "ocean_tower",
-        "location_size": 24,
-        "location_border_thickness": 3,
+        "location_size": 32,
+        "location_border_thickness": 4,
         "img": "images/maps/ocean_tower.png"
     },
     {
@@ -106,14 +106,14 @@
     },
     {
         "name": "lake_jyun_subgate",
-        "location_size": 24,
-        "location_border_thickness": 3,
+        "location_size": 48,
+        "location_border_thickness": 6,
         "img": "images/maps/lake_jyun_subgate.png"
     },
     {
         "name": "clozer_woods_subgate",
-        "location_size": 24,
-        "location_border_thickness": 3,
+        "location_size": 32,
+        "location_border_thickness": 4,
         "img": "images/maps/clozer_woods_subgate.png"
     },
     {

@@ -2,7 +2,171 @@
     {
         "name": "Lake Jyun Sub-Gate",
         "children": [
-            
+            {
+                "name": "Entrance right hole",
+                "map_locations": [
+                    {
+                        "map": "lake_jyun_subgate",
+                        "x": 365,
+                        "y": 1510
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "1,240 Zenny"
+                    }
+                ]
+            },
+            {
+                "name": "Entrance left hole",
+                "map_locations": [
+                    {
+                        "map": "lake_jyun_subgate",
+                        "x": 374,
+                        "y": 1468
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "220 Zenny"
+                    }
+                ]
+            },
+            {
+                "name": "Entrance chest",
+                "map_locations": [
+                    {
+                        "map": "lake_jyun_subgate",
+                        "x": 586,
+                        "y": 1570
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Old Hover Jets"
+                    }
+                ]
+            },
+            {
+                "name": "East corridor hole",
+                "map_locations": [
+                    {
+                        "map": "lake_jyun_subgate",
+                        "x": 1118,
+                        "y": 1340
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Ring"
+                    }
+                ]
+            },
+            {
+                "name": "West corridor hole",
+                "map_locations": [
+                    {
+                        "map": "lake_jyun_subgate",
+                        "x": 762,
+                        "y": 1026
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Gatling Part"
+                    }
+                ]
+            },
+            {
+                "name": "West corridor chest",
+                "map_locations": [
+                    {
+                        "map": "lake_jyun_subgate",
+                        "x": 505,
+                        "y": 1042
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Lake Jyun Sub-Gate Key 1"
+                    }
+                ]
+            },
+            {
+                "name": "Sharukurusu east chest",
+                "map_locations": [
+                    {
+                        "map": "lake_jyun_subgate",
+                        "x": 1795,
+                        "y": 1142
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Lake Jyun Sub-Gate Key 2"
+                    }
+                ]
+            },
+            {
+                "name": "Sharukurusu middle chest",
+                "map_locations": [
+                    {
+                        "map": "lake_jyun_subgate",
+                        "x": 1516,
+                        "y": 864
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Joint Plug"
+                    }
+                ]
+            },
+            {
+                "name": "Sharukurusu west chest",
+                "map_locations": [
+                    {
+                        "map": "lake_jyun_subgate",
+                        "x": 1048,
+                        "y": 784
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Lake Jyun Sub-Gate Key 3"
+                    }
+                ]
+            },
+            {
+                "name": "Sharukurusu west hole",
+                "map_locations": [
+                    {
+                        "map": "lake_jyun_subgate",
+                        "x": 1010,
+                        "y": 748
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "5,130 Zenny"
+                    }
+                ]
+            },
+            {
+                "name": "Garudoriten",
+                "map_locations": [
+                    {
+                        "map": "lake_jyun_subgate",
+                        "x": 2734,
+                        "y": 264
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Defeated"
+                    }
+                ]
+            }
         ]
     }
 ]

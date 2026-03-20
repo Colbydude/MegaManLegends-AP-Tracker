@@ -2,7 +2,186 @@
     {
         "name": "Clozer Woods Sub-Gate",
         "children": [
-            
+            {
+                "name": "Sharukurusu E room left hole",
+                "map_locations": [
+                    {
+                        "map": "clozer_woods_subgate",
+                        "x": 724,
+                        "y": 310
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Tele-lens"
+                    }
+                ]
+            },
+            {
+                "name": "Sharukurusu E room right hole",
+                "map_locations": [
+                    {
+                        "map": "clozer_woods_subgate",
+                        "x": 742,
+                        "y": 276
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "450 Zenny"
+                    }
+                ]
+            },
+            {
+                "name": "Miroc+Gorubesshu west cliff chest",
+                "map_locations": [
+                    {
+                        "map": "clozer_woods_subgate",
+                        "x": 1032,
+                        "y": 672
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Guidance Unit"
+                    }
+                ]
+            },
+            {
+                "name": "Miroc+Gorubesshu east cliff chest",
+                "map_locations": [
+                    {
+                        "map": "clozer_woods_subgate",
+                        "x": 555,
+                        "y": 400
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "ID Card"
+                    }
+                ]
+            },
+            {
+                "name": "Miroc+Gorubesshu southeast pillar hole",
+                "map_locations": [
+                    {
+                        "map": "clozer_woods_subgate",
+                        "x": 945,
+                        "y": 598
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "1,840 Zenny"
+                    }
+                ]
+            },
+            {
+                "name": "Miroc+Gorubesshu northeast pillar hole",
+                "map_locations": [
+                    {
+                        "map": "clozer_woods_subgate",
+                        "x": 902,
+                        "y": 650
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "1,200 Zenny"
+                    }
+                ]
+            },
+            {
+                "name": "Miroc+Gorubesshu northwest pillar hole",
+                "map_locations": [
+                    {
+                        "map": "clozer_woods_subgate",
+                        "x": 620,
+                        "y": 542
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Antique Bell"
+                    }
+                ]
+            },
+            {
+                "name": "Miroc+Gorubesshu southwest pillar hole",
+                "map_locations": [
+                    {
+                        "map": "clozer_woods_subgate",
+                        "x": 690,
+                        "y": 490
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "920 Zenny"
+                    }
+                ]
+            },
+            {
+                "name": "Generator room upper chest",
+                "map_locations": [
+                    {
+                        "map": "clozer_woods_subgate",
+                        "x": 472,
+                        "y": 964
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "ID Card"
+                    }
+                ]
+            },
+            {
+                "name": "Gorubesshu corridor east chest",
+                "map_locations": [
+                    {
+                        "map": "clozer_woods_subgate",
+                        "x": 1020,
+                        "y": 798
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Target Sensor"
+                    }
+                ]
+            },
+            {
+                "name": "Generator room lower chest",
+                "map_locations": [
+                    {
+                        "map": "clozer_woods_subgate",
+                        "x": 922,
+                        "y": 1250
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "ID Card"
+                    }
+                ]
+            },
+            {
+                "name": "Karumuna Bash Trio",
+                "map_locations": [
+                    {
+                        "map": "clozer_woods_subgate",
+                        "x": 268,
+                        "y": 878
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Defeated"
+                    }
+                ]
+            }
         ]
     }
 ]

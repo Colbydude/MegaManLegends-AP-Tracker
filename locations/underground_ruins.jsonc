@@ -2,7 +2,471 @@
     {
         "name": "Underground Ruins",
         "children": [
-            
+            {
+                "name": "Junk store man chest",
+                "map_locations": [
+                    {
+                        "map": "underground_ruins_zone_1",
+                        "x": 948,
+                        "y": 324
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Rapid Fire"
+                    }
+                ]
+            },
+            {
+                "name": "Junk store man hole",
+                "map_locations": [
+                    {
+                        "map": "underground_ruins_zone_1",
+                        "x": 520,
+                        "y": 315
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "2,600 Zenny"
+                    }
+                ]
+            },
+            {
+                "name": "Main gate entrance chest",
+                "map_locations": [
+                    {
+                        "map": "underground_ruins_zone_2",
+                        "x": 1590,
+                        "y": 575
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Generator Part"
+                    }
+                ]
+            },
+            {
+                "name": "2 box ledge chest",
+                "map_locations": [
+                    {
+                        "map": "underground_ruins_zone_2",
+                        "x": 734,
+                        "y": 300
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Buster Unit"
+                    }
+                ]
+            },
+            {
+                "name": "Miroc room ledge chest",
+                "map_locations": [
+                    {
+                        "map": "underground_ruins_zone_2",
+                        "x": 552,
+                        "y": 545
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "1,180 Zenny"
+                    }
+                ]
+            },
+            {
+                "name": "Cross room chest",
+                "map_locations": [
+                    {
+                        "map": "underground_ruins_zone_2",
+                        "x": 1170,
+                        "y": 580
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Rollerboard"
+                    }
+                ]
+            },
+            {
+                "name": "Miroc room left hole",
+                "map_locations": [
+                    {
+                        "map": "underground_ruins_zone_2",
+                        "x": 906,
+                        "y": 570
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "9,240 Zenny"
+                    }
+                ]
+            },
+            {
+                "name": "Miroc room right hole",
+                "map_locations": [
+                    {
+                        "map": "underground_ruins_zone_2",
+                        "x": 936,
+                        "y": 578
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "820 Zenny"
+                    }
+                ]
+            },
+            {
+                "name": "Arukoitan battle north chest",
+                "map_locations": [
+                    {
+                        "map": "underground_ruins_zone_3",
+                        "x": 832,
+                        "y": 666
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "2,280 Zenny"
+                    }
+                ]
+            },
+            {
+                "name": "Arukoitan battle south chest",
+                "map_locations": [
+                    {
+                        "map": "underground_ruins_zone_3",
+                        "x": 348,
+                        "y": 795
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "2,840 Zenny"
+                    }
+                ]
+            },
+            {
+                "name": "Obstacle room cliff east hole",
+                "map_locations": [
+                    {
+                        "map": "underground_ruins_zone_3",
+                        "x": 190,
+                        "y": 1050
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "780 Zenny"
+                    }
+                ]
+            },
+            {
+                "name": "Obstacle room cliff west hole",
+                "map_locations": [
+                    {
+                        "map": "underground_ruins_zone_3",
+                        "x": 24,
+                        "y": 954
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "4,520 Zenny"
+                    }
+                ]
+            },
+            {
+                "name": "Shekuten pillar room chest",
+                "map_locations": [
+                    {
+                        "map": "underground_ruins_zone_3",
+                        "x": 1300,
+                        "y": 272
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "1820 Zenny"
+                    }
+                ]
+            },
+            {
+                "name": "Shekuten pillar room hole",
+                "map_locations": [
+                    {
+                        "map": "underground_ruins_zone_3",
+                        "x": 1262,
+                        "y": 475
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Old Shield"
+                    }
+                ]
+            },
+            {
+                "name": "Kuruguru obstacle hole",
+                "map_locations": [
+                    {
+                        "map": "underground_ruins_zone_3",
+                        "x": 1556,
+                        "y": 250
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Shiny Object"
+                    }
+                ]
+            },
+            {
+                "name": "Gold Gorubesshu chest",
+                "map_locations": [
+                    {
+                        "map": "underground_ruins_zone_4",
+                        "x": 1070,
+                        "y": 444
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Old Launcher"
+                    }
+                ]
+            },
+            {
+                "name": "Drillable pillar room south chest",
+                "map_locations": [
+                    {
+                        "map": "underground_ruins_zone_4",
+                        "x": 520,
+                        "y": 474
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pen Light"
+                    }
+                ]
+            },
+            {
+                "name": "Drillable pillar room north chest",
+                "map_locations": [
+                    {
+                        "map": "underground_ruins_zone_4",
+                        "x": 738,
+                        "y": 276
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Rapid Striker"
+                    }
+                ]
+            },
+            {
+                "name": "3 chest room middle chest",
+                "map_locations": [
+                    {
+                        "map": "underground_ruins_zone_4",
+                        "x": 858,
+                        "y": 838
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "5,600 Zenny"
+                    }
+                ]
+            },
+            {
+                "name": "Drillable pillars room south hole",
+                "map_locations": [
+                    {
+                        "map": "underground_ruins_zone_4",
+                        "x": 264,
+                        "y": 490
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "920 Zenny"
+                    }
+                ]
+            },
+            {
+                "name": "Drillable pillars room west hole",
+                "map_locations": [
+                    {
+                        "map": "underground_ruins_zone_4",
+                        "x": 166,
+                        "y": 364
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "680 Zenny"
+                    }
+                ]
+            },
+            {
+                "name": "Drillable pillars room north hole",
+                "map_locations": [
+                    {
+                        "map": "underground_ruins_zone_4",
+                        "x": 326,
+                        "y": 276
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Main Core Shard"
+                    }
+                ]
+            },
+            {
+                "name": "Fireball Orudakoitan chest",
+                "map_locations": [
+                    {
+                        "map": "underground_ruins_zone_5",
+                        "x": 2090,
+                        "y": 308
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Cannon Kit"
+                    }
+                ]
+            },
+            {
+                "name": "Box ledge chest",
+                "map_locations": [
+                    {
+                        "map": "underground_ruins_zone_5",
+                        "x": 1635,
+                        "y": 320
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "980 Zenny"
+                    }
+                ]
+            },
+            {
+                "name": "Horokko ledge chest",
+                "map_locations": [
+                    {
+                        "map": "underground_ruins_zone_5",
+                        "x": 1690,
+                        "y": 46
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Triple Access"
+                    }
+                ]
+            },
+            {
+                "name": "Clozer exit chest",
+                "map_locations": [
+                    {
+                        "map": "underground_ruins_zone_5",
+                        "x": 1788,
+                        "y": 992
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "1,780 Zenny"
+                    }
+                ]
+            },
+            {
+                "name": "Drillable wall room middle cliff chest",
+                "map_locations": [
+                    {
+                        "map": "underground_ruins_zone_5",
+                        "x": 1386,
+                        "y": 554
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Ancient Book"
+                    }
+                ]
+            },
+            {
+                "name": "Drillable wall room west cliff chest",
+                "map_locations": [
+                    {
+                        "map": "underground_ruins_zone_5",
+                        "x": 1186,
+                        "y": 452
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Rapidfire Barrel"
+                    }
+                ]
+            },
+            {
+                "name": "Drillable wall room east cliff chest",
+                "map_locations": [
+                    {
+                        "map": "underground_ruins_zone_5",
+                        "x": 1750,
+                        "y": 634
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Blaster Unit R"
+                    }
+                ]
+            },
+            {
+                "name": "Trapped box hole",
+                "map_locations": [
+                    {
+                        "map": "underground_ruins_zone_5",
+                        "x": 2088,
+                        "y": 764
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "1,510 Zenny"
+                    }
+                ]
+            },
+            {
+                "name": "Drillable wall room east cliff hole",
+                "map_locations": [
+                    {
+                        "map": "underground_ruins_zone_5",
+                        "x": 1806,
+                        "y": 606
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Weapon Plans"
+                    }
+                ]
+            }
         ]
     }
 ]
