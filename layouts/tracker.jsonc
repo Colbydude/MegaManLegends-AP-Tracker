@@ -22,6 +22,17 @@
                                         "v_alignment": "center",
                                         "key": "weapon_grid"
                                     }
+                                },
+                                {
+                                    "type": "group",
+                                    "header": "Special Items",
+                                    "dock": "left",
+                                    "content": {
+                                        "type": "layout",
+                                        "h_alignment": "center",
+                                        "v_alignment": "center",
+                                        "key": "special_item_grid"
+                                    }
                                 }
                             ]
                         },

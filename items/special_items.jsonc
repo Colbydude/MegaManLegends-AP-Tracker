@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Energy Canteen",
+        "type": "toggle",
+        "img": "images/special_items/energy_canteen.png",
+        "codes": "energycanteen"
+    },
+    {
+        "name": "Helmet",
+        "type": "toggle",
+        "img": "images/special_items/helmet.png",
+        "codes": "helmet"
+    },
+    {
+        "name": "Jet Skates",
+        "type": "toggle",
+        "img": "images/special_items/jet_skates.png",
+        "codes": "jetskates"
+    },
+    {
+        "name": "Jump Springs",
+        "type": "toggle",
+        "img": "images/special_items/jump_springs.png",
+        "codes": "jumpsprings"
+    },
+    {
+        "name": "Flak Jacket",
+        "type": "toggle",
+        "img": "images/special_items/flak_jacket.png",
+        "codes": "flakjacket"
+    },
+    {
+        "name": "Adapter Plug",
+        "type": "toggle",
+        "img": "images/special_items/adapter_plug.png",
+        "codes": "adapterplug"
+    },
+    {
+        "name": "Blue Refractor",
+        "type": "toggle",
+        "img": "images/special_items/blue_refractor.png",
+        "codes": "bluerefractor"
+    },
+    {
+        "name": "Yellow Refractor",
+        "type": "toggle",
+        "img": "images/special_items/yellow_refractor.png",
+        "codes": "yellowrefractor"
+    },
+    {
+        "name": "Red Refractor",
+        "type": "toggle",
+        "img": "images/special_items/red_refractor.png",
+        "codes": "redrefractor"
+    },
+    {
+        "name": "Citizen's Card",
+        "type": "toggle",
+        "img": "images/special_items/citizens_card.png",
+        "codes": "citizenscard"
+    },
+    {
+        "name": "Class A License",
+        "type": "toggle",
+        "img": "images/special_items/class_a_license.png",
+        "codes": "classalicense"
+    },
+    {
+        "name": "Class B License",
+        "type": "toggle",
+        "img": "images/special_items/class_b_license.png",
+        "codes": "classblicense"
+    },
+    {
+        "name": "Walkie-Talkie",
+        "type": "toggle",
+        "img": "images/special_items/walkie_talkie.png",
+        "codes": "walkietalkie"
+    },
+    {
+        "name": "Bonne Family Key",
+        "type": "toggle",
+        "img": "images/special_items/bonne_family_key.png",
+        "codes": "bonnefamilykey"
+    },
+    {
+        "name": "Cardon Forest Sub-Gate Key",
+        "type": "toggle",
+        "img": "images/special_items/cardon_forest_subgate_key.png",
+        "codes": "cardonforestsubgatekey"
+    },
+    {
+        "name": "Lake Jyun Sub-Gate Key",
+        "type": "toggle",
+        "img": "images/special_items/lake_jyun_subgate_key.png",
+        "codes": "lakejyunsubgatekey"
+    },
+    {
+        "name": "Clozer Woods Sub-Gate Key",
+        "type": "toggle",
+        "img": "images/special_items/clozer_woods_subgate_key.png",
+        "codes": "clozerwoodssubgatekey"
+    },
+    {
+        "name": "Sub-City Key",
+        "type": "toggle",
+        "img": "images/special_items/subcity_key.png",
+        "codes": "subcitykey"
+    }
+]

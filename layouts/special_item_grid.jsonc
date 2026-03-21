@@ -1,0 +1,41 @@
+{
+    "special_item_grid": {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "item_margin": "4,4",
+                "item_size": "48,48",
+                "rows": [
+                    [
+                        "energycanteen",
+                        "helmet",
+                        "jetskates",
+                        "jumpsprings",
+                        "flakjacket",
+                        "adapterplug"
+                    ],
+                    [
+                        "bluerefractor",
+                        "yellowrefractor",
+                        "redrefractor",
+                        "citizenscard",
+                        "classalicense",
+                        "classblicense"
+                    ],
+                    [
+                        "walkietalkie",
+                        "bonnefamilykey",
+                        "cardonforestsubgatekey",
+                        "lakejyunsubgatekey",
+                        "clozerwoodssubgatekey",
+                        "subcitykey"
+                    ]
+                ]
+            }
+        ]
+    }
+}
