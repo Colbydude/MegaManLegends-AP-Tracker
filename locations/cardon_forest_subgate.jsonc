@@ -93,7 +93,7 @@
                 ]
             },
             {
-                "name": "Sharukurusu starter key get",
+                "name": "Jakko nest starter key get",
                 "map_locations": [
                     {
                         "map": "cardon_forest_subgate",
@@ -103,12 +103,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "Cardon Forest Sub-Gate Key 1"
+                        "name": "Item"
                     }
                 ]
             },
             {
-                "name": "Conveyor key get",
+                "name": "Conveyor chest starter key get",
                 "map_locations": [
                     {
                         "map": "cardon_forest_subgate",
@@ -118,12 +118,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "Cardon Forest Sub-Gate Key 2"
+                        "name": "Item"
                     }
                 ]
             },
             {
-                "name": "barrier room key get",
+                "name": "Three switch starter key get",
                 "map_locations": [
                     {
                         "map": "cardon_forest_subgate",
@@ -133,7 +133,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Cardon Forest Sub-Gate Key 3"
+                        "name": "Item"
                     }
                 ]
             }

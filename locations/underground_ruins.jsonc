@@ -13,7 +13,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Rapid Fire"
+                        "name": "Item"
                     }
                 ]
             },
@@ -28,7 +28,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "2,600 Zenny"
+                        "name": "Item"
                     }
                 ]
             },
@@ -43,7 +43,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Generator Part"
+                        "name": "Item"
                     }
                 ]
             },
@@ -58,7 +58,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Buster Unit"
+                        "name": "Item"
                     }
                 ]
             },
@@ -73,7 +73,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "1,180 Zenny"
+                        "name": "Item"
                     }
                 ]
             },
@@ -88,7 +88,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Rollerboard"
+                        "name": "Item"
                     }
                 ]
             },
@@ -103,7 +103,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "9,240 Zenny"
+                        "name": "Item"
                     }
                 ]
             },
@@ -118,7 +118,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "820 Zenny"
+                        "name": "Item"
                     }
                 ]
             },
@@ -133,7 +133,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "2,280 Zenny"
+                        "name": "Item"
                     }
                 ]
             },
@@ -148,7 +148,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "2,840 Zenny"
+                        "name": "Item"
                     }
                 ]
             },
@@ -163,7 +163,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "780 Zenny"
+                        "name": "Item"
                     }
                 ]
             },
@@ -178,12 +178,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "4,520 Zenny"
+                        "name": "Item"
                     }
                 ]
             },
             {
-                "name": "Shekuten pillar room chest",
+                "name": "Shekuten platform room chest",
                 "map_locations": [
                     {
                         "map": "underground_ruins_zone_3",
@@ -193,12 +193,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "1820 Zenny"
+                        "name": "Item"
                     }
                 ]
             },
             {
-                "name": "Shekuten pillar room hole",
+                "name": "Shekuten platform room hole",
                 "map_locations": [
                     {
                         "map": "underground_ruins_zone_3",
@@ -208,7 +208,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Old Shield"
+                        "name": "Item"
                     }
                 ]
             },
@@ -223,7 +223,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Shiny Object"
+                        "name": "Item"
                     }
                 ]
             },
@@ -238,7 +238,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Old Launcher"
+                        "name": "Item"
                     }
                 ]
             },
@@ -253,7 +253,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Pen Light"
+                        "name": "Item"
                     }
                 ]
             },
@@ -268,7 +268,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Rapid Striker"
+                        "name": "Item"
                     }
                 ]
             },
@@ -283,7 +283,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "5,600 Zenny"
+                        "name": "Item"
                     }
                 ]
             },
@@ -298,7 +298,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "920 Zenny"
+                        "name": "Item",
+                        "access_rules": ["$can_destroy_cracked_walls"]
                     }
                 ]
             },
@@ -313,7 +314,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "680 Zenny"
+                        "name": "Item",
+                        "access_rules": ["$can_destroy_cracked_walls"]
                     }
                 ]
             },
@@ -328,7 +330,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Main Core Shard"
+                        "name": "Item",
+                        "access_rules": ["$can_destroy_cracked_walls"]
                     }
                 ]
             },
@@ -343,7 +346,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Cannon Kit"
+                        "name": "Item"
                     }
                 ]
             },
@@ -358,7 +361,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "980 Zenny"
+                        "name": "Item"
                     }
                 ]
             },
@@ -373,7 +376,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Triple Access"
+                        "name": "Item"
                     }
                 ]
             },
@@ -388,7 +391,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "1,780 Zenny"
+                        "name": "Item"
                     }
                 ]
             },
@@ -403,7 +406,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Ancient Book"
+                        "name": "Item"
                     }
                 ]
             },
@@ -418,7 +421,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Rapidfire Barrel"
+                        "name": "Item"
                     }
                 ]
             },
@@ -433,7 +436,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Blaster Unit R"
+                        "name": "Item",
+                        "access_rules": ["$can_destroy_cracked_walls"]
                     }
                 ]
             },
@@ -448,7 +452,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "1,510 Zenny"
+                        "name": "Item"
                     }
                 ]
             },
@@ -463,7 +467,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Weapon Plans"
+                        "name": "Item",
+                        "access_rules": ["$can_destroy_cracked_walls"]
                     }
                 ]
             }

@@ -13,7 +13,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Tele-lens"
+                        "name": "Item"
                     }
                 ]
             },
@@ -28,12 +28,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "450 Zenny"
+                        "name": "Item"
                     }
                 ]
             },
             {
-                "name": "Miroc+Gorubesshu west cliff chest",
+                "name": "Miroc Gorubesshu west cliff chest",
                 "map_locations": [
                     {
                         "map": "clozer_woods_subgate",
@@ -43,12 +43,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "Guidance Unit"
+                        "name": "Item"
                     }
                 ]
             },
             {
-                "name": "Miroc+Gorubesshu east cliff chest",
+                "name": "Miroc Gorubesshu east cliff chest",
                 "map_locations": [
                     {
                         "map": "clozer_woods_subgate",
@@ -58,12 +58,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "ID Card"
+                        "name": "Item"
                     }
                 ]
             },
             {
-                "name": "Miroc+Gorubesshu southeast pillar hole",
+                "name": "Miroc Gorubesshu southeast pillar hole",
                 "map_locations": [
                     {
                         "map": "clozer_woods_subgate",
@@ -73,12 +73,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "1,840 Zenny"
+                        "name": "Item"
                     }
                 ]
             },
             {
-                "name": "Miroc+Gorubesshu northeast pillar hole",
+                "name": "Miroc Gorubesshu northeast pillar hole",
                 "map_locations": [
                     {
                         "map": "clozer_woods_subgate",
@@ -88,12 +88,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "1,200 Zenny"
+                        "name": "Item"
                     }
                 ]
             },
             {
-                "name": "Miroc+Gorubesshu northwest pillar hole",
+                "name": "Miroc Gorubesshu northwest pillar hole",
                 "map_locations": [
                     {
                         "map": "clozer_woods_subgate",
@@ -103,12 +103,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "Antique Bell"
+                        "name": "Item"
                     }
                 ]
             },
             {
-                "name": "Miroc+Gorubesshu southwest pillar hole",
+                "name": "Miroc Gorubesshu southwest pillar hole",
                 "map_locations": [
                     {
                         "map": "clozer_woods_subgate",
@@ -118,7 +118,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "920 Zenny"
+                        "name": "Item"
                     }
                 ]
             },
@@ -133,7 +133,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "ID Card"
+                        "name": "Item"
                     }
                 ]
             },
@@ -148,7 +148,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Target Sensor"
+                        "name": "Item"
                     }
                 ]
             },
@@ -163,7 +163,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "ID Card"
+                        "name": "Item"
                     }
                 ]
             },

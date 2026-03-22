@@ -3,7 +3,7 @@
         "name": "Yass Plains",
         "children": [
             {
-                "name": "Plateau",
+                "name": "Plateau House",
                 "map_locations": [
                     {
                         "map": "yass_plains",

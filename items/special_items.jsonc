@@ -6,6 +6,13 @@
         "codes": "energycanteen"
     },
     {
+        "name": "Extra Pack",
+        "type": "consumable",
+        "img": "images/special_items/energy_canteen.png",
+        "codes": "extrapack",
+        "max_quantity": 99
+    },
+    {
         "name": "Helmet",
         "type": "toggle",
         "img": "images/special_items/helmet.png",
@@ -24,10 +31,25 @@
         "codes": "jumpsprings"
     },
     {
-        "name": "Flak Jacket",
-        "type": "toggle",
-        "img": "images/special_items/flak_jacket.png",
-        "codes": "flakjacket"
+        "name": "Jacket",
+        "type": "progressive",
+        "stages": [
+            {
+                "name": "Flak Jacket",
+                "img": "images/special_items/flak_jacket.png",
+                "codes": "flakjacket,jacket1"
+            },
+            {
+                "name": "Kevlar Jacket",
+                "img": "images/special_items/kevlar_jacket.png",
+                "codes": "kevlarjacket,jacket2"
+            },
+            {
+                "name": "Kevlar Jacket Omega",
+                "img": "images/special_items/kevlar_jacket_omega.png",
+                "codes": "kevlarjacketomega,jacket3"
+            }
+        ]
     },
     {
         "name": "Adapter Plug",
@@ -85,26 +107,103 @@
     },
     {
         "name": "Cardon Forest Sub-Gate Key",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/special_items/cardon_forest_subgate_key.png",
-        "codes": "cardonforestsubgatekey"
+        "codes": "cardonforestsubgatekey",
+        "max_quantity": 3
     },
     {
         "name": "Lake Jyun Sub-Gate Key",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/special_items/lake_jyun_subgate_key.png",
-        "codes": "lakejyunsubgatekey"
+        "codes": "lakejyunsubgatekey",
+        "max_quantity": 3
     },
     {
         "name": "Clozer Woods Sub-Gate Key",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/special_items/clozer_woods_subgate_key.png",
-        "codes": "clozerwoodssubgatekey"
+        "codes": "clozerwoodssubgatekey",
+        "max_quantity": 3
     },
     {
         "name": "Sub-City Key",
+        "type": "consumable",
+        "img": "images/special_items/subcity_key.png",
+        "codes": "subcitykey",
+        "max_quantity": 3
+    },
+    //
+    {
+        "name": "Cardon Forest Sub-Gate Key 1",
+        "type": "toggle",
+        "img": "images/special_items/cardon_forest_subgate_key.png",
+        "codes": "cardonforestsubgatekey1,cardonkey1"
+    },
+    {
+        "name": "Cardon Forest Sub-Gate Key 2",
+        "type": "toggle",
+        "img": "images/special_items/cardon_forest_subgate_key.png",
+        "codes": "cardonforestsubgatekey2,cardonkey2"
+    },
+    {
+        "name": "Cardon Forest Sub-Gate Key 3",
+        "type": "toggle",
+        "img": "images/special_items/cardon_forest_subgate_key.png",
+        "codes": "cardonforestsubgatekey3,cardonkey3"
+    },
+    {
+        "name": "Lake Jyun Sub-Gate Key 1",
+        "type": "toggle",
+        "img": "images/special_items/lake_jyun_subgate_key.png",
+        "codes": "lakejyunsubgatekey1,lakekey1"
+    },
+    {
+        "name": "Lake Jyun Sub-Gate Key 2",
+        "type": "toggle",
+        "img": "images/special_items/lake_jyun_subgate_key.png",
+        "codes": "lakejyunsubgatekey2,lakekey2"
+    },
+    {
+        "name": "Lake Jyun Sub-Gate Key 3",
+        "type": "toggle",
+        "img": "images/special_items/lake_jyun_subgate_key.png",
+        "codes": "lakejyunsubgatekey3,lakekey3"
+    },
+    {
+        "name": "Clozer Woods Sub-Gate Key 1",
+        "type": "toggle",
+        "img": "images/special_items/clozer_woods_subgate_key.png",
+        "codes": "clozerwoodssubgatekey1,clozerkey1"
+    },
+    {
+        "name": "Clozer Woods Sub-Gate Key 2",
+        "type": "toggle",
+        "img": "images/special_items/clozer_woods_subgate_key.png",
+        "codes": "clozerwoodssubgatekey2,clozerkey2"
+    },
+    {
+        "name": "Clozer Woods Sub-Gate Key 3",
+        "type": "toggle",
+        "img": "images/special_items/clozer_woods_subgate_key.png",
+        "codes": "clozerwoodssubgatekey3,clozerkey3"
+    },
+    {
+        "name": "'Watcher' Key",
         "type": "toggle",
         "img": "images/special_items/subcity_key.png",
-        "codes": "subcitykey"
+        "codes": "watcherkey"
+    },
+    {
+        "name": "'Sleeper' Key",
+        "type": "toggle",
+        "img": "images/special_items/subcity_key.png",
+        "codes": "sleeperkey"
+    },
+    {
+        "name": "'Dreamer' Key",
+        "type": "toggle",
+        "img": "images/special_items/subcity_key.png",
+        "codes": "dreamerkey"
     }
 ]

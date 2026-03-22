@@ -2,6 +2,7 @@ ENABLE_DEBUG_LOG = true -- Disable before any releases
 
 local variant = Tracker.ActiveVariantUID
 IS_STANDARD = variant:find("standard")
+IS_ITEMS_ONLY = variant:find("itemsonly")
 
 if ENABLE_DEBUG_LOG then
     print("Debug logging is enabled!")

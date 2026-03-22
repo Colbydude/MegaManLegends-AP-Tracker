@@ -1,0 +1,247 @@
+[
+    {
+        "name": "Flower",
+        "type": "toggle",
+        "codes": "flower"
+    },
+    {
+        "name": "Bag",
+        "type": "toggle",
+        "codes": "bag"
+    },
+    {
+        "name": "Pick",
+        "type": "toggle",
+        "codes": "pick"
+    },
+    {
+        "name": "Saw",
+        "type": "toggle",
+        "codes": "saw"
+    },
+    {
+        "name": "Music Box",
+        "type": "toggle",
+        "codes": "musicbox"
+    },
+    {
+        "name": "Old Bone",
+        "type": "toggle",
+        "codes": "oldbone"
+    },
+    {
+        "name": "Old Heater",
+        "type": "toggle",
+        "codes": "oldheater"
+    },
+    {
+        "name": "Old Doll",
+        "type": "toggle",
+        "codes": "olddoll"
+    },
+    {
+        "name": "Antique Bell",
+        "type": "toggle",
+        "codes": "antiquebell"
+    },
+    {
+        "name": "Giant Horn",
+        "type": "toggle",
+        "codes": "gianthorn"
+    },
+    {
+        "name": "Shiny Object",
+        "type": "toggle",
+        "codes": "shinyobject"
+    },
+    {
+        "name": "Old Shield",
+        "type": "toggle",
+        "codes": "oldshield"
+    },
+    {
+        "name": "Shiny Red Stone",
+        "type": "toggle",
+        "codes": "shinyredstone"
+    },
+    {
+        "name": "Stag Beetle",
+        "type": "toggle",
+        "codes": "stagbeetle"
+    },
+    {
+        "name": "Beetle",
+        "type": "toggle",
+        "codes": "beetle"
+    },
+    {
+        "name": "Comic Book",
+        "type": "toggle",
+        "codes": "comicbook"
+    },
+    {
+        "name": "Ring",
+        "type": "toggle",
+        "codes": "ring"
+    },
+    {
+        "name": "Mine Parts Kit",
+        "type": "toggle",
+        "codes": "minepartskit"
+    },
+    {
+        "name": "Cannon Kit",
+        "type": "toggle",
+        "codes": "cannonkit"
+    },
+    {
+        "name": "Grenade Kit",
+        "type": "toggle",
+        "codes": "grenadekit"
+    },
+    {
+        "name": "Blumebear Parts",
+        "type": "toggle",
+        "codes": "blumebearparts"
+    },
+    {
+        "name": "Mystic Orb",
+        "type": "toggle",
+        "codes": "mysticorb"
+    },
+    {
+        "name": "Broken Motor",
+        "type": "toggle",
+        "codes": "brokenmotor"
+    },
+    {
+        "name": "Broken Propeller",
+        "type": "toggle",
+        "codes": "brokenpropeller"
+    },
+    {
+        "name": "Broken Cleaner",
+        "type": "toggle",
+        "codes": "brokencleaner"
+    },
+    {
+        "name": "Bomb Schematic",
+        "type": "toggle",
+        "codes": "bombschematic"
+    },
+    {
+        "name": "Blunted Drill",
+        "type": "toggle",
+        "codes": "blunteddrill"
+    },
+    {
+        "name": "Guidance Unit",
+        "type": "toggle",
+        "codes": "guidanceunit"
+    },
+    {
+        "name": "Zetsabre",
+        "type": "toggle",
+        "codes": "zetsabre"
+    },
+    {
+        "name": "Pen Light",
+        "type": "toggle",
+        "codes": "penlight"
+    },
+    {
+        "name": "Old Launcher",
+        "type": "toggle",
+        "codes": "oldlauncher"
+    },
+    {
+        "name": "Ancient Book",
+        "type": "toggle",
+        "codes": "ancientbook"
+    },
+    {
+        "name": "Arm Supporter",
+        "type": "toggle",
+        "codes": "armsupporter"
+    },
+    {
+        "name": "Weapon Plans",
+        "type": "toggle",
+        "codes": "weaponplans"
+    },
+    {
+        "name": "Prism Crystal",
+        "type": "toggle",
+        "codes": "prismcrystal"
+    },
+    {
+        "name": "Spring Set",
+        "type": "toggle",
+        "codes": "springset"
+    },
+    {
+        "name": "Safety Helmet",
+        "type": "toggle",
+        "codes": "safetyhelmet"
+    },
+    {
+        "name": "Rollerboard",
+        "type": "toggle",
+        "codes": "rollerboard"
+    },
+    {
+        "name": "Old Hoverjets",
+        "type": "toggle",
+        "codes": "oldhoverjets"
+    },
+    {
+        "name": "Joint Plug",
+        "type": "toggle",
+        "codes": "jointplug"
+    },
+    {
+        "name": "Main Core Shard",
+        "type": "toggle",
+        "codes": "maincoreshard"
+    },
+    {
+        "name": "Sun-light",
+        "type": "toggle",
+        "codes": "sunlight"
+    },
+    {
+        "name": "Rapidfire Barrel",
+        "type": "toggle",
+        "codes": "rapidfirebarrel"
+    },
+    {
+        "name": "Gatling Part",
+        "type": "toggle",
+        "codes": "gatlingpart"
+    },
+    {
+        "name": "Flower Pearl",
+        "type": "toggle",
+        "codes": "flowerpearl"
+    },
+    {
+        "name": "Autofire Barrel",
+        "type": "toggle",
+        "codes": "autofirebarrel"
+    },
+    {
+        "name": "Generator Part",
+        "type": "toggle",
+        "codes": "generatorpart"
+    },
+    {
+        "name": "Target Sensor",
+        "type": "toggle",
+        "codes": "targetsensor"
+    },
+    {
+        "name": "Tele-lens",
+        "type": "toggle",
+        "codes": "telelens"
+    }
+]

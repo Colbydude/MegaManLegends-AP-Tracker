@@ -3,6 +3,7 @@
         "name": "Ocean Tower",
         "children": [
             {
+                "name": "Left Chest",
                 "map_locations": [
                     {
                         "map": "ocean_tower",
@@ -12,11 +13,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "Left Chest"
+                        "name": "Item"
                     }
                 ]
             },
             {
+                "name": "Right Chest",
                 "map_locations": [
                     {
                         "map": "ocean_tower",
@@ -26,11 +28,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "Right Chest"
+                        "name": "Item"
                     }
                 ]
             },
             {
+                "name": "Platform",
                 "map_locations": [
                     {
                         "map": "ocean_tower",

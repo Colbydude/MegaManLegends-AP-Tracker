@@ -13,7 +13,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Blunted Drill"
+                        "name": "Item"
                     }
                 ]
             },
@@ -28,7 +28,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "2,170 Zenny"
+                        "name": "Item"
                     }
                 ]
             },
@@ -43,7 +43,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Shiny Red Stone"
+                        "name": "Item"
                     }
                 ]
             },
@@ -58,7 +58,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Autofire Unit"
+                        "name": "Item"
                     }
                 ]
             },
@@ -73,7 +73,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Buster Unit Omega"
+                        "name": "Item"
                     }
                 ]
             },
@@ -88,7 +88,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "10,000 Zenny"
+                        "name": "Item"
                     }
                 ]
             },
@@ -103,7 +103,22 @@
                 ],
                 "sections": [
                     {
-                        "name": "Power Stream"
+                        "name": "Item"
+                    }
+                ]
+            },
+            {
+                "name": "Juno",
+                "map_locations": [
+                    {
+                        "map": "main_gate",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Defeated"
                     }
                 ]
             }

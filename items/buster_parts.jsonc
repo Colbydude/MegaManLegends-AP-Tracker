@@ -1,0 +1,157 @@
+[
+    {
+        "name": "Auto Battery",
+        "type": "toggle",
+        "codes": "autobattery"
+    },
+    {
+        "name": "Blast Unit",
+        "type": "toggle",
+        "codes": "blastunit"
+    },
+    {
+        "name": "Blaster Unit R",
+        "type": "toggle",
+        "codes": "blasterunitr"
+    },
+    {
+        "name": "Blaster Unit Omega",
+        "type": "toggle",
+        "codes": "blasterunitomega"
+    },
+    {
+        "name": "Buster Max",
+        "type": "toggle",
+        "codes": "bustermax"
+    },
+    {
+        "name": "Buster Unit",
+        "type": "toggle",
+        "codes": "busterunit"
+    },
+    {
+        "name": "Buster Unit Omega",
+        "type": "toggle",
+        "codes": "busterunitomega"
+    },
+    {
+        "name": "Gattling Gun",
+        "type": "toggle",
+        "codes": "gattlinggun"
+    },
+    {
+        "name": "Laser",
+        "type": "toggle",
+        "codes": "laser"
+    },
+    {
+        "name": "Machine Gun",
+        "type": "toggle",
+        "codes": "machinegun"
+    },
+    {
+        "name": "Omni Unit",
+        "type": "toggle",
+        "codes": "omniunit"
+    },
+    {
+        "name": "Omni Unit Omega",
+        "type": "toggle",
+        "codes": "omniunitomega"
+    },
+    {
+        "name": "Power Blaster L",
+        "type": "toggle",
+        "codes": "powerblasterl"
+    },
+    {
+        "name": "Power Blaster R",
+        "type": "toggle",
+        "codes": "powerblasterr"
+    },
+    {
+        "name": "Power Raiser",
+        "type": "toggle",
+        "codes": "powerraiser"
+    },
+    {
+        "name": "Power Raiser Alpha",
+        "type": "toggle",
+        "codes": "powerraiseralpha"
+    },
+    {
+        "name": "Power Raiser Omega",
+        "type": "toggle",
+        "codes": "powerraiseromega"
+    },
+    {
+        "name": "Power Stream",
+        "type": "toggle",
+        "codes": "powerstream"
+    },
+    {
+        "name": "Range Booster",
+        "type": "toggle",
+        "codes": "rangebooster"
+    },
+    {
+        "name": "Range Booster Omega",
+        "type": "toggle",
+        "codes": "rangeboosteromega"
+    },
+    {
+        "name": "Rapid Fire",
+        "type": "toggle",
+        "codes": "rapidfire"
+    },
+    {
+        "name": "Rapid Striker",
+        "type": "toggle",
+        "codes": "rapidstriker"
+    },
+    {
+        "name": "Sniper Range",
+        "type": "toggle",
+        "codes": "sniperrange"
+    },
+    {
+        "name": "Sniper Scope",
+        "type": "toggle",
+        "codes": "sniperscope"
+    },
+    {
+        "name": "Sniper Unit",
+        "type": "toggle",
+        "codes": "sniperunit"
+    },
+    {
+        "name": "Sniper Unit Omega",
+        "type": "toggle",
+        "codes": "sniperunitomega"
+    },
+    {
+        "name": "Triple Access",
+        "type": "toggle",
+        "codes": "tripleaccess"
+    },
+    {
+        "name": "Turbo Battery",
+        "type": "toggle",
+        "codes": "turbobattery"
+    },
+    {
+        "name": "Turbo Charger",
+        "type": "toggle",
+        "codes": "turbocharger"
+    },
+    {
+        "name": "Turbo Charger Alpha",
+        "type": "toggle",
+        "codes": "turbochargeralpha"
+    },
+    {
+        "name": "Turbo Charger Omega",
+        "type": "toggle",
+        "codes": "turbochargeromega"
+    }
+]

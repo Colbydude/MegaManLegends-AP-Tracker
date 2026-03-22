@@ -13,10 +13,10 @@
                 ],
                 "sections": [
                     {
-                        "name": "Left Pail - Item"
+                        "name": "Left Pail"
                     },
                     {
-                        "name": "Right Pail - Item"
+                        "name": "Right Pail"
                     }
                 ]
             },
@@ -46,10 +46,10 @@
                 ],
                 "sections": [
                     {
-                        "name": "Left Box - Item"
+                        "name": "Left Box"
                     },
                     {
-                        "name": "Right Box - Item"
+                        "name": "Right Box"
                     }
                 ]
             },
