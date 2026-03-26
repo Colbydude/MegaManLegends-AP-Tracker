@@ -158,7 +158,8 @@
                     {
                         "map": "lake_jyun_subgate",
                         "x": 2734,
-                        "y": 264
+                        "y": 264,
+                        "shape": "diamond"
                     }
                 ],
                 "sections": [

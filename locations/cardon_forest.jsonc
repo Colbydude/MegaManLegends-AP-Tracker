@@ -14,6 +14,15 @@
                 "sections": [
                     {
                         "name": "Study Chest"
+                    },
+                    {
+                        "name": "Gift Flower to Roll"
+                    },
+                    {
+                        "name": "Gift Music Box to Roll"
+                    },
+                    {
+                        "name": "Gift Ring to Roll"
                     }
                 ]
             }

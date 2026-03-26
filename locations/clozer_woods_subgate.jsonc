@@ -173,7 +173,8 @@
                     {
                         "map": "clozer_woods_subgate",
                         "x": 268,
-                        "y": 878
+                        "y": 878,
+                        "shape": "diamond"
                     }
                 ],
                 "sections": [

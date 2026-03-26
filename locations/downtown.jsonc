@@ -83,7 +83,8 @@
                     {
                         "map": "downtown",
                         "x": 1186,
-                        "y": 480
+                        "y": 480,
+                        "shape": "trapezoid"
                     }
                 ],
                 "sections": [
@@ -98,7 +99,8 @@
                     {
                         "map": "downtown",
                         "x": 1415,
-                        "y": 477
+                        "y": 477,
+                        "shape": "diamond"
                     }
                 ],
                 "sections": [

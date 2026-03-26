@@ -45,9 +45,9 @@
                     }
                 ],
                 "sections": [
-                    {
-                        "name": "Left Box"
-                    },
+                    // {
+                    //     "name": "Left Box"
+                    // },
                     {
                         "name": "Right Box"
                     }
@@ -74,7 +74,8 @@
                     {
                         "map": "uptown",
                         "x": 1733,
-                        "y": 910
+                        "y": 910,
+                        "shape": "trapezoid"
                     }
                 ],
                 "sections": [
@@ -150,6 +151,20 @@
                     {
                         "name": "Take Dangerous Object from Museum Visitor"
                     }
+                ]
+            },
+            {
+                "name": "Hospital",
+                "map_locations": [
+                    {
+                        "map": "uptown",
+                        "x": 1864,
+                        "y": 666
+                    }
+                ],
+                "sections": [
+                    { "name": "Save the missing woman" },
+                    { "name": "Cure Ira's illness" }
                 ]
             }
         ]

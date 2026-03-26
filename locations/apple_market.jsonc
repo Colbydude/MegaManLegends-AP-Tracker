@@ -17,21 +17,21 @@
                     }
                 ]
             },
-            {
-                "name": "Book Store Box",
-                "map_locations": [
-                    {
-                        "map": "apple_market",
-                        "x": 996,
-                        "y": 232
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Item"
-                    }
-                ]
-            },
+            // {
+            //     "name": "Book Store Box",
+            //     "map_locations": [
+            //         {
+            //             "map": "apple_market",
+            //             "x": 996,
+            //             "y": 232
+            //         }
+            //     ],
+            //     "sections": [
+            //         {
+            //             "name": "Item"
+            //         }
+            //     ]
+            // },
             {
                 "name": "Junk Store Box",
                 "map_locations": [
@@ -74,6 +74,21 @@
                 "sections": [
                     {
                         "name": "Item"
+                    }
+                ]
+            },
+            {
+                "name": "Junk Shop",
+                "map_locations": [
+                    {
+                        "map": "apple_market",
+                        "x": 1068,
+                        "y": 390
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Rescue the shop owner's husband"
                     }
                 ]
             }

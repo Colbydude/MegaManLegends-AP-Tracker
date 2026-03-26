@@ -8,7 +8,8 @@
                     {
                         "map": "lake_jyun",
                         "x": 322,
-                        "y": 1088
+                        "y": 1088,
+                        "shape": "diamond"
                     }
                 ],
                 "sections": [

@@ -8,7 +8,8 @@
                     {
                         "map": "old_city",
                         "x": 770,
-                        "y": 916
+                        "y": 916,
+                        "shape": "trapezoid"
                     }
                 ],
                 "sections": [
@@ -23,7 +24,8 @@
                     {
                         "map": "old_city",
                         "x": 685,
-                        "y": 820
+                        "y": 820,
+                        "shape": "diamond"
                     }
                 ],
                 "sections": [

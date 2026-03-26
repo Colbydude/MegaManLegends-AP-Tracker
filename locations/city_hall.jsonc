@@ -8,12 +8,28 @@
                     {
                         "map": "city_hall",
                         "x": 930,
-                        "y": 256
+                        "y": 256,
+                        "shape": "diamond"
                     }
                 ],
                 "sections": [
                     {
                         "name": "Defeated"
+                    }
+                ]
+            },
+            {
+                "name": "Police Station",
+                "map_locations": [
+                    {
+                        "map": "city_hall",
+                        "x": 1066,
+                        "y": 494
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Turn in missing bag"
                     }
                 ]
             }

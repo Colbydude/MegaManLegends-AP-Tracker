@@ -38,7 +38,8 @@
                     {
                         "map": "ocean_tower",
                         "x": 96,
-                        "y": 78
+                        "y": 78,
+                        "shape": "diamond"
                     }
                 ],
                 "sections": [

@@ -12,9 +12,9 @@
                     }
                 ],
                 "sections": [
-                    {
-                        "name": "Garbage Pail"
-                    },
+                    // {
+                    //     "name": "Garbage Pail"
+                    // },
                     {
                         "name": "Box"
                     }
@@ -34,22 +34,22 @@
                         "name": "Item"
                     }
                 ]
-            },
-            {
-                "name": "Across Hideout Pail",
-                "map_locations": [
-                    {
-                        "map": "yass_plains",
-                        "x": 1004,
-                        "y": 695
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Item"
-                    }
-                ]
             }
+            // {
+            //     "name": "Across Hideout Pail",
+            //     "map_locations": [
+            //         {
+            //             "map": "yass_plains",
+            //             "x": 1004,
+            //             "y": 695
+            //         }
+            //     ],
+            //     "sections": [
+            //         {
+            //             "name": "Item"
+            //         }
+            //     ]
+            // }
         ]
     }
 ]

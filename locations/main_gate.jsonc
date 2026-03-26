@@ -112,8 +112,9 @@
                 "map_locations": [
                     {
                         "map": "main_gate",
-                        "x": 0,
-                        "y": 0
+                        "x": 1546,
+                        "y": 122,
+                        "shape": "diamond"
                     }
                 ],
                 "sections": [
