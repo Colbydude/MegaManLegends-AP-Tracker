@@ -14,19 +14,19 @@
     },
     {
         "name": "Helmet",
-        "type": "toggle",
+        "type": "custom",
         "img": "images/special_items/helmet.png",
         "codes": "helmet"
     },
     {
         "name": "Jet Skates",
-        "type": "toggle",
+        "type": "custom",
         "img": "images/special_items/jet_skates.png",
         "codes": "jetskates"
     },
     {
         "name": "Jump Springs",
-        "type": "toggle",
+        "type": "custom",
         "img": "images/special_items/jump_springs.png",
         "codes": "jumpsprings"
     },
@@ -53,7 +53,7 @@
     },
     {
         "name": "Adapter Plug",
-        "type": "toggle",
+        "type": "custom",
         "img": "images/special_items/adapter_plug.png",
         "codes": "adapterplug"
     },
@@ -107,28 +107,28 @@
     },
     {
         "name": "Cardon Forest Sub-Gate Key",
-        "type": "consumable",
+        "type": "custom",
         "img": "images/special_items/cardon_forest_subgate_key.png",
         "codes": "cardonforestsubgatekey",
         "max_quantity": 3
     },
     {
         "name": "Lake Jyun Sub-Gate Key",
-        "type": "consumable",
+        "type": "custom",
         "img": "images/special_items/lake_jyun_subgate_key.png",
         "codes": "lakejyunsubgatekey",
         "max_quantity": 3
     },
     {
         "name": "Clozer Woods Sub-Gate Key",
-        "type": "consumable",
+        "type": "custom",
         "img": "images/special_items/clozer_woods_subgate_key.png",
         "codes": "clozerwoodssubgatekey",
         "max_quantity": 3
     },
     {
         "name": "Sub-City Key",
-        "type": "consumable",
+        "type": "custom",
         "img": "images/special_items/subcity_key.png",
         "codes": "subcitykey",
         "max_quantity": 3

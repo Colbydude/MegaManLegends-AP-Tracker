@@ -1,4 +1,8 @@
+ScriptHost:LoadScript("scripts/autotracking/utils.lua");
+
+ScriptHost:LoadScript("scripts/autotracking/item_development_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/key_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 
 HINT_STATUS_MAPPING = {}
@@ -69,6 +73,45 @@ function incrementItem(item_code, item_type, multiplier)
         end
         if item_type == "toggle" or item_type == "toggle_badged" then
             obj.Active = true
+
+            -- Check if item belongs to item development/is a key
+
+            if ITEM_DEVELOPMENT_REVERSE_LOOKUP[item_code] ~= nil then
+                local idCode = ITEM_DEVELOPMENT_REVERSE_LOOKUP[item_code]
+                local hasAllForItem = true;
+
+                for _, value in ipairs(ITEM_DEVELOPMENT_MAPPING[idCode]) do
+                    local subobj = Tracker:FindObjectForCode(value);
+
+                    if subobj and subobj.Active == false then
+                        hasAllForItem = false
+                    end
+                end
+
+                if hasAllForItem then
+                    incrementItem(idCode, "toggle", 0)
+                end
+            end
+
+            if KEYS_REVERSE_LOOKUP[item_code] ~= nil then
+                local keyCode = KEYS_REVERSE_LOOKUP[item_code]
+                local keyObj = Tracker:FindObjectForCode(keyCode);
+                local keyCount = 0
+
+                for _, value in ipairs(KEY_MAPPING[keyCode]) do
+                    local subobj = Tracker:FindObjectForCode(value);
+
+                    if subobj and subobj.Active then
+                        keyCount = keyCount + 1;
+                    end
+                end
+
+                if keyObj and keyCount > 0 then
+                    keyObj.Active = true
+                    keyObj.AcquiredCount = keyCount
+                end
+            end
+
         elseif item_type == "progressive" or item_type == "progressive_toggle" then
             if obj.Active then
                 obj.CurrentStage = obj.CurrentStage + 1
@@ -79,6 +122,7 @@ function incrementItem(item_code, item_type, multiplier)
             obj.AcquiredCount = obj.AcquiredCount + obj.Increment * multiplier
         elseif item_type == "custom" then
             -- your code for your custom lua items goes here
+            obj.Active = true;
         elseif item_type == "static" and AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("incrementItem: tried to increment static item %s", item_code))
         elseif item_type == "composite_toggle" and AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -157,10 +201,6 @@ function onClear(slot_data)
     apply_slot_data(slot_data)
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
-    -- manually run snes interface functions after onClear in case we need to update them (i.e. because they need slot_data)
-    if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
-        -- add snes interface functions here
-    end
     -- setup data storage tracking for hint tracking
     local data_strorage_keys = {}
     if PopVersion >= "0.32.0" then
@@ -226,10 +266,6 @@ function onItem(index, item_id, item_name, player_number)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("local items: %s", dump_table(LOCAL_ITEMS)))
         print(string.format("global items: %s", dump_table(GLOBAL_ITEMS)))
-    end
-    -- track local items via snes interface
-    if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
-        -- add snes interface functions for local item tracking here
     end
 end
 

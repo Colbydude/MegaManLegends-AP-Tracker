@@ -91,52 +91,52 @@
                         "name": "Item"
                     }
                 ]
-            },
-            {
-                "name": "Jakko nest starter key get",
-                "map_locations": [
-                    {
-                        "map": "cardon_forest_subgate",
-                        "x": 1110,
-                        "y": 420
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Item"
-                    }
-                ]
-            },
-            {
-                "name": "Conveyor chest starter key get",
-                "map_locations": [
-                    {
-                        "map": "cardon_forest_subgate",
-                        "x": 798,
-                        "y": 862
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Item"
-                    }
-                ]
-            },
-            {
-                "name": "Three switch starter key get",
-                "map_locations": [
-                    {
-                        "map": "cardon_forest_subgate",
-                        "x": 1220,
-                        "y": 200
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Item"
-                    }
-                ]
             }
+            // {
+            //     "name": "Jakko nest starter key get",
+            //     "map_locations": [
+            //         {
+            //             "map": "cardon_forest_subgate",
+            //             "x": 1110,
+            //             "y": 420
+            //         }
+            //     ],
+            //     "sections": [
+            //         {
+            //             "name": "Item"
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Conveyor chest starter key get",
+            //     "map_locations": [
+            //         {
+            //             "map": "cardon_forest_subgate",
+            //             "x": 798,
+            //             "y": 862
+            //         }
+            //     ],
+            //     "sections": [
+            //         {
+            //             "name": "Item"
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Three switch starter key get",
+            //     "map_locations": [
+            //         {
+            //             "map": "cardon_forest_subgate",
+            //             "x": 1220,
+            //             "y": 200
+            //         }
+            //     ],
+            //     "sections": [
+            //         {
+            //             "name": "Item"
+            //         }
+            //     ]
+            // }
         ]
     }
 ]
