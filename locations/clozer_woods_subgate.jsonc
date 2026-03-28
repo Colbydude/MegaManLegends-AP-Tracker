@@ -1,6 +1,7 @@
 [
     {
         "name": "Clozer Woods Sub-Gate",
+        "access_rules": ["$has_completed_lake_jyun"],
         "children": [
             {
                 "name": "Sharukurusu E room left hole",
@@ -49,6 +50,7 @@
             },
             {
                 "name": "Miroc Gorubesshu east cliff chest",
+                "access_rules": ["$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "clozer_woods_subgate",
@@ -169,6 +171,7 @@
             },
             {
                 "name": "Karumuna Bash Trio",
+                "access_rules": ["$has_explosive_weapon"],
                 "map_locations": [
                     {
                         "map": "clozer_woods_subgate",

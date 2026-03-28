@@ -3,6 +3,7 @@ ScriptHost:LoadScript("scripts/autotracking/utils.lua");
 ScriptHost:LoadScript("scripts/autotracking/item_development_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/key_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/level_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 
 HINT_STATUS_MAPPING = {}
@@ -49,6 +50,8 @@ function resetItem(item_code, item_type)
             obj.AcquiredCount = 0
         elseif item_type == "custom" then
             -- your code for your custom lua items goes here
+            obj.Active = false
+            obj.AcquiredCount = 0
         elseif item_type == "static" and AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("resetItem: tried to reset static item %s", item_code))
         elseif item_type == "composite_toggle" and AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -150,6 +153,7 @@ function onClear(slot_data)
         print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
     end
     CUR_INDEX = -1
+
     -- reset locations
     for _, mapping_entry in pairs(LOCATION_MAPPING) do
         for _, location_table in ipairs(mapping_entry) do
@@ -182,6 +186,7 @@ function onClear(slot_data)
             end
         end
     end
+
     -- reset items
     for _, mapping_entry in pairs(ITEM_MAPPING) do
         for _, item_table in ipairs(mapping_entry) do
@@ -198,14 +203,29 @@ function onClear(slot_data)
             end
         end
     end
-    apply_slot_data(slot_data)
+
+    PLAYER_ID = Archipelago.PlayerNumber or -1
+    TEAM_NUMBER = Archipelago.TeamNumber or 0
+    SLOT_DATA = slot_data
+
+    if Archipelago.PlayerNumber > -1 then
+        apply_slot_data(SLOT_DATA)
+
+        ap_autotab = "Slot:" .. PLAYER_ID .. ":MML_ROOM"
+        print("Setting notify for: "..ap_autotab)
+        Archipelago:SetNotify({ap_autotab})
+        Archipelago:Get({ap_autotab})
+    end
+
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
+
     -- setup data storage tracking for hint tracking
     local data_strorage_keys = {}
     if PopVersion >= "0.32.0" then
         data_strorage_keys = { getHintDataStorageKey() }
     end
+
     -- subscribes to the data storage keys for updates
     -- triggers callback in the SetNotify handler on update
     Archipelago:SetNotify(data_strorage_keys)
@@ -330,6 +350,10 @@ end
 -- whenever a subscribed to (via Archipelago:SetNotify) key in data storgae is updated
 -- oldValue might be nil (always nil for "_read" prefixed keys and via retrieved handler (from Archipelago:Get))
 function onDataStorageUpdate(key, value, oldValue)
+    -- print(string.format("onDataStorageUpdate: key - %s, value - %s, oldValue - %s", key, value, oldValue))
+    if (key == ap_autotab and value ~= nil and Tracker:FindObjectForCode("autotab").Active) then
+        autoTab(value)
+    end
     --if you plan to only use the hints key, you can remove this if
     if key == getHintDataStorageKey() then
         onHintsUpdate(value)

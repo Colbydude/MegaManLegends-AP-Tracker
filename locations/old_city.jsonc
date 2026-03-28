@@ -4,6 +4,7 @@
         "children": [
             {
                 "name": "Sub-City",
+                "access_rules": ["$has_completed_clozer_woods"],
                 "map_locations": [
                     {
                         "map": "old_city",
@@ -20,6 +21,7 @@
             },
             {
                 "name": "Theodore Bruno",
+                "access_rules": ["$has_completed_clozer_woods"],
                 "map_locations": [
                     {
                         "map": "old_city",

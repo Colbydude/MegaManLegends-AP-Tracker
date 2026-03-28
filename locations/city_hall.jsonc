@@ -29,7 +29,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Turn in missing bag"
+                        "name": "Turn in missing bag",
+                        "access_rules": ["$has_completed_lake_jyun,$has|bag"]
                     }
                 ]
             }

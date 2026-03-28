@@ -13,16 +13,20 @@
                 ],
                 "sections": [
                     {
-                        "name": "Study Chest"
+                        "name": "Study Chest",
+                        "access_rules": ["$has_completed_lake_jyun"]
                     },
                     {
                         "name": "Gift Flower to Roll"
+                        // "access_rules": ["$has|flower"]
                     },
                     {
-                        "name": "Gift Music Box to Roll"
+                        "name": "Gift Music Box to Roll",
+                        "access_rules": ["$has|musicbox"]
                     },
                     {
-                        "name": "Gift Ring to Roll"
+                        "name": "Gift Ring to Roll",
+                        "access_rules": ["$has|ring"]
                     }
                 ]
             }

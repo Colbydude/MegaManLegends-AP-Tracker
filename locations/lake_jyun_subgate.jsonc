@@ -1,6 +1,7 @@
 [
     {
         "name": "Lake Jyun Sub-Gate",
+        "access_rules": ["$has_completed_cardon_forest"],
         "children": [
             {
                 "name": "Entrance right hole",
@@ -49,6 +50,7 @@
             },
             {
                 "name": "East corridor hole",
+                "access_rules": ["$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "lake_jyun_subgate",
@@ -64,6 +66,7 @@
             },
             {
                 "name": "West corridor hole",
+                "access_rules": ["$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "lake_jyun_subgate",
@@ -79,6 +82,7 @@
             },
             {
                 "name": "West corridor chest",
+                "access_rules": ["$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "lake_jyun_subgate",
@@ -94,6 +98,7 @@
             },
             {
                 "name": "Sharukurusu east chest",
+                "access_rules": ["$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "lake_jyun_subgate",
@@ -109,6 +114,7 @@
             },
             {
                 "name": "Sharukurusu middle chest",
+                "access_rules": ["$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "lake_jyun_subgate",
@@ -124,6 +130,7 @@
             },
             {
                 "name": "Sharukurusu west chest",
+                "access_rules": ["$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "lake_jyun_subgate",
@@ -139,6 +146,7 @@
             },
             {
                 "name": "Sharukurusu west hole",
+                "access_rules": ["$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "lake_jyun_subgate",
@@ -154,6 +162,7 @@
             },
             {
                 "name": "Garudoriten",
+                "access_rules": ["$has_jump_springs,$has_lake_jyun_keys"],
                 "map_locations": [
                     {
                         "map": "lake_jyun_subgate",

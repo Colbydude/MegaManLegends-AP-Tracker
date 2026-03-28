@@ -1,0 +1,8 @@
+[
+    {
+        "name": "Auto Tab",
+        "type": "toggle",
+        "initial_active_state": true,
+        "codes": "autotab"
+    }
+]

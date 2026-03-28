@@ -34,6 +34,7 @@
             },
             {
                 "name": "Main gate entrance chest",
+                "access_rules": ["$has_main_gate_maze_access"],
                 "map_locations": [
                     {
                         "map": "underground_ruins_zone_2",
@@ -49,6 +50,7 @@
             },
             {
                 "name": "2 box ledge chest",
+                "access_rules": ["$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "underground_ruins_zone_2",
@@ -64,6 +66,7 @@
             },
             {
                 "name": "Miroc room ledge chest",
+                "access_rules": ["$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "underground_ruins_zone_2",
@@ -79,6 +82,7 @@
             },
             {
                 "name": "Cross room chest",
+                "access_rules": ["$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "underground_ruins_zone_2",
@@ -94,6 +98,7 @@
             },
             {
                 "name": "Miroc room left hole",
+                "access_rules": ["$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "underground_ruins_zone_2",
@@ -109,6 +114,7 @@
             },
             {
                 "name": "Miroc room right hole",
+                "access_rules": ["$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "underground_ruins_zone_2",
@@ -124,6 +130,7 @@
             },
             {
                 "name": "Arukoitan battle north chest",
+                "access_rules": ["$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "underground_ruins_zone_3",
@@ -139,6 +146,7 @@
             },
             {
                 "name": "Arukoitan battle south chest",
+                "access_rules": ["$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "underground_ruins_zone_3",
@@ -154,6 +162,7 @@
             },
             {
                 "name": "Obstacle room cliff east hole",
+                "access_rules": ["$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "underground_ruins_zone_3",
@@ -169,6 +178,7 @@
             },
             {
                 "name": "Obstacle room cliff west hole",
+                "access_rules": ["$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "underground_ruins_zone_3",
@@ -184,6 +194,7 @@
             },
             {
                 "name": "Shekuten platform room chest",
+                "access_rules": ["$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "underground_ruins_zone_3",
@@ -199,6 +210,7 @@
             },
             {
                 "name": "Shekuten platform room hole",
+                "access_rules": ["$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "underground_ruins_zone_3",
@@ -214,6 +226,7 @@
             },
             {
                 "name": "Kuruguru obstacle hole",
+                "access_rules": ["$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "underground_ruins_zone_3",
@@ -229,6 +242,9 @@
             },
             {
                 "name": "Gold Gorubesshu chest",
+                "access_rules": [
+                    "$has_jump_springs,$can_destroy_cracked_walls"
+                ],
                 "map_locations": [
                     {
                         "map": "underground_ruins_zone_4",
@@ -244,6 +260,7 @@
             },
             {
                 "name": "Drillable pillar room south chest",
+                "access_rules": ["$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "underground_ruins_zone_4",
@@ -259,6 +276,10 @@
             },
             {
                 "name": "Drillable pillar room north chest",
+                "access_rules": [
+                    "$has_jump_springs,$can_destroy_cracked_walls", // From south entrance
+                    "$has_completed_cardon_forest,$has_jump_springs" // From Lake Jyun Sub-Gate
+                ],
                 "map_locations": [
                     {
                         "map": "underground_ruins_zone_4",
@@ -274,6 +295,9 @@
             },
             {
                 "name": "3 chest room middle chest",
+                "access_rules": [
+                    "$has_jump_springs,$can_destroy_cracked_walls"
+                ],
                 "map_locations": [
                     {
                         "map": "underground_ruins_zone_4",
@@ -289,6 +313,9 @@
             },
             {
                 "name": "Drillable pillars room south hole",
+                "access_rules": [
+                    "$has_jump_springs,$can_destroy_cracked_walls"
+                ],
                 "map_locations": [
                     {
                         "map": "underground_ruins_zone_4",
@@ -298,13 +325,15 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item",
-                        "access_rules": ["$can_destroy_cracked_walls"]
+                        "name": "Item"
                     }
                 ]
             },
             {
                 "name": "Drillable pillars room west hole",
+                "access_rules": [
+                    "$has_jump_springs,$can_destroy_cracked_walls"
+                ],
                 "map_locations": [
                     {
                         "map": "underground_ruins_zone_4",
@@ -314,13 +343,15 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item",
-                        "access_rules": ["$can_destroy_cracked_walls"]
+                        "name": "Item"
                     }
                 ]
             },
             {
                 "name": "Drillable pillars room north hole",
+                "access_rules": [
+                    "$has_jump_springs,$can_destroy_cracked_walls"
+                ],
                 "map_locations": [
                     {
                         "map": "underground_ruins_zone_4",
@@ -330,8 +361,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item",
-                        "access_rules": ["$can_destroy_cracked_walls"]
+                        "name": "Item"
                     }
                 ]
             },
@@ -352,6 +382,7 @@
             },
             {
                 "name": "Box ledge chest",
+                "access_rules": ["$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "underground_ruins_zone_5",
@@ -367,6 +398,7 @@
             },
             {
                 "name": "Horokko ledge chest",
+                "access_rules": ["$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "underground_ruins_zone_5",
@@ -397,6 +429,9 @@
             },
             {
                 "name": "Drillable wall room middle cliff chest",
+                "access_rules": [
+                    "$has_jump_springs,$can_destroy_cracked_walls"
+                ],
                 "map_locations": [
                     {
                         "map": "underground_ruins_zone_5",
@@ -412,6 +447,7 @@
             },
             {
                 "name": "Drillable wall room west cliff chest",
+                "access_rules": ["$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "underground_ruins_zone_5",
@@ -427,6 +463,9 @@
             },
             {
                 "name": "Drillable wall room east cliff chest",
+                "access_rules": [
+                    "$has_jump_springs,$can_destroy_cracked_walls"
+                ],
                 "map_locations": [
                     {
                         "map": "underground_ruins_zone_5",
@@ -436,8 +475,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item",
-                        "access_rules": ["$can_destroy_cracked_walls"]
+                        "name": "Item"
                     }
                 ]
             },
@@ -458,6 +496,9 @@
             },
             {
                 "name": "Drillable wall room east cliff hole",
+                "access_rules": [
+                    "$has_jump_springs,$can_destroy_cracked_walls"
+                ],
                 "map_locations": [
                     {
                         "map": "underground_ruins_zone_5",
@@ -467,8 +508,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item",
-                        "access_rules": ["$can_destroy_cracked_walls"]
+                        "name": "Item"
                     }
                 ]
             }

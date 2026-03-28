@@ -71,3 +71,57 @@ end
 function has_explosive_weapon()
     return has_powered_buster() or has_grand_grenade() or has_active_buster() or has_spread_buster()
 end
+
+function has_completed_clubhouse()
+    return  has_completed_cardon_forest() and
+        has("pick") and
+        has("saw")
+        -- has("stagbeetle") and
+        -- has("beetle") and
+        -- has("comicbook")
+end
+
+function has_completed_museum()
+    return has_completed_clubhouse() and
+        -- has("lipstick") and
+        has("oldbone") and
+        -- has("holdheater") and
+        has("olddoll") and
+        has("antiquebell") and
+        has("gianthorn") and
+        has("shinyobject") and
+        has("oldshield") and
+        has("shinyredstone")
+end
+
+function has_cardon_forest_keys()
+    return has("cardonkey1") and has("cardonkey2") and has("cardonkey3")
+end
+
+function has_lake_jyun_keys()
+    return has("lakekey1") and has("lakekey2") and has("lakekey3")
+end
+
+function has_clozer_woods_keys()
+    return has("clozerkey1") and has("clozerkey2") and has("clozerkey3")
+end
+
+function has_sub_city_keys()
+    return has("watcherkey") and has("dreamerkey") and has("sleeperkey")
+end
+
+function has_completed_cardon_forest()
+    return has_cardon_forest_keys()
+end
+
+function has_completed_lake_jyun()
+    return has_completed_cardon_forest() and has_jump_springs() and has_lake_jyun_keys()
+end
+
+function has_completed_clozer_woods()
+    return has_completed_cardon_forest() and has_completed_lake_jyun() and has_cardon_forest_keys()
+end
+
+function has_main_gate_maze_access()
+    return has_drill_arm() or has_completed_clozer_woods()
+end

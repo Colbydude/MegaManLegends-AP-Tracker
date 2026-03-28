@@ -49,6 +49,7 @@
             },
             {
                 "name": "Center Garbage Pail",
+                // "access_rules": [],
                 "map_locations": [
                     {
                         "map": "downtown",
@@ -64,6 +65,7 @@
             },
             {
                 "name": "Library Garbage Pail",
+                "access_rules": ["$has_completed_cardon_forest,$has|pick"],
                 "map_locations": [
                     {
                         "map": "downtown",
@@ -79,6 +81,7 @@
             },
             {
                 "name": "Sub-City",
+                "access_rules": ["$has_completed_clozer_woods"],
                 "map_locations": [
                     {
                         "map": "downtown",

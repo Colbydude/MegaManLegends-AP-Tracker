@@ -20,6 +20,7 @@
             },
             {
                 "name": "Focke-Wulf",
+                "access_rules": ["$has_completed_clozer_woods"],
                 "map_locations": [
                     {
                         "map": "clozer_woods",

@@ -13,7 +13,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Left Pail"
+                        "name": "Left Pail",
+                        "access_rules": ["$has_completed_cardon_forest"]
                     },
                     {
                         "name": "Right Pail"
@@ -70,6 +71,7 @@
             },
             {
                 "name": "Sub-City",
+                "access_rules": ["$has_completed_clozer_woods"],
                 "map_locations": [
                     {
                         "map": "uptown",
@@ -101,13 +103,16 @@
                         "name": "Balloon Fantasy - Rank A"
                     },
                     {
-                        "name": "Race - Straight Course - Rank A"
+                        "name": "Race - Straight Course - Rank A",
+                        "access_rules": ["$has_jet_skates"]
                     },
                     {
-                        "name": "Race - Left Curve Course - Rank A"
+                        "name": "Race - Left Curve Course - Rank A",
+                        "access_rules": ["$has_jet_skates"]
                     },
                     {
-                        "name": "Race - Technical Course - Rank A"
+                        "name": "Race - Technical Course - Rank A",
+                        "access_rules": ["$has_jet_skates"]
                     }
                 ]
             },
@@ -122,34 +127,44 @@
                 ],
                 "sections": [
                     {
-                        "name": "Donate Old Bone"
+                        "name": "Donate Old Bone",
+                        "access_rules": ["$has|oldbone"]
                     },
                     {
-                        "name": "Donate Old Heater"
+                        "name": "Donate Old Heater",
+                        "access_rules": ["$has|oldheater"]
                     },
                     {
-                        "name": "Donate Old Doll"
+                        "name": "Donate Old Doll",
+                        "access_rules": ["$has|olddoll"]
                     },
                     {
-                        "name": "Donate Antique Bell"
+                        "name": "Donate Antique Bell",
+                        "access_rules": ["$has|antiquebell"]
                     },
                     {
-                        "name": "Donate Giant Horn"
+                        "name": "Donate Giant Horn",
+                        "access_rules": ["$has|gianthorn"]
                     },
                     {
-                        "name": "Donate Shiny Object"
+                        "name": "Donate Shiny Object",
+                        "access_rules": ["$has|shinyobject"]
                     },
                     {
-                        "name": "Donate Old Shield"
+                        "name": "Donate Old Shield",
+                        "access_rules": ["$has|oldshield"]
                     },
                     {
-                        "name": "Donate Shiny Red Stone"
+                        "name": "Donate Shiny Red Stone",
+                        "access_rules": ["$has|shinyredstone"]
                     },
                     {
-                        "name": "Complete the Museum Exhibit"
+                        "name": "Complete the Museum Exhibit",
+                        "access_rules": ["$has_completed_museum"]
                     },
                     {
-                        "name": "Take Dangerous Object from Museum Visitor"
+                        "name": "Take Dangerous Object from Museum Visitor",
+                        "access_rules": ["$has_completed_museum"]
                     }
                 ]
             },
@@ -163,8 +178,14 @@
                     }
                 ],
                 "sections": [
-                    { "name": "Save the missing woman" },
-                    { "name": "Cure Ira's illness" }
+                    {
+                        "name": "Save the missing woman",
+                        "access_rules": ["$has_completed_clozer_woods"]
+                    },
+                    {
+                        "name": "Cure Ira's illness",
+                        "access_rules": ["$has_completed_lake_jyun"]
+                    }
                 ]
             }
         ]
