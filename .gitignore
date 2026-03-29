@@ -1,2 +1,7 @@
 .DS_Store
 Thumbs.db
+
+# release generated files
+/build
+release_notes.md
+*.zip

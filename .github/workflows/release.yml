@@ -1,0 +1,107 @@
+name: Release
+
+on:
+    push:
+        tags:
+            - "v*.*.*.*"
+
+jobs:
+    release:
+        runs-on: ubuntu-latest
+
+        permissions:
+            contents: write
+
+        steps:
+            - name: Checkout repo
+              uses: actions/checkout@v6
+
+            - name: Read version from tag
+              id: manifest
+              run: |
+                  echo "version=${{ github.ref_name }}" >> $GITHUB_OUTPUT
+                  echo "artifact=MML-AP-${{ github.ref_name }}.zip" >> $GITHUB_OUTPUT
+
+            - name: Prepare archive
+              run: |
+                  mkdir build
+                  rsync -av --exclude-from='.releaseignore' ./ build/
+                  cd build
+                  zip -r ../${{ steps.manifest.outputs.artifact }} .
+
+            - name: Compute SHA256
+              id: sha
+              run: |
+                  SHA=$(sha256sum ${{ steps.manifest.outputs.artifact }} | awk '{print $1}')
+                  echo "sha=$SHA" >> $GITHUB_OUTPUT
+
+            - name: Get download URL
+              id: asset
+              run: |
+                  URL="https://github.com/${{ github.repository }}/releases/download/${{ steps.manifest.outputs.version }}/${{ steps.manifest.outputs.artifact }}"
+                  echo "url=$URL" >> $GITHUB_OUTPUT
+
+            - name: Extract release notes
+              id: extract-release-notes
+              uses: ffurrer2/extract-release-notes@v3
+
+            - name: Read release notes preface
+              id: release_preface
+              uses: bluwy/substitute-string-action@v3
+              with:
+                  _input-file: .github/RELEASE_TEMPLATE.md
+                  _format-key: "{key}"
+                  download: ${{ steps.asset.outputs.url }}
+
+            - name: Create GitHub Release
+              id: release
+              uses: softprops/action-gh-release@v2
+              with:
+                  tag_name: ${{ steps.manifest.outputs.version }}
+                  name: ${{ steps.manifest.outputs.version }}
+                  draft: true
+                  prerelease: true
+                  files: ${{ steps.manifest.outputs.artifact }}
+                  body: |
+                      ${{ steps.release_preface.outputs.result }}
+                      ${{ steps.extract-release-notes.outputs.release_notes }}
+
+            - name: Save release notes to file
+              run: |
+                  printf "%s\n" "${{ steps.extract-release-notes.outputs.release_notes }}" > release_notes.md
+
+            - name: Update versions.json
+              run: |
+                  # Extract structured changelog entries
+                  CHANGELOG=$(awk '
+                    /^### / {
+                      section = substr($0, 5)
+                      next
+                    }
+                    /^- / {
+                      item = substr($0, 3)
+                      if (section != "" && item != "") {
+                        print section ": " item
+                      }
+                    }
+                  ' release_notes.md | jq -R -s -c 'split("\n") | map(select(length > 0))')
+
+                  jq --arg version "${{ steps.manifest.outputs.version }}" \
+                    --arg url "${{ steps.asset.outputs.url }}" \
+                    --arg sha "${{ steps.sha.outputs.sha }}" \
+                    --argjson changelog "$CHANGELOG" \
+                    '.versions += [{
+                      package_version: $version,
+                      download_url: $url,
+                      sha256: $sha,
+                      changelog: $changelog
+                    }]' versions.json > tmp.json
+
+                  mv tmp.json versions.json
+
+            - name: Commit updated versions.json
+              uses: devops-infra/action-commit-push@v1.1.0
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  commit_message: "Update versions.json for ${{ steps.manifest.outputs.version }}"
+                  target_branch: main

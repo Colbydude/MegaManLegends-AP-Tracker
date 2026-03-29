@@ -1,0 +1,10 @@
+/.git
+/.github
+/.vscode
+/api
+/build
+.gitignore
+.luarc
+.prettierrc
+.releaseignore
+versions.json
