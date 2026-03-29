@@ -1,3 +1,14 @@
 {
-    "versions": []
+  "versions": [
+    {
+      "package_version": "v0.2.6.0",
+      "download_url": "https://github.com/Colbydude/MegaManLegends-AP-Tracker/releases/download/v0.2.6.0/MML-AP-v0.2.6.0.zip",
+      "sha256": "71ab4313bec642ed96077fd99a3b357361acddcc91673b923b8aae30a0218ef5",
+      "changelog": [
+        "Added: Initial Release.",
+        "Added: Support for Archipelago location and item auto-tracking.",
+        "Added: Support for auto-tabbing based on the player's map location."
+      ]
+    }
+  ]
 }
