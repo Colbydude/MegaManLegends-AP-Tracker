@@ -49,7 +49,7 @@
             },
             {
                 "name": "Center Garbage Pail",
-                // "access_rules": [],
+                "access_rules": ["$has_completed_cardon_forest,$has|pick"],
                 "map_locations": [
                     {
                         "map": "downtown",
