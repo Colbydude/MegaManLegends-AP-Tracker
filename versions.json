@@ -1,6 +1,16 @@
 {
   "versions": [
     {
+      "package_version": "v0.2.6.1",
+      "download_url": "https://github.com/Colbydude/MegaManLegends-AP-Tracker/releases/download/v0.2.6.1/MML-AP-v0.2.6.1.zip",
+      "sha256": "abca6a256b437fb3548b8ca08be3c710f32416a1c1070e1b3708e9fee93536cd",
+      "changelog": [
+        "Changed: 'Gifts for Roll' now shows on multiple Support Car locations on the map.",
+        "Changed: Blue Refractor now shows as static instead of togglable.",
+        "Fixed: Logic for Underground Ruins checks that can be accessed via Drill Arm."
+      ]
+    },
+    {
       "package_version": "v0.2.6.0",
       "download_url": "https://github.com/Colbydude/MegaManLegends-AP-Tracker/releases/download/v0.2.6.0/MML-AP-v0.2.6.0.zip",
       "sha256": "71ab4313bec642ed96077fd99a3b357361acddcc91673b923b8aae30a0218ef5",
