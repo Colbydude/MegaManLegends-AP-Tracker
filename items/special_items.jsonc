@@ -59,7 +59,7 @@
     },
     {
         "name": "Blue Refractor",
-        "type": "toggle",
+        "type": "static",
         "img": "images/special_items/blue_refractor.png",
         "codes": "bluerefractor"
     },

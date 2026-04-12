@@ -90,12 +90,12 @@ jobs:
                     --arg url "${{ steps.asset.outputs.url }}" \
                     --arg sha "${{ steps.sha.outputs.sha }}" \
                     --argjson changelog "$CHANGELOG" \
-                    '.versions += [{
+                    '.versions = [{
                       package_version: $version,
                       download_url: $url,
                       sha256: $sha,
                       changelog: $changelog
-                    }]' versions.json > tmp.json
+                    }] + .versions' versions.json > tmp.json
 
                   mv tmp.json versions.json
 

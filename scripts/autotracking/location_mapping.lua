@@ -122,9 +122,9 @@ LOCATION_MAPPING = {
     [121] = { { "@Uptown/Museum/Donate Shiny Red Stone" } },
     [122] = { { "@Uptown/Museum/Complete the Museum Exhibit" } },
     [123] = { { "@Uptown/Museum/Take Dangerous Object from Museum Visitor" } },
-    [124] = { { "@Cardon Forest/Flutter/Gift Flower to Roll" } },
-    [125] = { { "@Cardon Forest/Flutter/Gift Music Box to Roll" } },
-    [126] = { { "@Cardon Forest/Flutter/Gift Ring to Roll" } },
+    [124] = { { "@Support Car/Gift Flower to Roll" } },
+    [125] = { { "@Support Car/Gift Music Box to Roll" } },
+    [126] = { { "@Support Car/Gift Ring to Roll" } },
     [127] = { { "@City Hall/Police Station/Turn in missing bag" } },
     -- [999] = { { "@Main Gate/Juno/Defeated" } },
 }

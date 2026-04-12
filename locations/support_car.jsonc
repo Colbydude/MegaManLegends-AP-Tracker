@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Support Car",
+        // "access_rules": ["$has|citizenscard"],
+        "map_locations": [
+            {
+                "map": "cardon_forest",
+                "x": 1000,
+                "y": 242
+            },
+            {
+                "map": "city_hall",
+                "x": 952,
+                "y": 265
+            },
+            {
+                "map": "downtown",
+                "x": 822,
+                "y": 645
+            },
+            {
+                "map": "old_city",
+                "x": 1148,
+                "y": 800
+            },
+            {
+                "map": "uptown",
+                "x": 732,
+                "y": 272
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift Flower to Roll"
+                // "access_rules": ["$has|flower"]
+            },
+            {
+                "name": "Gift Music Box to Roll",
+                "access_rules": ["$has|musicbox"]
+            },
+            {
+                "name": "Gift Ring to Roll",
+                "access_rules": ["$has|ring"]
+            }
+        ]
+    }
+]
