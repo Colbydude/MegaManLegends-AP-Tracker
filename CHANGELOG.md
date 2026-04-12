@@ -7,11 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Added
-
 ### Changed
 
-### Removed
+- Logic fixes for Underground Ruins checks that can be accessed via Drill Arm.
 
 ## [v0.2.6.0] - 2026-03-28
 
@@ -20,9 +18,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial Release.
 - Support for Archipelago location and item auto-tracking.
 - Support for auto-tabbing based on the player's map location.
-
-### Changed
-
-### Removed
 
 [v0.2.6.0]: https://github.com/Colbydude/MegaManLegends-AP-Tracker/releases/tag/v0.2.6.0

@@ -141,6 +141,7 @@
             },
             {
                 "name": "Gorubesshu corridor east chest",
+                "access_rules": ["$has_completed_lake_jyun", "$has_drill_arm"],
                 "map_locations": [
                     {
                         "map": "clozer_woods_subgate",
