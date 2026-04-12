@@ -17,6 +17,17 @@
                         "name": "Study Chest"
                     }
                 ]
+            },
+            {
+                "name": "Citizen's Card",
+                "map_locations": [
+                    {
+                        "map": "cardon_forest",
+                        "x": 1682,
+                        "y": 194
+                    }
+                ],
+                "sections": [{ "name": "Earned" }]
             }
         ]
     }

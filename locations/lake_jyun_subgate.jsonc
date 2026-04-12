@@ -161,6 +161,21 @@
                 ]
             },
             {
+                "name": "Red Refractor",
+                "map_locations": [
+                    {
+                        "map": "lake_jyun_subgate",
+                        "x": 3110,
+                        "y": 70
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Taken"
+                    }
+                ]
+            },
+            {
                 "name": "Garudoriten",
                 "access_rules": ["$has_jump_springs,$has_lake_jyun_keys"],
                 "map_locations": [

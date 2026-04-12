@@ -3,6 +3,20 @@
         "name": "City Hall",
         "children": [
             {
+                "name": "Amelia's Office",
+                "map_locations": [
+                    {
+                        "map": "city_hall",
+                        "x": 1024,
+                        "y": 170
+                    }
+                ],
+                "sections": [
+                    { "name": "Earn Class B License" },
+                    { "name": "Earn Class A License" }
+                ]
+            },
+            {
                 "name": "Bon Bonne",
                 "map_locations": [
                     {
