@@ -186,6 +186,22 @@
                         "name": "Defeated"
                     }
                 ]
+            },
+            {
+                "name": "Emergency System",
+                "access_rules": ["$has_clozer_woods_keys"],
+                "map_locations": [
+                    {
+                        "map": "clozer_woods_subgate",
+                        "x": 888,
+                        "y": 236
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Activated"
+                    }
+                ]
             }
         ]
     }

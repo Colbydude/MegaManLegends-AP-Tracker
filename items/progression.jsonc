@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Unlock Main Gate",
+        "type": "toggle",
+        "codes": "maingateunlock"
+    },
+    {
+        "name": "Unlock Sub-Cities",
+        "type": "toggle",
+        "codes": "subcityunlock"
+    }
+]

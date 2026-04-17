@@ -1,4 +1,6 @@
 ITEM_MAPPING = {
+    [0x0001] = { { "maingainunlock", "toggle" } },
+    [0x0002] = { { "subcityunlock", "toggle", } },
     [0x020D] = { { "powerraiser", "toggle" } },
     [0x0210] = { { "bustermax", "toggle" } },
     [0x0211] = { { "powerstream", "toggle" } },
