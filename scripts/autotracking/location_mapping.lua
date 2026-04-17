@@ -131,5 +131,7 @@ LOCATION_MAPPING = {
     [130] = { { "@Cardon Forest/Citizen's Card/Earned" } },
     [131] = { { "@City Hall/Amelia's Office/Earn Class B License" } },
     [132] = { { "@City Hall/Amelia's Office/Earn Class A License" } },
+    [133] = { { "@Clozer Woods Sub-Gate/Emergency System/Activated" } },
+    [134] = { { "@Main Gate/Terminal/Unlock Sub-Cities" } },
     [999] = { { "@Main Gate/Juno/Defeated" } },
 }

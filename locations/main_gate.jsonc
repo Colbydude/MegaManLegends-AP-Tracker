@@ -117,6 +117,22 @@
                 ]
             },
             {
+                "name": "Terminal",
+                "access_rules": ["$has_completed_clozer_woods"],
+                "map_locations": [
+                    {
+                        "map": "main_gate",
+                        "x": 778,
+                        "y": 450
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Unlock Sub-Cities"
+                    }
+                ]
+            },
+            {
                 "name": "Juno",
                 "access_rules": [
                     "$has_completed_clozer_woods,$has_sub_city_keys"

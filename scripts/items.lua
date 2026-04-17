@@ -1,5 +1,6 @@
 Tracker:AddItems("items/buster_parts.jsonc")
 Tracker:AddItems("items/items.jsonc")
 Tracker:AddItems("items/options.jsonc")
+Tracker:AddItems("items/progression.jsonc")
 Tracker:AddItems("items/special_items.jsonc")
 Tracker:AddItems("items/weapons.jsonc")
