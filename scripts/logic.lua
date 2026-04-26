@@ -119,7 +119,7 @@ function has_completed_lake_jyun()
 end
 
 function has_completed_clozer_woods()
-    return has_completed_cardon_forest() and has_completed_lake_jyun() and has_cardon_forest_keys()
+    return has_completed_cardon_forest() and has_completed_lake_jyun() and has_clozer_woods_keys()
 end
 
 function has_main_gate_maze_access()

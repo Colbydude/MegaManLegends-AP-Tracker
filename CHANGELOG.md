@@ -8,6 +8,12 @@ which is then suffixed with an incremental version number for this project.
 
 ## [Unreleased]
 
+## [v0.2.6.2]
+
+### Fixed
+
+- Logic for Clozer Woods Sub-Gate completion.
+
 ## [v0.2.6.1]
 
 ### Changed
@@ -27,5 +33,6 @@ which is then suffixed with an incremental version number for this project.
 - Support for Archipelago location and item auto-tracking.
 - Support for auto-tabbing based on the player's map location.
 
+[v0.2.6.2]: https://github.com/Colbydude/MegaManLegends-AP-Tracker/releases/tag/v0.2.6.2
 [v0.2.6.1]: https://github.com/Colbydude/MegaManLegends-AP-Tracker/releases/tag/v0.2.6.1
 [v0.2.6.0]: https://github.com/Colbydude/MegaManLegends-AP-Tracker/releases/tag/v0.2.6.0
