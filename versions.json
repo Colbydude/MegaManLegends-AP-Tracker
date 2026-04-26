@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+      "package_version": "v0.2.6.2",
+      "download_url": "https://github.com/Colbydude/MegaManLegends-AP-Tracker/releases/download/v0.2.6.2/MML-AP-v0.2.6.2.zip",
+      "sha256": "e1ad456816e5d98a7f45a6c2580e703b40090a12d7975972cc8e380647b2eda1",
+      "changelog": [
+        "Fixed: Logic for Clozer Woods Sub-Gate completion."
+      ]
+    },
+    {
       "package_version": "v0.2.6.1",
       "download_url": "https://github.com/Colbydude/MegaManLegends-AP-Tracker/releases/download/v0.2.6.1/MML-AP-v0.2.6.1.zip",
       "sha256": "abca6a256b437fb3548b8ca08be3c710f32416a1c1070e1b3708e9fee93536cd",
