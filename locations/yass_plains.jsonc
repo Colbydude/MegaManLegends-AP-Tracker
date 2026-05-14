@@ -1,6 +1,7 @@
 [
     {
         "name": "Yass Plains",
+        "access_rules": ["$has_citizens_card"],
         "children": [
             {
                 "name": "Plateau House",

@@ -1,6 +1,7 @@
 [
     {
         "name": "Downtown",
+        "access_rules": ["$has_citizens_card"],
         "children": [
             {
                 "name": "Southeast Peace Sign Garbage Pail",
@@ -49,7 +50,7 @@
             },
             {
                 "name": "Center Garbage Pail",
-                "access_rules": ["$has_completed_cardon_forest,$has|pick"],
+                "access_rules": ["$has_jump_springs,$can_steal_red_refractor"],
                 "map_locations": [
                     {
                         "map": "downtown",
@@ -65,7 +66,7 @@
             },
             {
                 "name": "Library Garbage Pail",
-                "access_rules": ["$has_completed_cardon_forest,$has|pick"],
+                "access_rules": ["$can_steal_yellow_refractor,$has|pick"],
                 "map_locations": [
                     {
                         "map": "downtown",
@@ -81,7 +82,7 @@
             },
             {
                 "name": "Sub-City",
-                "access_rules": ["$has_completed_clozer_woods"],
+                "access_rules": ["$has_unlocked_sub_cities"],
                 "map_locations": [
                     {
                         "map": "downtown",

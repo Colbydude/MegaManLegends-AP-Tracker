@@ -8,6 +8,11 @@ which is then suffixed with an incremental version number for this project.
 
 ## [Unreleased]
 
+### Changed
+
+- Checks added from 0.3.0, including; Unlock Main Gate, Unlock Sub-Cities, Yellow Refractor, Red Refractor, Citizen's Card, Class B License, and Class A License.
+- Logic updates to match the "open world" updates for 0.3.0.
+
 ## [v0.2.6.2]
 
 ### Fixed

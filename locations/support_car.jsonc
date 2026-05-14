@@ -1,7 +1,7 @@
 [
     {
         "name": "Support Car",
-        // "access_rules": ["$has|citizenscard"],
+        "access_rules": ["$can_fix_support_car"],
         "map_locations": [
             {
                 "map": "cardon_forest",

@@ -1,6 +1,7 @@
 [
     {
         "name": "Uptown",
+        "access_rules": ["$has_citizens_card"],
         "children": [
             {
                 "name": "Hospital Garbage Pails",
@@ -14,7 +15,7 @@
                 "sections": [
                     {
                         "name": "Left Pail",
-                        "access_rules": ["$has_completed_cardon_forest"]
+                        "access_rules": ["$can_steal_yellow_refractor"]
                     },
                     {
                         "name": "Right Pail"
@@ -71,7 +72,7 @@
             },
             {
                 "name": "Sub-City",
-                "access_rules": ["$has_completed_clozer_woods"],
+                "access_rules": ["$has_unlocked_sub_cities"],
                 "map_locations": [
                     {
                         "map": "uptown",
@@ -180,11 +181,11 @@
                 "sections": [
                     {
                         "name": "Save the missing woman",
-                        "access_rules": ["$has_completed_clozer_woods"]
+                        "access_rules": ["$can_fix_flutter"]
                     },
                     {
                         "name": "Cure Ira's illness",
-                        "access_rules": ["$has_completed_lake_jyun"]
+                        "access_rules": ["$can_defeat_marlwolf"]
                     }
                 ]
             }

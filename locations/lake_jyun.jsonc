@@ -1,7 +1,7 @@
 [
     {
         "name": "Lake Jyun",
-        "access_rules": ["$has_completed_cardon_forest"],
+        "access_rules": ["$can_fix_boat"],
         "children": [
             {
                 "name": "Balkon Gerat",

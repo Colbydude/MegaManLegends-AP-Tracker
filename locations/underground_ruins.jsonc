@@ -34,7 +34,7 @@
             },
             {
                 "name": "Main gate entrance chest",
-                "access_rules": ["$can_open_main_gate"],
+                "access_rules": ["$has_drill_arm", "$has_unlocked_main_gate"],
                 "map_locations": [
                     {
                         "map": "underground_ruins_zone_2",
@@ -278,7 +278,7 @@
                 "name": "Drillable pillar room north chest",
                 "access_rules": [
                     "$has_jump_springs,$can_destroy_cracked_walls", // From south entrance
-                    "$has_completed_cardon_forest,$has_jump_springs" // From Lake Jyun Sub-Gate
+                    "$can_fix_boat,$has_jump_springs" // From Lake Jyun Sub-Gate
                 ],
                 "map_locations": [
                     {
@@ -367,6 +367,7 @@
             },
             {
                 "name": "Fireball Orudakoitan chest",
+                "access_rules": ["$can_defeat_marlwolf"],
                 "map_locations": [
                     {
                         "map": "underground_ruins_zone_5",
@@ -414,6 +415,7 @@
             },
             {
                 "name": "Clozer exit chest",
+                "access_rules": ["$can_defeat_marlwolf"],
                 "map_locations": [
                     {
                         "map": "underground_ruins_zone_5",
@@ -431,7 +433,7 @@
                 "name": "Drillable wall room middle cliff chest",
                 "access_rules": [
                     "[$has_jump_springs],$has_drill_arm",
-                    "$has_completed_lake_jyun"
+                    "$can_fix_boat"
                 ],
                 "map_locations": [
                     {
@@ -483,6 +485,7 @@
             },
             {
                 "name": "Trapped box hole",
+                "access_rules": ["$can_defeat_marlwolf"],
                 "map_locations": [
                     {
                         "map": "underground_ruins_zone_5",

@@ -1,10 +1,11 @@
 [
     {
         "name": "Old City",
+        "access_rules": ["$has_citizens_card"],
         "children": [
             {
                 "name": "Sub-City",
-                "access_rules": ["$has_completed_clozer_woods"],
+                "access_rules": ["$has_unlocked_sub_cities"],
                 "map_locations": [
                     {
                         "map": "old_city",
@@ -21,7 +22,7 @@
             },
             {
                 "name": "Theodore Bruno",
-                "access_rules": ["$has_completed_clozer_woods"],
+                "access_rules": ["$has_unlocked_main_gate"],
                 "map_locations": [
                     {
                         "map": "old_city",

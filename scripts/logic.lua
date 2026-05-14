@@ -64,6 +64,14 @@ function has_adapter_plug()
 end
 
 -- Location Logic
+function has_unlocked_main_gate()
+    return has("maingateunlock")
+end
+
+function has_unlocked_sub_cities()
+    return has("subcityunlock")
+end
+
 function can_destroy_cracked_walls()
     return has_drill_arm() or has_grand_grenade()
 end
@@ -73,7 +81,7 @@ function has_explosive_weapon()
 end
 
 function has_clubhouse_items()
-    return  has_completed_cardon_forest() and
+    return can_steal_yellow_refractor() and
         has("pick") and
         has("saw")
         -- has("stagbeetle") and
@@ -92,6 +100,18 @@ function has_museum_items()
         has("shinyobject") and
         has("oldshield") and
         has("shinyredstone")
+end
+
+function has_class_a_license()
+    return has("classalicense")
+end
+
+function has_class_b_license()
+    return has("classblicense")
+end
+
+function has_citizens_card()
+    return has("citizenscard")
 end
 
 function has_cardon_forest_keys()
@@ -137,6 +157,10 @@ end
 
 function can_fix_flutter()
     return has("redrefractor") and can_fix_support_car()
+end
+
+function has_main_gate_maze_access()
+    return has_unlocked_main_gate() or (has_drill_arm() and has_class_b_license())
 end
 
 function can_open_main_gate()

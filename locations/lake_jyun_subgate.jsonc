@@ -1,7 +1,10 @@
 [
     {
         "name": "Lake Jyun Sub-Gate",
-        "access_rules": ["$has_completed_cardon_forest"],
+        "access_rules": [
+            "$has_class_a_license,$can_fix_boat",
+            "$has_class_a_license,$has_drill_arm,$has_jump_springs"
+        ],
         "children": [
             {
                 "name": "Entrance right hole",

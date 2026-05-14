@@ -1,6 +1,7 @@
 [
     {
         "name": "Cardon Forest Sub-Gate",
+        "access_rules": ["$has_class_a_license"],
         "children": [
             {
                 "name": "Sharukurusu floor hole",
@@ -139,6 +140,7 @@
             },
             {
                 "name": "Yellow Refractor",
+                "access_rules": ["$has_cardon_forest_keys"],
                 "map_locations": [
                     {
                         "map": "cardon_forest_subgate",

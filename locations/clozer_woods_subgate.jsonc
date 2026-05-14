@@ -1,7 +1,7 @@
 [
     {
         "name": "Clozer Woods Sub-Gate",
-        "access_rules": ["$has_completed_lake_jyun"],
+        "access_rules": ["$has_class_a_license"],
         "children": [
             {
                 "name": "Sharukurusu E room left hole",
@@ -141,7 +141,7 @@
             },
             {
                 "name": "Gorubesshu corridor east chest",
-                "access_rules": ["$has_completed_lake_jyun", "$has_drill_arm"],
+                "access_rules": ["$can_fix_flutter", "$has_drill_arm"],
                 "map_locations": [
                     {
                         "map": "clozer_woods_subgate",
@@ -172,7 +172,7 @@
             },
             {
                 "name": "Karumuna Bash Trio",
-                "access_rules": ["$has_explosive_weapon"],
+                "access_rules": ["$has_explosive_weapon,$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "clozer_woods_subgate",

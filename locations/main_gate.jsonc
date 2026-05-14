@@ -4,7 +4,7 @@
         "children": [
             {
                 "name": "Maze Chest",
-                "access_rules": ["$can_open_main_gate"],
+                "access_rules": ["$has_main_gate_maze_access"],
                 "map_locations": [
                     {
                         "map": "main_gate",
@@ -20,7 +20,7 @@
             },
             {
                 "name": "Maze entrance hole",
-                "access_rules": ["$can_open_main_gate"],
+                "access_rules": ["$has_main_gate_maze_access"],
                 "map_locations": [
                     {
                         "map": "main_gate",
@@ -36,7 +36,7 @@
             },
             {
                 "name": "Maze Karumuna Bash hole",
-                "access_rules": ["$can_open_main_gate"],
+                "access_rules": ["$has_main_gate_maze_access"],
                 "map_locations": [
                     {
                         "map": "main_gate",
@@ -52,7 +52,7 @@
             },
             {
                 "name": "Maze Reaverbot hole",
-                "access_rules": ["$can_open_main_gate"],
+                "access_rules": ["$has_main_gate_maze_access"],
                 "map_locations": [
                     {
                         "map": "main_gate",
@@ -68,7 +68,7 @@
             },
             {
                 "name": "Two Gorubesshu room chest",
-                "access_rules": ["$has_completed_clozer_woods"],
+                "access_rules": ["$has_unlocked_main_gate"],
                 "map_locations": [
                     {
                         "map": "main_gate",
@@ -84,7 +84,7 @@
             },
             {
                 "name": "Entrance hole",
-                "access_rules": ["$has_completed_clozer_woods"],
+                "access_rules": ["$has_unlocked_main_gate"],
                 "map_locations": [
                     {
                         "map": "main_gate",
@@ -100,9 +100,7 @@
             },
             {
                 "name": "Boss corridor chest",
-                "access_rules": [
-                    "$has_completed_clozer_woods,$has_sub_city_keys"
-                ],
+                "access_rules": ["$has_unlocked_main_gate,$has_sub_city_keys"],
                 "map_locations": [
                     {
                         "map": "main_gate",
@@ -118,7 +116,7 @@
             },
             {
                 "name": "Terminal",
-                "access_rules": ["$has_completed_clozer_woods"],
+                "access_rules": ["$has_unlocked_main_gate"],
                 "map_locations": [
                     {
                         "map": "main_gate",
@@ -134,9 +132,7 @@
             },
             {
                 "name": "Juno",
-                "access_rules": [
-                    "$has_completed_clozer_woods,$has_sub_city_keys"
-                ],
+                "access_rules": ["$has_unlocked_main_gate,$has_sub_city_keys"],
                 "map_locations": [
                     {
                         "map": "main_gate",

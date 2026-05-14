@@ -1,6 +1,7 @@
 [
     {
         "name": "City Hall",
+        "access_rules": ["$has_citizens_card"],
         "children": [
             {
                 "name": "Amelia's Office",
@@ -44,7 +45,9 @@
                 "sections": [
                     {
                         "name": "Turn in missing bag",
-                        "access_rules": ["$has_completed_lake_jyun,$has|bag"]
+                        "access_rules": [
+                            "$can_steal_yellow_refractor,$can_steal_red_refractor,$has|bag"
+                        ]
                     }
                 ]
             }

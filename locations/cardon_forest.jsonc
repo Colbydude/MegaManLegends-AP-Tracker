@@ -4,7 +4,7 @@
         "children": [
             {
                 "name": "Flutter",
-                "access_rules": ["$has_completed_lake_jyun"],
+                "access_rules": ["$can_steal_red_refractor"],
                 "map_locations": [
                     {
                         "map": "cardon_forest",
