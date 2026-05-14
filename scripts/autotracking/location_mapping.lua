@@ -120,7 +120,7 @@ LOCATION_MAPPING = {
     [119] = { { "@Uptown/Museum/Donate Shiny Object" } },
     [120] = { { "@Uptown/Museum/Donate Old Shield" } },
     [121] = { { "@Uptown/Museum/Donate Shiny Red Stone" } },
-    [122] = { { "@Uptown/Museum/Complete the Museum Exhibit" } },
+    -- [122] = { { "@Uptown/Museum/Complete the Museum Exhibit" } },
     [123] = { { "@Uptown/Museum/Take Dangerous Object from Museum Visitor" } },
     [124] = { { "@Support Car/Gift Flower to Roll" } },
     [125] = { { "@Support Car/Gift Music Box to Roll" } },
@@ -133,5 +133,6 @@ LOCATION_MAPPING = {
     [132] = { { "@City Hall/Amelia's Office/Earn Class A License" } },
     [133] = { { "@Clozer Woods Sub-Gate/Emergency System/Activated" } },
     [134] = { { "@Main Gate/Terminal/Unlock Sub-Cities" } },
+    -- [135] = { { "@Gai-nee Tooren/Defeated" } },
     [999] = { { "@Main Gate/Juno/Defeated" } },
 }

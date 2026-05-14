@@ -34,7 +34,7 @@
             },
             {
                 "name": "Main gate entrance chest",
-                "access_rules": ["$has_main_gate_maze_access"],
+                "access_rules": ["$can_open_main_gate"],
                 "map_locations": [
                     {
                         "map": "underground_ruins_zone_2",

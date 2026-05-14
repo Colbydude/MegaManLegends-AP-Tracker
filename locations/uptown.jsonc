@@ -160,11 +160,11 @@
                     },
                     {
                         "name": "Complete the Museum Exhibit",
-                        "access_rules": ["$has_completed_museum"]
+                        "access_rules": ["$has_museum_items"]
                     },
                     {
                         "name": "Take Dangerous Object from Museum Visitor",
-                        "access_rules": ["$has_completed_museum"]
+                        "access_rules": ["$has_museum_items"]
                     }
                 ]
             },

@@ -4,7 +4,7 @@
         "children": [
             {
                 "name": "Maze Chest",
-                "access_rules": ["$has_main_gate_maze_access"],
+                "access_rules": ["$can_open_main_gate"],
                 "map_locations": [
                     {
                         "map": "main_gate",
@@ -20,7 +20,7 @@
             },
             {
                 "name": "Maze entrance hole",
-                "access_rules": ["$has_main_gate_maze_access"],
+                "access_rules": ["$can_open_main_gate"],
                 "map_locations": [
                     {
                         "map": "main_gate",
@@ -36,7 +36,7 @@
             },
             {
                 "name": "Maze Karumuna Bash hole",
-                "access_rules": ["$has_main_gate_maze_access"],
+                "access_rules": ["$can_open_main_gate"],
                 "map_locations": [
                     {
                         "map": "main_gate",
@@ -52,7 +52,7 @@
             },
             {
                 "name": "Maze Reaverbot hole",
-                "access_rules": ["$has_main_gate_maze_access"],
+                "access_rules": ["$can_open_main_gate"],
                 "map_locations": [
                     {
                         "map": "main_gate",
