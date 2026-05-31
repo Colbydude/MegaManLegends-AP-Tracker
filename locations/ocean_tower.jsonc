@@ -3,21 +3,6 @@
         "name": "Ocean Tower",
         "children": [
             {
-                "name": "Left Chest",
-                "map_locations": [
-                    {
-                        "map": "ocean_tower",
-                        "x": 256,
-                        "y": 862
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Item"
-                    }
-                ]
-            },
-            {
                 "name": "Right Chest",
                 "map_locations": [
                     {
@@ -28,7 +13,24 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|1"]
+                    }
+                ]
+            },
+            {
+                "name": "Left Chest",
+                "map_locations": [
+                    {
+                        "map": "ocean_tower",
+                        "x": 256,
+                        "y": 862
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|2"]
                     }
                 ]
             },
@@ -44,7 +46,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Escape"
+                        "name": "Escape",
+                        "access_rules": ["$isLocationAccessible|3"]
                     }
                 ]
             }

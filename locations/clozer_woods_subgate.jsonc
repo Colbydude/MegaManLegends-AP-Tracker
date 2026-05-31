@@ -1,7 +1,6 @@
 [
     {
         "name": "Clozer Woods Sub-Gate",
-        "access_rules": ["$has_class_a_license"],
         "children": [
             {
                 "name": "Sharukurusu E room left hole",
@@ -14,7 +13,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|73"]
                     }
                 ]
             },
@@ -29,7 +29,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|74"]
                     }
                 ]
             },
@@ -44,13 +45,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|75"]
                     }
                 ]
             },
             {
                 "name": "Miroc Gorubesshu east cliff chest",
-                "access_rules": ["$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "clozer_woods_subgate",
@@ -60,7 +61,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|76"]
                     }
                 ]
             },
@@ -75,7 +77,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|77"]
                     }
                 ]
             },
@@ -90,7 +93,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|78"]
                     }
                 ]
             },
@@ -105,7 +109,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|79"]
                     }
                 ]
             },
@@ -120,7 +125,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|80"]
                     }
                 ]
             },
@@ -135,13 +141,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|81"]
                     }
                 ]
             },
             {
                 "name": "Gorubesshu corridor east chest",
-                "access_rules": ["$can_fix_flutter", "$has_drill_arm"],
                 "map_locations": [
                     {
                         "map": "clozer_woods_subgate",
@@ -151,7 +157,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|82"]
                     }
                 ]
             },
@@ -166,13 +173,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|83"]
                     }
                 ]
             },
             {
                 "name": "Karumuna Bash Trio",
-                "access_rules": ["$has_explosive_weapon,$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "clozer_woods_subgate",
@@ -183,13 +190,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Defeated"
+                        "name": "Defeated",
+                        "access_rules": ["$isLocationAccessible|101"]
                     }
                 ]
             },
             {
                 "name": "Emergency System",
-                "access_rules": ["$has_clozer_woods_keys"],
                 "map_locations": [
                     {
                         "map": "clozer_woods_subgate",
@@ -199,7 +206,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Activated"
+                        "name": "Activated",
+                        "access_rules": ["$isLocationAccessible|133"]
                     }
                 ]
             }

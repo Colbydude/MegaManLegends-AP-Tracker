@@ -10,6 +10,7 @@ end
 
 ScriptHost:LoadScript("scripts/utils.lua")
 ScriptHost:LoadScript("scripts/logic.lua")
+ScriptHost:LoadScript("scripts/location_mapping.lua")
 ScriptHost:LoadScript("scripts/regions.lua")
 ScriptHost:LoadScript("scripts/items.lua")
 

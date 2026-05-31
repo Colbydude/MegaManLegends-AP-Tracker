@@ -56,7 +56,7 @@ function has_jet_skates()
 end
 
 function has_jump_springs()
-    return can_fix_support_car() and has("jumpsprings")
+    return has("jumpsprings")
 end
 
 function has_adapter_plug()
@@ -166,4 +166,57 @@ end
 function can_open_main_gate()
     return has_clozer_woods_keys() and has("classalicense") and
     (can_fix_flutter() or (has("classblicense") and has_drill_arm()))
+end
+
+-- @TEMP
+function has_pick()
+    return has("pick")
+end
+
+function has_saw()
+    return has("saw")
+end
+
+function has_old_bone()
+    return has("oldbone")
+end
+
+function has_old_doll()
+    return has("olddoll")
+end
+
+function has_antique_bell()
+    return has("antiquebell")
+end
+
+function has_giant_horn()
+    return has("gianthorn")
+end
+
+function has_shiny_object()
+    return has("shinyobject")
+end
+
+function has_old_shield()
+    return has("oldshield")
+end
+
+function has_shiny_red_stone()
+    return has("shinyredstone")
+end
+
+function has_music_box()
+    return has("musicbox")
+end
+
+function has_ring()
+    return has("ring")
+end
+
+function has_bag()
+    return has("bag")
+end
+
+function has_yellow_refractor()
+    return has("yellowrefractor")
 end

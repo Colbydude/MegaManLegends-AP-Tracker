@@ -1,7 +1,6 @@
 [
     {
         "name": "Lake Jyun",
-        "access_rules": ["$can_fix_boat"],
         "children": [
             {
                 "name": "Balkon Gerat",
@@ -15,7 +14,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Defeated"
+                        "name": "Defeated",
+                        "access_rules": ["$isLocationAccessible|99"]
                     }
                 ]
             }

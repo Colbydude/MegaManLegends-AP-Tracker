@@ -13,7 +13,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|3"]
                     }
                 ]
             },
@@ -28,7 +29,8 @@
             //     ],
             //     "sections": [
             //         {
-            //             "name": "Item"
+            //             "name": "Item",
+            //             "access_rules": ["$isLocationAccessible|4"],
             //         }
             //     ]
             // },
@@ -43,7 +45,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|5"]
                     }
                 ]
             },
@@ -58,7 +61,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|6"]
                     }
                 ]
             },
@@ -73,7 +77,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|7"]
                     }
                 ]
             },
@@ -88,7 +93,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Rescue the shop owner's husband"
+                        "name": "Rescue the shop owner's husband",
+                        "access_rules": ["$isLocationAccessible|104"]
                     }
                 ]
             }

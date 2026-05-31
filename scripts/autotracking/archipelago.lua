@@ -4,7 +4,6 @@ ScriptHost:LoadScript("scripts/autotracking/item_development_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/key_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/level_mapping.lua")
-ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 
 HINT_STATUS_MAPPING = {}
 if Highlight then
@@ -156,34 +155,32 @@ function onClear(slot_data)
 
     -- reset locations
     for _, mapping_entry in pairs(LOCATION_MAPPING) do
-        for _, location_table in ipairs(mapping_entry) do
-            if location_table then
-                local location_code = location_table[1]
-                if location_code then
-                    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                        print(string.format("onClear: clearing location %s", location_code))
-                    end
-                    if location_code:sub(1, 1) == "@" then
-                        local obj = Tracker:FindObjectForCode(location_code)
-                        if obj then
-                            obj.AvailableChestCount = obj.ChestCount
-                            if obj.Highlight then
-                                obj.Highlight = Highlight.None
-                            end
-                        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                            print(string.format("onClear: could not find location object for code %s", location_code))
+        if mapping_entry then
+            local location_code = mapping_entry[2]
+            if location_code then
+                if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                    print(string.format("onClear: clearing location %s", location_code))
+                end
+                if location_code:sub(1, 1) == "@" then
+                    local obj = Tracker:FindObjectForCode(location_code)
+                    if obj then
+                        obj.AvailableChestCount = obj.ChestCount
+                        if obj.Highlight then
+                            obj.Highlight = Highlight.None
                         end
-                    else
-                        -- reset hosted item
-                        local item_type = location_table[2]
-                        resetItem(location_code, item_type)
+                    elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                        print(string.format("onClear: could not find location object for code %s", location_code))
                     end
-                elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                    print(string.format("onClear: skipping location_table with no location_code"))
+                else
+                    -- reset hosted item
+                    local item_type = mapping_entry[3]
+                    resetItem(location_code, item_type)
                 end
             elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                print(string.format("onClear: skipping empty location_table"))
+                print(string.format("onClear: skipping mapping_entry with no location_code"))
             end
+        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("onClear: skipping empty mapping_entry"))
         end
     end
 
@@ -304,28 +301,23 @@ function onLocation(location_id, location_name)
         end
         return
     end
-    for _, location_table in pairs(mapping_entry) do
-        if location_table then
-            local location_code = location_table[1]
-            if location_code then
-                local obj = Tracker:FindObjectForCode(location_code)
-                if obj then
-                    if location_code:sub(1, 1) == "@" then
-                        obj.AvailableChestCount = obj.AvailableChestCount - 1
-                    else
-                        -- increment hosted item
-                        local item_type = location_table[2]
-                        incrementItem(location_code, item_type)
-                    end
-                elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                    print(string.format("onLocation: could not find object for code %s", location_code))
-                end
-            elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                print(string.format("onLocation: skipping location_table with no location_code"))
+
+    local location_code = mapping_entry[2]
+    if location_code then
+        local obj = Tracker:FindObjectForCode(location_code)
+        if obj then
+            if location_code:sub(1, 1) == "@" then
+                obj.AvailableChestCount = obj.AvailableChestCount - 1
+            else
+                -- increment hosted item
+                local item_type = mapping_entry[3]
+                incrementItem(location_code, item_type)
             end
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-            print(string.format("onLocation: skipping empty location_table"))
+            print(string.format("onLocation: could not find object for code %s", location_code))
         end
+    elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print(string.format("onLocation: skipping mapping_entry with no location_code"))
     end
 end
 
@@ -419,25 +411,21 @@ function updateHint(hint, sections_to_update)
         end
         return
     end
-    --get the "highest" highlight value pre section
-    for _, location_table in pairs(mapping_entry) do
-        if location_table then
-            local location_code = location_table[1]
-            -- skip hosted items, they don't support Highlight
-            if location_code and location_code:sub(1, 1) == "@" then
-                -- see if we already set a Highlight for this section
-                local existing_highlight_code = sections_to_update[location_code]
-                if existing_highlight_code then
-                    -- make sure we only replace None or "increase" the highlight but never overwrite with None
-                    -- this so sections with mulitple mapped locations show the "highest" Highlight and
-                    -- only show no Highlight when all hints are found
-                    if existing_highlight_code == Highlight.None or (existing_highlight_code < highlight_code and highlight_code ~= Highlight.None) then
-                        sections_to_update[location_code] = highlight_code
-                    end
-                else
-                    sections_to_update[location_code] = highlight_code
-                end
+
+    local location_code = mapping_entry[2]
+    -- skip hosted items, they don't support Highlight
+    if location_code and location_code:sub(1, 1) == "@" then
+        -- see if we already set a Highlight for this section
+        local existing_highlight_code = sections_to_update[location_code]
+        if existing_highlight_code then
+            -- make sure we only replace None or "increase" the highlight but never overwrite with None
+            -- this so sections with mulitple mapped locations show the "highest" Highlight and
+            -- only show no Highlight when all hints are found
+            if existing_highlight_code == Highlight.None or (existing_highlight_code < highlight_code and highlight_code ~= Highlight.None) then
+                sections_to_update[location_code] = highlight_code
             end
+        else
+            sections_to_update[location_code] = highlight_code
         end
     end
 end

@@ -4,7 +4,6 @@
         "children": [
             {
                 "name": "Flutter",
-                "access_rules": ["$can_steal_red_refractor"],
                 "map_locations": [
                     {
                         "map": "cardon_forest",
@@ -14,7 +13,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Study Chest"
+                        "name": "Study Chest",
+                        "access_rules": ["$isLocationAccessible|94"]
                     }
                 ]
             },
@@ -27,7 +27,12 @@
                         "y": 194
                     }
                 ],
-                "sections": [{ "name": "Earned" }]
+                "sections": [
+                    {
+                        "name": "Earned",
+                        "access_rules": ["$isLocationAccessible|130"]
+                    }
+                ]
             }
         ]
     }

@@ -1,7 +1,6 @@
 [
     {
         "name": "Support Car",
-        "access_rules": ["$can_fix_support_car"],
         "map_locations": [
             {
                 "map": "cardon_forest",
@@ -31,16 +30,16 @@
         ],
         "sections": [
             {
-                "name": "Gift Flower to Roll"
-                // "access_rules": ["$has|flower"]
+                "name": "Gift Flower to Roll",
+                "access_rules": ["$isLocationAccessible|124"]
             },
             {
                 "name": "Gift Music Box to Roll",
-                "access_rules": ["$has|musicbox"]
+                "access_rules": ["$isLocationAccessible|125"]
             },
             {
                 "name": "Gift Ring to Roll",
-                "access_rules": ["$has|ring"]
+                "access_rules": ["$isLocationAccessible|126"]
             }
         ]
     }

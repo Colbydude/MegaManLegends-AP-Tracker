@@ -26,7 +26,7 @@
     },
     {
         "name": "Jump Springs",
-        "type": "custom",
+        "type": "toggle",
         "img": "images/special_items/jump_springs.png",
         "codes": "jumpsprings"
     },

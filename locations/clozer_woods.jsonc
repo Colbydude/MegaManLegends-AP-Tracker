@@ -1,7 +1,6 @@
 [
     {
         "name": "Clozer Woods",
-        "access_rules": ["$has_citizens_card"],
         "children": [
             {
                 "name": "Marlwolf",
@@ -15,13 +14,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Defeated"
+                        "name": "Defeated",
+                        "access_rules": ["$isLocationAccessible|98"]
                     }
                 ]
             },
             {
                 "name": "Focke-Wulf",
-                "access_rules": ["$can_fix_flutter,$can_open_main_gate"],
                 "map_locations": [
                     {
                         "map": "clozer_woods",
@@ -32,7 +31,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Defeated"
+                        "name": "Defeated",
+                        "access_rules": ["$isLocationAccessible|102"]
                     }
                 ]
             }

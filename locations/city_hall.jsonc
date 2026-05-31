@@ -1,7 +1,6 @@
 [
     {
         "name": "City Hall",
-        "access_rules": ["$has_citizens_card"],
         "children": [
             {
                 "name": "Amelia's Office",
@@ -13,8 +12,14 @@
                     }
                 ],
                 "sections": [
-                    { "name": "Earn Class B License" },
-                    { "name": "Earn Class A License" }
+                    {
+                        "name": "Earn Class B License",
+                        "access_rules": ["$isLocationAccessible|131"]
+                    },
+                    {
+                        "name": "Earn Class A License",
+                        "access_rules": ["$isLocationAccessible|132"]
+                    }
                 ]
             },
             {
@@ -29,7 +34,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Defeated"
+                        "name": "Defeated",
+                        "access_rules": ["$isLocationAccessible|97"]
                     }
                 ]
             },
@@ -45,9 +51,7 @@
                 "sections": [
                     {
                         "name": "Turn in missing bag",
-                        "access_rules": [
-                            "$can_steal_yellow_refractor,$can_steal_red_refractor,$has|bag"
-                        ]
+                        "access_rules": ["$isLocationAccessible|127"]
                     }
                 ]
             }

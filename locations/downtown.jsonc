@@ -1,7 +1,6 @@
 [
     {
         "name": "Downtown",
-        "access_rules": ["$has_citizens_card"],
         "children": [
             {
                 "name": "Southeast Peace Sign Garbage Pail",
@@ -14,7 +13,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|8"]
                     }
                 ]
             },
@@ -29,7 +29,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|9"]
                     }
                 ]
             },
@@ -44,13 +45,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|10"]
                     }
                 ]
             },
             {
                 "name": "Center Garbage Pail",
-                "access_rules": ["$has_jump_springs,$can_steal_red_refractor"],
                 "map_locations": [
                     {
                         "map": "downtown",
@@ -60,13 +61,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|11"]
                     }
                 ]
             },
             {
                 "name": "Library Garbage Pail",
-                "access_rules": ["$can_steal_yellow_refractor,$has|pick"],
                 "map_locations": [
                     {
                         "map": "downtown",
@@ -76,13 +77,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|12"]
                     }
                 ]
             },
             {
                 "name": "Sub-City",
-                "access_rules": ["$has_unlocked_sub_cities"],
                 "map_locations": [
                     {
                         "map": "downtown",
@@ -93,7 +94,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Sleeper Key"
+                        "name": "Sleeper Key",
+                        "access_rules": ["$isLocationAccessible|92"]
                     }
                 ]
             },
@@ -109,7 +111,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Defeated"
+                        "name": "Defeated",
+                        "access_rules": ["$isLocationAccessible|96"]
                     }
                 ]
             }

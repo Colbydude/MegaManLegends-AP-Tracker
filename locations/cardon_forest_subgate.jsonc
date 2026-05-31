@@ -1,7 +1,6 @@
 [
     {
         "name": "Cardon Forest Sub-Gate",
-        "access_rules": ["$has_class_a_license"],
         "children": [
             {
                 "name": "Sharukurusu floor hole",
@@ -14,7 +13,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|54"]
                     }
                 ]
             },
@@ -29,7 +29,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|55"]
                     }
                 ]
             },
@@ -44,7 +45,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|56"]
                     }
                 ]
             },
@@ -59,7 +61,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|57"]
                     }
                 ]
             },
@@ -74,7 +77,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|58"]
                     }
                 ]
             },
@@ -89,7 +93,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|59"]
                     }
                 ]
             },
@@ -104,7 +109,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|60"]
                     }
                 ]
             },
@@ -119,7 +125,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|61"]
                     }
                 ]
             },
@@ -134,13 +141,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|62"]
                     }
                 ]
             },
             {
                 "name": "Yellow Refractor",
-                "access_rules": ["$has_cardon_forest_keys"],
                 "map_locations": [
                     {
                         "map": "cardon_forest_subgate",
@@ -150,7 +157,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Taken"
+                        "name": "Taken",
+                        "access_rules": ["$isLocationAccessible|128"]
                     }
                 ]
             }

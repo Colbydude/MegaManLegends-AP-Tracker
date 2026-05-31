@@ -4,7 +4,6 @@
         "children": [
             {
                 "name": "Maze Chest",
-                "access_rules": ["$has_main_gate_maze_access"],
                 "map_locations": [
                     {
                         "map": "main_gate",
@@ -14,13 +13,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|84"]
                     }
                 ]
             },
             {
                 "name": "Maze entrance hole",
-                "access_rules": ["$has_main_gate_maze_access"],
                 "map_locations": [
                     {
                         "map": "main_gate",
@@ -30,13 +29,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|85"]
                     }
                 ]
             },
             {
                 "name": "Maze Karumuna Bash hole",
-                "access_rules": ["$has_main_gate_maze_access"],
                 "map_locations": [
                     {
                         "map": "main_gate",
@@ -46,13 +45,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|86"]
                     }
                 ]
             },
             {
                 "name": "Maze Reaverbot hole",
-                "access_rules": ["$has_main_gate_maze_access"],
                 "map_locations": [
                     {
                         "map": "main_gate",
@@ -62,13 +61,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|87"]
                     }
                 ]
             },
             {
                 "name": "Two Gorubesshu room chest",
-                "access_rules": ["$has_unlocked_main_gate"],
                 "map_locations": [
                     {
                         "map": "main_gate",
@@ -78,13 +77,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|88"]
                     }
                 ]
             },
             {
                 "name": "Entrance hole",
-                "access_rules": ["$has_unlocked_main_gate"],
                 "map_locations": [
                     {
                         "map": "main_gate",
@@ -94,13 +93,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|89"]
                     }
                 ]
             },
             {
                 "name": "Boss corridor chest",
-                "access_rules": ["$has_unlocked_main_gate,$has_sub_city_keys"],
                 "map_locations": [
                     {
                         "map": "main_gate",
@@ -110,13 +109,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|90"]
                     }
                 ]
             },
             {
                 "name": "Terminal",
-                "access_rules": ["$has_unlocked_main_gate"],
                 "map_locations": [
                     {
                         "map": "main_gate",
@@ -126,13 +125,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Unlock Sub-Cities"
+                        "name": "Unlock Sub-Cities",
+                        "access_rules": ["$isLocationAccessible|134"]
                     }
                 ]
             },
             {
                 "name": "Juno",
-                "access_rules": ["$has_unlocked_main_gate,$has_sub_city_keys"],
                 "map_locations": [
                     {
                         "map": "main_gate",
@@ -143,7 +142,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Defeated"
+                        "name": "Defeated",
+                        "access_rules": ["$isLocationAccessible|999"]
                     }
                 ]
             }

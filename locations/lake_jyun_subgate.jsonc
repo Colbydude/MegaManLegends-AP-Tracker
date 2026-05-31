@@ -1,10 +1,6 @@
 [
     {
         "name": "Lake Jyun Sub-Gate",
-        "access_rules": [
-            "$has_class_a_license,$can_fix_boat",
-            "$has_class_a_license,$has_drill_arm,$has_jump_springs"
-        ],
         "children": [
             {
                 "name": "Entrance right hole",
@@ -17,7 +13,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|63"]
                     }
                 ]
             },
@@ -32,7 +29,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|64"]
                     }
                 ]
             },
@@ -47,13 +45,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|65"]
                     }
                 ]
             },
             {
                 "name": "East corridor hole",
-                "access_rules": ["$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "lake_jyun_subgate",
@@ -63,13 +61,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|66"]
                     }
                 ]
             },
             {
                 "name": "West corridor hole",
-                "access_rules": ["$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "lake_jyun_subgate",
@@ -79,13 +77,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|67"]
                     }
                 ]
             },
             {
                 "name": "West corridor chest",
-                "access_rules": ["$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "lake_jyun_subgate",
@@ -95,13 +93,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|68"]
                     }
                 ]
             },
             {
                 "name": "Sharukurusu east chest",
-                "access_rules": ["$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "lake_jyun_subgate",
@@ -111,13 +109,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|69"]
                     }
                 ]
             },
             {
                 "name": "Sharukurusu middle chest",
-                "access_rules": ["$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "lake_jyun_subgate",
@@ -127,13 +125,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|70"]
                     }
                 ]
             },
             {
                 "name": "Sharukurusu west chest",
-                "access_rules": ["$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "lake_jyun_subgate",
@@ -143,13 +141,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|71"]
                     }
                 ]
             },
             {
                 "name": "Sharukurusu west hole",
-                "access_rules": ["$has_jump_springs"],
                 "map_locations": [
                     {
                         "map": "lake_jyun_subgate",
@@ -159,7 +157,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|72"]
                     }
                 ]
             },
@@ -174,13 +173,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Taken"
+                        "name": "Taken",
+                        "access_rules": ["$isLocationAccessible|129"]
                     }
                 ]
             },
             {
                 "name": "Garudoriten",
-                "access_rules": ["$has_jump_springs,$has_lake_jyun_keys"],
                 "map_locations": [
                     {
                         "map": "lake_jyun_subgate",
@@ -191,7 +190,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Defeated"
+                        "name": "Defeated",
+                        "access_rules": ["$isLocationAccessible|100"]
                     }
                 ]
             }

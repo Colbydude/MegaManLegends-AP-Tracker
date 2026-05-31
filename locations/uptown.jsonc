@@ -1,7 +1,6 @@
 [
     {
         "name": "Uptown",
-        "access_rules": ["$has_citizens_card"],
         "children": [
             {
                 "name": "Hospital Garbage Pails",
@@ -15,10 +14,11 @@
                 "sections": [
                     {
                         "name": "Left Pail",
-                        "access_rules": ["$can_steal_yellow_refractor"]
+                        "access_rules": ["$isLocationAccessible|14"]
                     },
                     {
-                        "name": "Right Pail"
+                        "name": "Right Pail",
+                        "access_rules": ["$isLocationAccessible|13"]
                     }
                 ]
             },
@@ -33,7 +33,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|15"]
                     }
                 ]
             },
@@ -48,10 +49,12 @@
                 ],
                 "sections": [
                     // {
-                    //     "name": "Left Box"
+                    //     "name": "Left Box",
+                    //     "access_rules": ["$isLocationAccessible|17"]
                     // },
                     {
-                        "name": "Right Box"
+                        "name": "Right Box",
+                        "access_rules": ["$isLocationAccessible|16"]
                     }
                 ]
             },
@@ -66,13 +69,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item"
+                        "name": "Item",
+                        "access_rules": ["$isLocationAccessible|18"]
                     }
                 ]
             },
             {
                 "name": "Sub-City",
-                "access_rules": ["$has_unlocked_sub_cities"],
                 "map_locations": [
                     {
                         "map": "uptown",
@@ -83,7 +86,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Dreamer Key"
+                        "name": "Dreamer Key",
+                        "access_rules": ["$isLocationAccessible|93"]
                     }
                 ]
             },
@@ -98,22 +102,24 @@
                 ],
                 "sections": [
                     {
-                        "name": "Beast Hunter - Rank A"
+                        "name": "Beast Hunter - Rank A",
+                        "access_rules": ["$isLocationAccessible|105"]
                     },
                     {
-                        "name": "Balloon Fantasy - Rank A"
+                        "name": "Balloon Fantasy - Rank A",
+                        "access_rules": ["$isLocationAccessible|106"]
                     },
                     {
                         "name": "Race - Straight Course - Rank A",
-                        "access_rules": ["$has_jet_skates"]
+                        "access_rules": ["$isLocationAccessible|107"]
                     },
                     {
                         "name": "Race - Left Curve Course - Rank A",
-                        "access_rules": ["$has_jet_skates"]
+                        "access_rules": ["$isLocationAccessible|108"]
                     },
                     {
                         "name": "Race - Technical Course - Rank A",
-                        "access_rules": ["$has_jet_skates"]
+                        "access_rules": ["$isLocationAccessible|109"]
                     }
                 ]
             },
@@ -129,43 +135,43 @@
                 "sections": [
                     {
                         "name": "Donate Old Bone",
-                        "access_rules": ["$has|oldbone"]
+                        "access_rules": ["$isLocationAccessible|114"]
                     },
                     {
                         "name": "Donate Old Heater",
-                        "access_rules": ["$has|oldheater"]
+                        "access_rules": ["$isLocationAccessible|115"]
                     },
                     {
                         "name": "Donate Old Doll",
-                        "access_rules": ["$has|olddoll"]
+                        "access_rules": ["$isLocationAccessible|116"]
                     },
                     {
                         "name": "Donate Antique Bell",
-                        "access_rules": ["$has|antiquebell"]
+                        "access_rules": ["$isLocationAccessible|117"]
                     },
                     {
                         "name": "Donate Giant Horn",
-                        "access_rules": ["$has|gianthorn"]
+                        "access_rules": ["$isLocationAccessible|118"]
                     },
                     {
                         "name": "Donate Shiny Object",
-                        "access_rules": ["$has|shinyobject"]
+                        "access_rules": ["$isLocationAccessible|119"]
                     },
                     {
                         "name": "Donate Old Shield",
-                        "access_rules": ["$has|oldshield"]
+                        "access_rules": ["$isLocationAccessible|120"]
                     },
                     {
                         "name": "Donate Shiny Red Stone",
-                        "access_rules": ["$has|shinyredstone"]
+                        "access_rules": ["$isLocationAccessible|121"]
                     },
-                    {
-                        "name": "Complete the Museum Exhibit",
-                        "access_rules": ["$has_museum_items"]
-                    },
+                    // {
+                    //     "name": "Complete the Museum Exhibit",
+                    //     "access_rules": ["$isLocationAccessible|122"]
+                    // },
                     {
                         "name": "Take Dangerous Object from Museum Visitor",
-                        "access_rules": ["$has_museum_items"]
+                        "access_rules": ["$isLocationAccessible|123"]
                     }
                 ]
             },
@@ -181,11 +187,11 @@
                 "sections": [
                     {
                         "name": "Save the missing woman",
-                        "access_rules": ["$can_fix_flutter"]
+                        "access_rules": ["$isLocationAccessible|110"]
                     },
                     {
                         "name": "Cure Ira's illness",
-                        "access_rules": ["$can_defeat_marlwolf"]
+                        "access_rules": ["$isLocationAccessible|111"]
                     }
                 ]
             }
