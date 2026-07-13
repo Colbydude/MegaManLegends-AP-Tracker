@@ -1,6 +1,18 @@
 {
   "versions": [
     {
+      "package_version": "v0.3.0.0",
+      "download_url": "https://github.com/Colbydude/MegaManLegends-AP-Tracker/releases/download/v0.3.0.0/MML-AP-v0.3.0.0.zip",
+      "sha256": "fc51df12abf76df7ad98e59f90f162c2cab64a4fbdc7719b0b24c0557f715ae0",
+      "changelog": [
+        "Added: Settings view to toggle shuffling of the Citizen's Card, Class B License, Class A License, Main Gate Unlock, and Sub City Unlock.",
+        "Added: New chest icons for the actual in-game chest checks. (All other locations still use the default poptracker chest icons)",
+        "Changed: Checks added from 0.3.0, including (but not limited to); Unlock Main Gate, Unlock Sub-Cities, Yellow Refractor, Red Refractor, Citizen's Card, Class B License, and Class A License.",
+        "Changed: Logic updates to match the open",
+        "Changed: Optional flag for Jump Springs on Underground Zone 5 ledge checks due to logic refactoring."
+      ]
+    },
+    {
       "package_version": "v0.2.6.2",
       "download_url": "https://github.com/Colbydude/MegaManLegends-AP-Tracker/releases/download/v0.2.6.2/MML-AP-v0.2.6.2.zip",
       "sha256": "e1ad456816e5d98a7f45a6c2580e703b40090a12d7975972cc8e380647b2eda1",
