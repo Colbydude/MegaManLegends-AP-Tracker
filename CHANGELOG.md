@@ -18,7 +18,7 @@ which is then suffixed with an incremental version number for this project.
 - Checks added from 0.3.0, including (but not limited to); Unlock Main Gate, Unlock Sub-Cities, Yellow Refractor, Red Refractor, Citizen's Card, Class B License, and Class A License.
 - Logic updates to match the "open world" updates for 0.3.0.
 
-## Removed
+### Removed
 
 - Optional flag for Jump Springs on Underground Zone 5 ledge checks due to logic refactoring.
 
