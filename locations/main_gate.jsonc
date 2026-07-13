@@ -14,7 +14,9 @@
                 "sections": [
                     {
                         "name": "Item",
-                        "access_rules": ["$isLocationAccessible|84"]
+                        "access_rules": ["$isLocationAccessible|84"],
+                        "chest_unopened_img": "images/icons/chest_closed.png",
+                        "chest_opened_img": "images/icons/chest_open.png"
                     }
                 ]
             },
@@ -78,7 +80,9 @@
                 "sections": [
                     {
                         "name": "Item",
-                        "access_rules": ["$isLocationAccessible|88"]
+                        "access_rules": ["$isLocationAccessible|88"],
+                        "chest_unopened_img": "images/icons/chest_closed.png",
+                        "chest_opened_img": "images/icons/chest_open.png"
                     }
                 ]
             },
@@ -110,7 +114,9 @@
                 "sections": [
                     {
                         "name": "Item",
-                        "access_rules": ["$isLocationAccessible|90"]
+                        "access_rules": ["$isLocationAccessible|90"],
+                        "chest_unopened_img": "images/icons/chest_closed.png",
+                        "chest_opened_img": "images/icons/chest_open.png"
                     }
                 ]
             },

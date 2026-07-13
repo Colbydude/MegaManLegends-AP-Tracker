@@ -134,6 +134,6 @@ LOCATION_MAPPING = {
     [132] = { "Earn the Class A License", "@City Hall/Amelia's Office/Earn Class A License" },
     [133] = { "Activate the emergency system", "@Clozer Woods Sub-Gate/Emergency System/Activated" },
     [134] = { "Activate unlock sub-cities", "@Main Gate/Terminal/Unlock Sub-Cities" },
-    -- [135] = { "Gai-nee Tooren defeated", "@Gai-nee Tooren/Defeated" },
+    [135] = { "Gai-nee Tooren defeated", "@Uptown/Sub-City/Gai-nee Tooren defeated" },
     [999] = { "Juno defeated", "@Main Gate/Juno/Defeated" },
 }

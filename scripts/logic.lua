@@ -64,12 +64,38 @@ function has_adapter_plug()
 end
 
 -- Location Logic
-function has_unlocked_main_gate()
-    return has("maingateunlock")
+function is_main_gate_accessible()
+    return has("maingateunlock") or
+        get_setting("shuffle_main_gate_unlock") == 2 or
+        (get_setting("shuffle_main_gate_unlock") == 0 and can_activate_emergency_system())
 end
 
-function has_unlocked_sub_cities()
-    return has("subcityunlock")
+function is_downtown_sub_city_accessible()
+    return is_citizens_card_accessible() and
+        (
+            has("subcityunlock") or
+            get_setting("shuffle_sub_cities_unlock") == 2 or
+            (get_setting("shuffle_sub_cities_unlock") == 0 and is_main_gate_accessible())
+        )
+end
+
+function is_uptown_sub_city_accessible()
+    return is_citizens_card_accessible() and
+        (
+            has("subcityunlock") or
+            get_setting("shuffle_sub_cities_unlock") == 2 or
+            (get_setting("shuffle_sub_cities_unlock") == 0 and is_main_gate_accessible())
+        )
+end
+
+function is_old_city_sub_city_accessible()
+    return is_citizens_card_accessible() and
+        is_main_gate_accessible() and
+        (
+            has("subcityunlock") or
+            get_setting("shuffle_sub_cities_unlock") == 2 or
+            (get_setting("shuffle_sub_cities_unlock") == 0 and is_main_gate_accessible())
+        )
 end
 
 function can_destroy_cracked_walls()
@@ -102,16 +128,22 @@ function has_museum_items()
         has("shinyredstone")
 end
 
-function has_class_a_license()
-    return has("classalicense")
+function is_class_a_license_accessible()
+    return has("classalicense") or
+        get_setting("shuffle_class_a_license") == 2 or
+        (get_setting("shuffle_class_a_license") == 0 and is_citizens_card_accessible())
 end
 
-function has_class_b_license()
-    return has("classblicense")
+function is_class_b_license_accessible()
+    return has("classblicense") or
+        get_setting("shuffle_class_b_license") == 2 or
+        (get_setting("shuffle_class_b_license") == 0 and is_citizens_card_accessible())
 end
 
-function has_citizens_card()
-    return has("citizenscard")
+function is_citizens_card_accessible()
+    return has("citizenscard") or
+        get_setting("shuffle_citizens_card") == 2 or
+        get_setting("shuffle_citizens_card") == 0
 end
 
 function has_cardon_forest_keys()
@@ -131,15 +163,15 @@ function has_sub_city_keys()
 end
 
 function can_fix_support_car()
-    return has("citizenscard")
+    return is_citizens_card_accessible()
 end
 
 function can_defeat_bon_bonne()
-    return has("citizenscard")
+    return is_citizens_card_accessible()
 end
 
 function can_defeat_marlwolf()
-    return has("citizenscard")
+    return is_citizens_card_accessible()
 end
 
 function can_steal_yellow_refractor()
@@ -147,12 +179,16 @@ function can_steal_yellow_refractor()
 end
 
 function can_steal_red_refractor()
-    return has_lake_jyun_keys() and has("classalicense") and
-        ((has("citizenscard") and has("yellowrefractor") and has("jumpsprings")) or (has("jumpsprings") and can_destroy_cracked_walls()))
+    return has_lake_jyun_keys() and
+        is_class_a_license_accessible() and
+        (
+            (is_citizens_card_accessible() and has("yellowrefractor") and has_jump_springs()) or
+            (has_jump_springs() and can_destroy_cracked_walls())
+        )
 end
 
 function can_fix_boat()
-    return has("yellowrefractor") and has("citizenscard")
+    return has("yellowrefractor") and is_citizens_card_accessible()
 end
 
 function can_fix_flutter()
@@ -160,15 +196,21 @@ function can_fix_flutter()
 end
 
 function has_main_gate_maze_access()
-    return has_unlocked_main_gate() or (has_drill_arm() and has_class_b_license())
+    return is_main_gate_accessible() or (has_drill_arm() and is_class_b_license_accessible())
 end
 
-function can_open_main_gate()
-    return has_clozer_woods_keys() and has("classalicense") and
-    (can_fix_flutter() or (has("classblicense") and has_drill_arm()))
+function can_activate_emergency_system()
+    return is_class_a_license_accessible() and
+        has_clozer_woods_keys() and
+        (
+            -- Fix flutter and go through there
+            can_fix_flutter() or
+            -- Go through underground ruins
+            (is_class_b_license_accessible() and has_drill_arm())
+        )
 end
 
--- @TEMP
+-- @TEMP?
 function has_pick()
     return has("pick")
 end

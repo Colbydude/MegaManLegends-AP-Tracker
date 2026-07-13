@@ -1,0 +1,147 @@
+[
+    {
+        "name": "Shuffle Citizen's Card",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/special_items/citizens_card.png",
+                "img_mods": "overlay|images/overlays/off.png",
+                "codes": "shuffle_citizens_card",
+                "inherit_codes": false,
+                "name": "Shuffle Citizen's Card - Vanilla"
+            },
+            {
+                "img": "images/special_items/citizens_card.png",
+                "img_mods": "overlay|images/overlays/random.png",
+                "codes": "shuffle_citizens_card",
+                "inherit_codes": false,
+                "name": "Shuffle Citizen's Card - Randomized"
+            },
+            {
+                "img": "images/special_items/citizens_card.png",
+                "img_mods": "overlay|images/overlays/open.png",
+                "codes": "shuffle_citizens_card",
+                "inherit_codes": false,
+                "name": "Shuffle Citizen's Card - Open"
+            }
+        ]
+    },
+    {
+        "name": "Shuffle Class A License",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/special_items/class_a_license.png",
+                "img_mods": "overlay|images/overlays/off.png",
+                "codes": "shuffle_class_a_license",
+                "inherit_codes": false,
+                "name": "Shuffle Class A License - Vanilla"
+            },
+            {
+                "img": "images/special_items/class_a_license.png",
+                "img_mods": "overlay|images/overlays/random.png",
+                "codes": "shuffle_class_a_license",
+                "inherit_codes": false,
+                "name": "Shuffle Class A License - Randomized"
+            },
+            {
+                "img": "images/special_items/class_a_license.png",
+                "img_mods": "overlay|images/overlays/open.png",
+                "codes": "shuffle_class_a_license",
+                "inherit_codes": false,
+                "name": "Shuffle Class A License - Open"
+            }
+        ]
+    },
+    {
+        "name": "Shuffle Class B License",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/special_items/class_b_license.png",
+                "img_mods": "overlay|images/overlays/off.png",
+                "codes": "shuffle_class_b_license",
+                "inherit_codes": false,
+                "name": "Shuffle Class B License - Vanilla"
+            },
+            {
+                "img": "images/special_items/class_b_license.png",
+                "img_mods": "overlay|images/overlays/random.png",
+                "codes": "shuffle_class_b_license",
+                "inherit_codes": false,
+                "name": "Shuffle Class B License - Randomized"
+            },
+            {
+                "img": "images/special_items/class_b_license.png",
+                "img_mods": "overlay|images/overlays/open.png",
+                "codes": "shuffle_class_b_license",
+                "inherit_codes": false,
+                "name": "Shuffle Class B License - Open"
+            }
+        ]
+    },
+    {
+        "name": "Shuffle Main Gate Unlock",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/special_items/clozer_woods_subgate_key.png",
+                "img_mods": "overlay|images/overlays/off.png",
+                "codes": "shuffle_main_gate_unlock",
+                "inherit_codes": false,
+                "name": "Shuffle Main Gate Unlock - Vanilla"
+            },
+            {
+                "img": "images/special_items/clozer_woods_subgate_key.png",
+                "img_mods": "overlay|images/overlays/random.png",
+                "codes": "shuffle_main_gate_unlock",
+                "inherit_codes": false,
+                "name": "Shuffle Main Gate Unlock - Randomized"
+            },
+            {
+                "img": "images/special_items/clozer_woods_subgate_key.png",
+                "img_mods": "overlay|images/overlays/open.png",
+                "codes": "shuffle_main_gate_unlock",
+                "inherit_codes": false,
+                "name": "Shuffle Main Gate Unlock - Open"
+            }
+        ]
+    },
+    {
+        "name": "Shuffle Sub Cities Unlock",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/special_items/subcity_key.png",
+                "img_mods": "overlay|images/overlays/off.png",
+                "codes": "shuffle_sub_cities_unlock",
+                "inherit_codes": false,
+                "name": "Shuffle Sub Cities Unlock - Vanilla"
+            },
+            {
+                "img": "images/special_items/subcity_key.png",
+                "img_mods": "overlay|images/overlays/random.png",
+                "codes": "shuffle_sub_cities_unlock",
+                "inherit_codes": false,
+                "name": "Shuffle Sub Cities Unlock - Randomized"
+            },
+            {
+                "img": "images/special_items/subcity_key.png",
+                "img_mods": "overlay|images/overlays/open.png",
+                "codes": "shuffle_sub_cities_unlock",
+                "inherit_codes": false,
+                "name": "Shuffle Sub Cities Unlock - Open"
+            }
+        ]
+    }
+]

@@ -46,7 +46,9 @@
                 "sections": [
                     {
                         "name": "Item",
-                        "access_rules": ["$isLocationAccessible|65"]
+                        "access_rules": ["$isLocationAccessible|65"],
+                        "chest_unopened_img": "images/icons/chest_closed.png",
+                        "chest_opened_img": "images/icons/chest_open.png"
                     }
                 ]
             },
@@ -94,7 +96,9 @@
                 "sections": [
                     {
                         "name": "Item",
-                        "access_rules": ["$isLocationAccessible|68"]
+                        "access_rules": ["$isLocationAccessible|68"],
+                        "chest_unopened_img": "images/icons/chest_closed.png",
+                        "chest_opened_img": "images/icons/chest_open.png"
                     }
                 ]
             },
@@ -110,7 +114,9 @@
                 "sections": [
                     {
                         "name": "Item",
-                        "access_rules": ["$isLocationAccessible|69"]
+                        "access_rules": ["$isLocationAccessible|69"],
+                        "chest_unopened_img": "images/icons/chest_closed.png",
+                        "chest_opened_img": "images/icons/chest_open.png"
                     }
                 ]
             },
@@ -126,7 +132,9 @@
                 "sections": [
                     {
                         "name": "Item",
-                        "access_rules": ["$isLocationAccessible|70"]
+                        "access_rules": ["$isLocationAccessible|70"],
+                        "chest_unopened_img": "images/icons/chest_closed.png",
+                        "chest_opened_img": "images/icons/chest_open.png"
                     }
                 ]
             },
@@ -142,7 +150,9 @@
                 "sections": [
                     {
                         "name": "Item",
-                        "access_rules": ["$isLocationAccessible|71"]
+                        "access_rules": ["$isLocationAccessible|71"],
+                        "chest_unopened_img": "images/icons/chest_closed.png",
+                        "chest_opened_img": "images/icons/chest_open.png"
                     }
                 ]
             },

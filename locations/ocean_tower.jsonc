@@ -14,7 +14,9 @@
                 "sections": [
                     {
                         "name": "Item",
-                        "access_rules": ["$isLocationAccessible|1"]
+                        "access_rules": ["$isLocationAccessible|1"],
+                        "chest_unopened_img": "images/icons/chest_closed.png",
+                        "chest_opened_img": "images/icons/chest_open.png"
                     }
                 ]
             },
@@ -30,7 +32,9 @@
                 "sections": [
                     {
                         "name": "Item",
-                        "access_rules": ["$isLocationAccessible|2"]
+                        "access_rules": ["$isLocationAccessible|2"],
+                        "chest_unopened_img": "images/icons/chest_closed.png",
+                        "chest_opened_img": "images/icons/chest_open.png"
                     }
                 ]
             },

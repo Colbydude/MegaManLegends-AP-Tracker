@@ -6,12 +6,21 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to the version set in [MMLAP](https://github.com/functorial/MMLAP),
 which is then suffixed with an incremental version number for this project.
 
-## [Unreleased]
+## [v0.3.0.0]
+
+### Added
+
+- Settings view to toggle shuffling of the Citizen's Card, Class B License, Class A License, Main Gate Unlock, and Sub City Unlock.
+- New chest icons for the actual in-game chest checks. (All other locations still use the default poptracker chest icons)
 
 ### Changed
 
-- Checks added from 0.3.0, including; Unlock Main Gate, Unlock Sub-Cities, Yellow Refractor, Red Refractor, Citizen's Card, Class B License, and Class A License.
+- Checks added from 0.3.0, including (but not limited to); Unlock Main Gate, Unlock Sub-Cities, Yellow Refractor, Red Refractor, Citizen's Card, Class B License, and Class A License.
 - Logic updates to match the "open world" updates for 0.3.0.
+
+## Removed
+
+- Optional flag for Jump Springs on Underground Zone 5 ledge checks due to logic refactoring.
 
 ## [v0.2.6.2]
 
@@ -38,6 +47,7 @@ which is then suffixed with an incremental version number for this project.
 - Support for Archipelago location and item auto-tracking.
 - Support for auto-tabbing based on the player's map location.
 
+[v0.3.0.0]: https://github.com/Colbydude/MegaManLegends-AP-Tracker/releases/tag/v0.3.0.0
 [v0.2.6.2]: https://github.com/Colbydude/MegaManLegends-AP-Tracker/releases/tag/v0.2.6.2
 [v0.2.6.1]: https://github.com/Colbydude/MegaManLegends-AP-Tracker/releases/tag/v0.2.6.1
 [v0.2.6.0]: https://github.com/Colbydude/MegaManLegends-AP-Tracker/releases/tag/v0.2.6.0

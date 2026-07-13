@@ -14,7 +14,9 @@
                 "sections": [
                     {
                         "name": "Item",
-                        "access_rules": ["$isLocationAccessible|23"]
+                        "access_rules": ["$isLocationAccessible|23"],
+                        "chest_unopened_img": "images/icons/chest_closed.png",
+                        "chest_opened_img": "images/icons/chest_open.png"
                     }
                 ]
             },
@@ -46,7 +48,9 @@
                 "sections": [
                     {
                         "name": "Item",
-                        "access_rules": ["$isLocationAccessible|25"]
+                        "access_rules": ["$isLocationAccessible|25"],
+                        "chest_unopened_img": "images/icons/chest_closed.png",
+                        "chest_opened_img": "images/icons/chest_open.png"
                     }
                 ]
             },
@@ -62,7 +66,9 @@
                 "sections": [
                     {
                         "name": "Item",
-                        "access_rules": ["$isLocationAccessible|26"]
+                        "access_rules": ["$isLocationAccessible|26"],
+                        "chest_unopened_img": "images/icons/chest_closed.png",
+                        "chest_opened_img": "images/icons/chest_open.png"
                     }
                 ]
             },
@@ -78,7 +84,9 @@
                 "sections": [
                     {
                         "name": "Item",
-                        "access_rules": ["$isLocationAccessible|27"]
+                        "access_rules": ["$isLocationAccessible|27"],
+                        "chest_unopened_img": "images/icons/chest_closed.png",
+                        "chest_opened_img": "images/icons/chest_open.png"
                     }
                 ]
             },
@@ -94,7 +102,9 @@
                 "sections": [
                     {
                         "name": "Item",
-                        "access_rules": ["$isLocationAccessible|28"]
+                        "access_rules": ["$isLocationAccessible|28"],
+                        "chest_unopened_img": "images/icons/chest_closed.png",
+                        "chest_opened_img": "images/icons/chest_open.png"
                     }
                 ]
             },
@@ -142,7 +152,9 @@
                 "sections": [
                     {
                         "name": "Item",
-                        "access_rules": ["$isLocationAccessible|31"]
+                        "access_rules": ["$isLocationAccessible|31"],
+                        "chest_unopened_img": "images/icons/chest_closed.png",
+                        "chest_opened_img": "images/icons/chest_open.png"
                     }
                 ]
             },
@@ -158,7 +170,9 @@
                 "sections": [
                     {
                         "name": "Item",
-                        "access_rules": ["$isLocationAccessible|32"]
+                        "access_rules": ["$isLocationAccessible|32"],
+                        "chest_unopened_img": "images/icons/chest_closed.png",
+                        "chest_opened_img": "images/icons/chest_open.png"
                     }
                 ]
             },
@@ -206,7 +220,9 @@
                 "sections": [
                     {
                         "name": "Item",
-                        "access_rules": ["$isLocationAccessible|35"]
+                        "access_rules": ["$isLocationAccessible|35"],
+                        "chest_unopened_img": "images/icons/chest_closed.png",
+                        "chest_opened_img": "images/icons/chest_open.png"
                     }
                 ]
             },
@@ -254,7 +270,9 @@
                 "sections": [
                     {
                         "name": "Item",
-                        "access_rules": ["$isLocationAccessible|38"]
+                        "access_rules": ["$isLocationAccessible|38"],
+                        "chest_unopened_img": "images/icons/chest_closed.png",
+                        "chest_opened_img": "images/icons/chest_open.png"
                     }
                 ]
             },
@@ -270,7 +288,9 @@
                 "sections": [
                     {
                         "name": "Item",
-                        "access_rules": ["$isLocationAccessible|39"]
+                        "access_rules": ["$isLocationAccessible|39"],
+                        "chest_unopened_img": "images/icons/chest_closed.png",
+                        "chest_opened_img": "images/icons/chest_open.png"
                     }
                 ]
             },
@@ -286,7 +306,9 @@
                 "sections": [
                     {
                         "name": "Item",
-                        "access_rules": ["$isLocationAccessible|40"]
+                        "access_rules": ["$isLocationAccessible|40"],
+                        "chest_unopened_img": "images/icons/chest_closed.png",
+                        "chest_opened_img": "images/icons/chest_open.png"
                     }
                 ]
             },
@@ -302,7 +324,9 @@
                 "sections": [
                     {
                         "name": "Item",
-                        "access_rules": ["$isLocationAccessible|41"]
+                        "access_rules": ["$isLocationAccessible|41"],
+                        "chest_unopened_img": "images/icons/chest_closed.png",
+                        "chest_opened_img": "images/icons/chest_open.png"
                     }
                 ]
             },
@@ -366,7 +390,9 @@
                 "sections": [
                     {
                         "name": "Item",
-                        "access_rules": ["$isLocationAccessible|45"]
+                        "access_rules": ["$isLocationAccessible|45"],
+                        "chest_unopened_img": "images/icons/chest_closed.png",
+                        "chest_opened_img": "images/icons/chest_open.png"
                     }
                 ]
             },
@@ -382,7 +408,9 @@
                 "sections": [
                     {
                         "name": "Item",
-                        "access_rules": ["$isLocationAccessible|46"]
+                        "access_rules": ["$isLocationAccessible|46"],
+                        "chest_unopened_img": "images/icons/chest_closed.png",
+                        "chest_opened_img": "images/icons/chest_open.png"
                     }
                 ]
             },
@@ -398,7 +426,9 @@
                 "sections": [
                     {
                         "name": "Item",
-                        "access_rules": ["$isLocationAccessible|47"]
+                        "access_rules": ["$isLocationAccessible|47"],
+                        "chest_unopened_img": "images/icons/chest_closed.png",
+                        "chest_opened_img": "images/icons/chest_open.png"
                     }
                 ]
             },
@@ -414,7 +444,9 @@
                 "sections": [
                     {
                         "name": "Item",
-                        "access_rules": ["$isLocationAccessible|48"]
+                        "access_rules": ["$isLocationAccessible|48"],
+                        "chest_unopened_img": "images/icons/chest_closed.png",
+                        "chest_opened_img": "images/icons/chest_open.png"
                     }
                 ]
             },
@@ -430,7 +462,9 @@
                 "sections": [
                     {
                         "name": "Item",
-                        "access_rules": ["$isLocationAccessible|49"]
+                        "access_rules": ["$isLocationAccessible|49"],
+                        "chest_unopened_img": "images/icons/chest_closed.png",
+                        "chest_opened_img": "images/icons/chest_open.png"
                     }
                 ]
             },
@@ -446,7 +480,9 @@
                 "sections": [
                     {
                         "name": "Item",
-                        "access_rules": ["$isLocationAccessible|50"]
+                        "access_rules": ["$isLocationAccessible|50"],
+                        "chest_unopened_img": "images/icons/chest_closed.png",
+                        "chest_opened_img": "images/icons/chest_open.png"
                     }
                 ]
             },
@@ -462,7 +498,9 @@
                 "sections": [
                     {
                         "name": "Item",
-                        "access_rules": ["$isLocationAccessible|51"]
+                        "access_rules": ["$isLocationAccessible|51"],
+                        "chest_unopened_img": "images/icons/chest_closed.png",
+                        "chest_opened_img": "images/icons/chest_open.png"
                     }
                 ]
             },

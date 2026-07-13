@@ -50,7 +50,7 @@ REGION_DATA = {
             ExitData("Ocean Tower - Room 3"),
             ExitData("Apple Market"),
             ExitData("Underground Ruins - Junk Man Rescue Area (Junk Man Rescue Spot)"),
-            ExitData("Underground Ruins - Cardon Forest Sub-Gate Area (Cardon Forest Surface Exit)", has_class_b_license),
+            ExitData("Underground Ruins - Cardon Forest Sub-Gate Area (Cardon Forest Surface Exit)", is_class_b_license_accessible),
             ExitData("Outside Cardon Forest Sub-Gate"),
             ExitData("Flutter - Common Room", can_fix_flutter),
             ExitData("Support Car / R&D Room", can_fix_support_car),
@@ -68,7 +68,7 @@ REGION_DATA = {
             ExitData("Flutter - Barrell's Room"),
             ExitData("Flutter - Mega Man's Room"),
             ExitData("Flutter - Roll's Room"),
-            ExitData("Clozer Woods Sub-Gate - Entrance", has_class_a_license)
+            ExitData("Clozer Woods Sub-Gate - Entrance", is_class_a_license_accessible)
         }
     ),
     ["Flutter - Barrell's Room"] = GameRegionData(
@@ -94,10 +94,10 @@ REGION_DATA = {
             ExitData("Support Car / R&D Room (Gift Ring)", has_all({can_fix_support_car, has_ring})),
             ExitData("Flutter - Roll's Room", can_steal_red_refractor),
             ExitData("Cardon Forest"),
-            ExitData("Downtown - Outside", has_citizens_card),
-            ExitData("City Hall - Outside", has_citizens_card),
-            ExitData("Uptown", has_citizens_card),
-            ExitData("Old City", has_citizens_card),
+            ExitData("Downtown - Outside", is_citizens_card_accessible),
+            ExitData("City Hall - Outside", is_citizens_card_accessible),
+            ExitData("Uptown", is_citizens_card_accessible),
+            ExitData("Old City", is_citizens_card_accessible),
             ExitData("Outside Cardon Forest Sub-Gate"),
         }
     ),
@@ -128,7 +128,7 @@ REGION_DATA = {
             ExitData("Apple Market - Hip Bone"),
             ExitData("Apple Market - Tailor Chinos"),
             ExitData("Apple Market - Record Shop"),
-            ExitData("Downtown - Outside", has_citizens_card),
+            ExitData("Downtown - Outside", is_citizens_card_accessible),
         }
     ),
     ["Apple Market - Junk Shop"] = GameRegionData(
@@ -179,7 +179,7 @@ REGION_DATA = {
             ExitData("Uptown"),
             ExitData("Old City"),
             ExitData("Underground Ruins - City Sewer"),
-            ExitData("Downtown Sub-City - City", has_unlocked_sub_cities),
+            ExitData("Downtown Sub-City - City", is_downtown_sub_city_accessible),
             ExitData("Support Car / R&D Room", can_fix_support_car),
         }
     ),
@@ -270,7 +270,7 @@ REGION_DATA = {
             ExitData("Museum - Floor 1", can_defeat_bon_bonne), -- TODO: has lipstick
             ExitData("Wily's Boat - Walkway"),
             ExitData("Uptown - TV Station"),
-            ExitData("Uptown Sub-City - City", has_unlocked_sub_cities),
+            ExitData("Uptown Sub-City - City", is_uptown_sub_city_accessible),
             ExitData("Support Car / R&D Room", can_fix_support_car),
             ExitData("Uptown - (Hospital left pail)", can_steal_yellow_refractor),
         }
@@ -284,7 +284,7 @@ REGION_DATA = {
         {
             ExitData("Uptown"),
             ExitData("Uptown - Hospital (Ira's Room)", can_defeat_marlwolf), --can_steal_red_refractor),  -- Moving this to earlier in the story
-            ExitData("Uptown - Hospital (Missing woman turn-in)", can_fix_flutter) --can_open_main_gate), -- Moving this to earlier in the story
+            ExitData("Uptown - Hospital (Missing woman turn-in)", can_fix_flutter) --can_activate_emergency_system), -- Moving this to earlier in the story
         }
     ),
     ["Uptown - Hospital (Ira's Room)"] = GameRegionData(
@@ -326,7 +326,7 @@ REGION_DATA = {
             --"Wily's Boat, Left box"
         },
         {
-            ExitData("Uptown", has_citizens_card),
+            ExitData("Uptown", is_citizens_card_accessible),
             ExitData("Wily's Boat - Inside"),
         }
     ),
@@ -421,7 +421,7 @@ REGION_DATA = {
             ExitData("Downtown - Outside"),
             ExitData("Outside Main Gate"),
             ExitData("Old City - Power Plant"),
-            ExitData("Old City (Inside Warehouse Gate)", has_unlocked_main_gate), -- After killing Bruno
+            ExitData("Old City (Inside Warehouse Gate)", is_main_gate_accessible), -- After killing Bruno
             ExitData("Support Car / R&D Room", can_fix_support_car),
         }
     ),
@@ -431,7 +431,7 @@ REGION_DATA = {
             ExitData("Underground Ruins - Main Gate to Old City Connection"),
             ExitData("Old City (Boss Fight)"),
             ExitData("Old City"),
-            ExitData("Old City Sub-City - City", has_unlocked_sub_cities),
+            ExitData("Old City Sub-City - City", is_old_city_sub_city_accessible),
         }
     ),
     ["Old City (Boss Fight)"] = GameRegionData(
@@ -445,8 +445,8 @@ REGION_DATA = {
     ["Outside Main Gate"] = GameRegionData(
         { },
         {
-            ExitData("Old City", has_citizens_card),
-            ExitData("Main Gate - (Entrance)", has_unlocked_main_gate),
+            ExitData("Old City", is_citizens_card_accessible),
+            ExitData("Main Gate - (Entrance)", is_main_gate_accessible),
         }
     ),
     ["Yass Plains - Outside"] = GameRegionData(
@@ -457,7 +457,7 @@ REGION_DATA = {
             --"Yass plains, Across hideout pail"
         },
         {
-            ExitData("City Hall - Outside", has_citizens_card),
+            ExitData("City Hall - Outside", is_citizens_card_accessible),
             ExitData("Clozer Woods - Bridge Area"),
             ExitData("Yass Plains - Hideout Stage 1", can_steal_yellow_refractor),
             ExitData("Yass Plains - Empty House"),
@@ -493,7 +493,7 @@ REGION_DATA = {
         {
             ExitData("Yass Plains - Outside"),
             ExitData("Clozer Woods - Boss Fight", can_defeat_bon_bonne),
-            ExitData("Underground Ruins - Drillable Wall Area (Right)", has_class_b_license),
+            ExitData("Underground Ruins - Drillable Wall Area (Right)", is_class_b_license_accessible),
         }
     ),
     ["Clozer Woods - Boss Fight"] = GameRegionData(
@@ -504,14 +504,14 @@ REGION_DATA = {
         { },
         {
             ExitData("Cardon Forest"),
-            ExitData("Cardon Forest Sub-Gate - Refractor Room (Lower)", has_class_a_license),
+            ExitData("Cardon Forest Sub-Gate - Refractor Room (Lower)", is_class_a_license_accessible),
             ExitData("Support Car / R&D Room", can_fix_support_car),
         }
     ),
     ["Cardon Forest Sub-Gate - Refractor Room (Upper)"] = GameRegionData(
         { },
         {
-            ExitData("Underground Ruins - Cardon Forest Sub-Gate Area (Cardon Forest Sub-Gate Exit)", has_class_b_license),
+            ExitData("Underground Ruins - Cardon Forest Sub-Gate Area (Cardon Forest Sub-Gate Exit)", is_class_b_license_accessible),
             ExitData("Cardon Forest Sub-Gate - Refractor Room (Lower)"),
         }
     ),
@@ -580,7 +580,7 @@ REGION_DATA = {
         { },
         {
             ExitData("Wily's Boat - Dock", can_fix_boat), -- Assuming you can get to Wily's
-            ExitData("Lake Jyun Sub-Gate - Entrance", has_class_a_license),
+            ExitData("Lake Jyun Sub-Gate - Entrance", is_class_a_license_accessible),
         }
     ),
     ["Lake Jyun Sub-Gate - Entrance"] = GameRegionData(
@@ -657,8 +657,8 @@ REGION_DATA = {
         { },
         {
             ExitData("Lake Jyun Sub-Gate - Sharukurusu Room (Upper North)"),
-            ExitData("Underground Ruins - Lake Jyun Sub-Gate Area (Lake Jyun Sub-Gate West Exit)", has_class_b_license),
-            ExitData("Underground Ruins - Lake Jyun Sub-Gate Area (Lake Jyun Sub-Gate East Exit)", has_class_b_license),
+            ExitData("Underground Ruins - Lake Jyun Sub-Gate Area (Lake Jyun Sub-Gate West Exit)", is_class_b_license_accessible),
+            ExitData("Underground Ruins - Lake Jyun Sub-Gate Area (Lake Jyun Sub-Gate East Exit)", is_class_b_license_accessible),
             ExitData("Lake Jyun Sub-Gate - Boss Room (Inactive)"),
         }
     ),
@@ -691,7 +691,7 @@ REGION_DATA = {
             ExitData("Flutter - Common Room", can_fix_flutter),
             --ExitData("Clozer Woods - Boss Fight"), -- Removing but this is possible by going through ruins -> clozer Sub-Gate -> out the entrance
             ExitData("Clozer Woods Sub-Gate - Entrance Elevator Room"),
-            ExitData("Focke-Wulf Boss Area", has_all({can_fix_flutter, can_open_main_gate})),
+            ExitData("Focke-Wulf Boss Area", has_all({can_fix_flutter, can_activate_emergency_system})),
         }
     ),
     ["Clozer Woods Sub-Gate - Entrance Elevator Room"] = GameRegionData(
@@ -783,7 +783,7 @@ REGION_DATA = {
         {
             ExitData("Clozer Woods Sub-Gate - Pillar Room (Lower Level)"), -- Doors broken if not far enough
             ExitData("Clozer Woods Sub-Gate - Generator Room (Lower)"), -- Doors broken if not far enough
-            ExitData("Underground Ruins - Drillable Wall Area (Left-Middle, Lower)", has_class_b_license),
+            ExitData("Underground Ruins - Drillable Wall Area (Left-Middle, Lower)", is_class_b_license_accessible),
         }
     ),
     ["Clozer Woods Sub-Gate - Generator Room (Lower)"] = GameRegionData(
@@ -857,7 +857,7 @@ REGION_DATA = {
     ["Underground Ruins - Drillable Wall Area (Left-Middle, Lower)"] = GameRegionData(
         { },
         {
-            ExitData("Clozer Woods Sub-Gate - Gorubesshu Corridor", has_class_a_license),
+            ExitData("Clozer Woods Sub-Gate - Gorubesshu Corridor", is_class_a_license_accessible),
             ExitData("Underground Ruins - Drillable Wall Area (Left-Middle, Upper)", has_jump_springs),
             ExitData("Underground Ruins - Drillable Wall Area (Right-Middle, Lower)", has_drill_arm),
             ExitData("Underground Ruins - Drillable Wall Area (Left, Lower)", has_drill_arm),
@@ -922,7 +922,7 @@ REGION_DATA = {
         },
         {
             ExitData("Underground Ruins - Cardon Forest Sub-Gate Area (Cardon Forest Surface Exit)"),
-            ExitData("Cardon Forest Sub-Gate - Refractor Room (Upper)", has_class_a_license),
+            ExitData("Cardon Forest Sub-Gate - Refractor Room (Upper)", is_class_a_license_accessible),
         }
     ),
     ["Underground Ruins - Cardon Forest Sub-Gate Area (Pillar Room West Ledge)"] = GameRegionData(
@@ -945,7 +945,7 @@ REGION_DATA = {
         { "Underground ruins, Main gate entrance chest" },
         {
             ExitData("Underground Ruins - Cardon Forest Sub-Gate Area (Junk Man Rescue Exit)", has_drill_arm),
-            ExitData("Main Gate - (Maze)", has_unlocked_main_gate),
+            ExitData("Main Gate - (Maze)", is_main_gate_accessible),
         }
     ),
     ["Underground Ruins - Junk Man Rescue Area (Junk Man Rescue Spot)"] = GameRegionData(
@@ -954,7 +954,7 @@ REGION_DATA = {
             "Underground ruins, Junk store man hole"
         },
         {
-            ExitData("Underground Ruins - Cardon Forest Sub-Gate Area (Junk Man Rescue Exit)", has_class_b_license),
+            ExitData("Underground Ruins - Cardon Forest Sub-Gate Area (Junk Man Rescue Exit)", is_class_b_license_accessible),
             ExitData("Underground Ruins - Junk Man Rescue Area (Sewer Ledge)", has_jump_springs),
             ExitData("Cardon Forest"),
         }
@@ -970,7 +970,7 @@ REGION_DATA = {
         { },
         {
             ExitData("Underground Ruins - Junk Man Rescue Area (Sewer Ledge)"),
-            ExitData("Downtown - Outside", has_citizens_card),
+            ExitData("Downtown - Outside", is_citizens_card_accessible),
         }
     ),
     ["Underground Ruins - Shekuten + Kuruguru Area (Shekuten Lower)"] = GameRegionData(
@@ -1017,7 +1017,7 @@ REGION_DATA = {
         { "Underground ruins, Drillable pillar room north chest" },
         {
             ExitData("Underground Ruins - Lake Jyun Sub-Gate Area (Gorubeshu Trap Chests)", can_destroy_cracked_walls),
-            ExitData("Lake Jyun Sub-Gate - Firushudot Hall", has_class_a_license)
+            ExitData("Lake Jyun Sub-Gate - Firushudot Hall", is_class_a_license_accessible)
         }
     ),
     ["Underground Ruins - Lake Jyun Sub-Gate Area (Gorubeshu Walls)"] = GameRegionData(
@@ -1037,14 +1037,14 @@ REGION_DATA = {
         },
         {
             ExitData("Underground Ruins - Lake Jyun Sub-Gate Area (Gorubeshu Walls)", can_destroy_cracked_walls),
-            ExitData("Lake Jyun Sub-Gate - Firushudot Hall", has_class_a_license),
+            ExitData("Lake Jyun Sub-Gate - Firushudot Hall", is_class_a_license_accessible),
         }
     ),
     ["Underground Ruins - Main Gate to Old City Connection"] = GameRegionData(
         { },
         {
-            ExitData("Main Gate - (Maze)", has_unlocked_main_gate),
-            ExitData("Old City (Inside Warehouse Gate)", has_citizens_card),
+            ExitData("Main Gate - (Maze)", is_main_gate_accessible),
+            ExitData("Old City (Inside Warehouse Gate)", is_citizens_card_accessible),
         }
     ),
     ["Main Gate - (Entrance)"] = GameRegionData(
@@ -1075,7 +1075,7 @@ REGION_DATA = {
         {
             ExitData("Main Gate - (Command Terminal)"),
             ExitData("Underground Ruins - Main Gate to Old City Connection"),
-            ExitData("Underground Ruins - Cardon Forest Sub-Gate Area (Main Gate Exit)", has_class_b_license),
+            ExitData("Underground Ruins - Cardon Forest Sub-Gate Area (Main Gate Exit)", is_class_b_license_accessible),
         }
     ),
     ["Main Gate - Juno Area (Sub-City Key Doors)"] = GameRegionData(
@@ -1121,7 +1121,7 @@ REGION_DATA = {
         { ExitData("Downtown Sub-City - City"), }
     ),
     ["Uptown Sub-City - City"] = GameRegionData(
-        { },
+        { "Gai-nee Tooren defeated" },
         {
             ExitData("Uptown"),
             ExitData("Uptown Sub-City - Chest"),

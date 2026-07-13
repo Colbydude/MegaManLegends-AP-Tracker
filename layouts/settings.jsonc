@@ -1,0 +1,25 @@
+{
+    "region_locks": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "v_alignment": "bottom",
+                "item_margin": "4,4",
+                "item_size": "64, 64",
+                "rows": [
+                    [
+                        "shuffle_citizens_card",
+                        "shuffle_class_b_license",
+                        "shuffle_class_a_license",
+                        "shuffle_main_gate_unlock",
+                        "shuffle_sub_cities_unlock"
+                    ]
+                ]
+            }
+        ]
+    }
+}

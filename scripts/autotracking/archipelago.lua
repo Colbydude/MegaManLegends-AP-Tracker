@@ -4,6 +4,7 @@ ScriptHost:LoadScript("scripts/autotracking/item_development_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/key_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/level_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/settings_mapping.lua")
 
 HINT_STATUS_MAPPING = {}
 if Highlight then
@@ -197,6 +198,27 @@ function onClear(slot_data)
                 end
             elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
                 print(string.format("onClear: skipping empty item_table"))
+            end
+        end
+    end
+
+    -- reset settings
+    for key, value in pairs(slot_data) do
+        if key == "options" then
+            for opKey, opValue in pairs(slot_data["options"]) do
+                if SLOT_CODES[opKey] then
+                    local object = Tracker:FindObjectForCode(SLOT_CODES[opKey].code)
+
+                    if object then
+                        if SLOT_CODES[opKey].type == "toggle" then
+                            object.Active = opValue
+                        elseif SLOT_CODES[opKey].type == "progressive" then
+                            object.CurrentStage = SLOT_CODES[opKey].mapping[opValue]
+                        end
+                    elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                        print(string.format("No setting could be found for key: %s", opKey))
+                    end
+                end
             end
         end
     end

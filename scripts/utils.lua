@@ -24,6 +24,16 @@ function checkRequirements(reference, check_count)
   end
 end
 
+function get_setting(code)
+  local item = Tracker:FindObjectForCode(code)
+
+  if item == nil then
+    return 0
+  end
+
+  return item.CurrentStage
+end
+
 function toggle_item(code)
   local active = Tracker:FindObjectForCode(code).Active
   code = code.."_hosted"

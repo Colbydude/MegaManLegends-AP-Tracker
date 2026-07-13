@@ -43,6 +43,33 @@
                     ]
                 }
             ]
+        },
+        "settings_popup": {
+            "type": "dock",
+            "content": {
+                "type": "tabbed",
+                "tabs": [
+                    {
+                        "title": "Settings",
+                        "content": {
+                            "type": "array",
+                            "orientation": "vertical",
+                            "h_alignment": "left",
+                            "content": [
+                                {
+                                    "type": "group",
+                                    "header": "Region Locks",
+                                    "dock": "top",
+                                    "content": {
+                                        "type": "layout",
+                                        "key": "region_locks"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
         }
     }
 }

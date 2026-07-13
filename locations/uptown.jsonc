@@ -86,6 +86,10 @@
                 ],
                 "sections": [
                     {
+                        "name": "Gai-nee Tooren defeated",
+                        "access_rules": ["$isLocationAccessible|135"]
+                    },
+                    {
                         "name": "Dreamer Key",
                         "access_rules": ["$isLocationAccessible|93"]
                     }
