@@ -204,7 +204,15 @@ function onClear(slot_data)
 
     -- reset settings
     for key, value in pairs(slot_data) do
-        if key == "options" then
+        if key == "startingSpecialWeapon" then
+            local object = Tracker:FindObjectForCode(SLOT_CODES["startingSpecialWeapon"].code)
+
+            if object then
+                object.CurrentStage = SLOT_CODES["startingSpecialWeapon"].mapping[value]
+            elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print(string.format("No setting could be found for key: %s", key))
+            end
+        elseif key == "options" then
             for opKey, opValue in pairs(slot_data["options"]) do
                 if SLOT_CODES[opKey] then
                     local object = Tracker:FindObjectForCode(SLOT_CODES[opKey].code)

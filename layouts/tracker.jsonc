@@ -58,6 +58,15 @@
                             "content": [
                                 {
                                     "type": "group",
+                                    "header": "Starting Weapon",
+                                    "dock": "top",
+                                    "content": {
+                                        "type": "layout",
+                                        "key": "starting_weapon"
+                                    }
+                                },
+                                {
+                                    "type": "group",
                                     "header": "Region Locks",
                                     "dock": "top",
                                     "content": {

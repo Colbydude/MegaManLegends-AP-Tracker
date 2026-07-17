@@ -1,50 +1,62 @@
 -- Item Development
 function has_machine_buster()
-    return can_fix_support_car() and has("blumebearparts")
+    return (can_fix_support_car() and has("blumebearparts")) or
+        (get_setting("starting_weapon") == 2)
 end
 
 function has_powered_buster()
-    return can_fix_support_car() and has("cannonkit")
+    return (can_fix_support_car() and has("cannonkit")) or
+        (get_setting("starting_weapon") == 3)
 end
 
 function has_drill_arm()
-    return can_fix_support_car() and has("blunteddrill")
+    return (can_fix_support_car() and has("blunteddrill")) or
+        (get_setting("starting_weapon") == 4)
 end
 
 function has_grenade_arm()
-    return can_fix_support_car() and has("grenadekit")
+    return (can_fix_support_car() and has("grenadekit")) or
+        (get_setting("starting_weapon") == 5)
 end
 
 function has_spread_buster()
-    return can_fix_support_car() and has("ancientbook") and has("oldlauncher") and has("armsupporter")
+    return (can_fix_support_car() and has("ancientbook") and has("oldlauncher") and has("armsupporter")) or
+        (get_setting("starting_weapon") == 6)
 end
 
 function has_vacuum_arm()
-    return can_fix_support_car() and has("brokenmotor") and has("brokencleaner") and has("brokenpropeller")
+    return (can_fix_support_car() and has("brokenmotor") and has("brokencleaner") and has("brokenpropeller")) or
+        (get_setting("starting_weapon") == 7)
 end
 
 function has_active_buster()
-    return can_fix_support_car() and has("guidanceunit")
+    return (can_fix_support_car() and has("guidanceunit")) or
+        (get_setting("starting_weapon") == 8)
 end
 
 function has_blade_arm()
-    return can_fix_support_car() and has("penlight") and has("zetsabre")
+    return (can_fix_support_car() and has("penlight") and has("zetsabre")) or
+        (get_setting("starting_weapon") == 9)
 end
 
 function has_grand_grenade()
-    return can_fix_support_car() and has("bombschematic")
+    return (can_fix_support_car() and has("bombschematic")) or
+        (get_setting("starting_weapon") == 10)
 end
 
 function has_splash_mine()
-    return can_fix_support_car() and has("minepartskit")
+    return (can_fix_support_car() and has("minepartskit")) or
+        (get_setting("starting_weapon") == 11)
 end
 
 function has_shield_arm()
-    return can_fix_support_car() and has("mysticorb") and has("marlwolfshell")
+    return (can_fix_support_car() and has("mysticorb") and has("marlwolfshell")) or
+        (get_setting("starting_weapon") == 12)
 end
 
 function has_shining_laser()
-    return can_fix_support_car() and has("prismcrystal") and has("xbuster") and has("weaponplans")
+    return (can_fix_support_car() and has("prismcrystal") and has("xbuster") and has("weaponplans")) or
+        (get_setting("starting_weapon") == 13)
 end
 
 function has_helmet()
@@ -103,7 +115,7 @@ function can_destroy_cracked_walls()
 end
 
 function has_explosive_weapon()
-    return can_fix_support_car() and (has_powered_buster() or has_grand_grenade() or has_active_buster() or has_spread_buster())
+    return has_powered_buster() or has_grand_grenade() or has_active_buster() or has_spread_buster()
 end
 
 function has_clubhouse_items()

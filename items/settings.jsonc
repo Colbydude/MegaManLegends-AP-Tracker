@@ -1,5 +1,97 @@
 [
     {
+        "name": "Starting Weapon",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/weapons/normal_arm.png",
+                "codes": "starting_weapon",
+                "inherit_codes": false,
+                "name": "Shuffle Starting Weapon - Normal Arm"
+            },
+            {
+                "img": "images/weapons/normal_arm.png",
+                "codes": "starting_weapon",
+                "inherit_codes": false,
+                "name": "Shuffle Starting Weapon - Mega Buster Sidearm (Unused)"
+            },
+            {
+                "img": "images/weapons/machine_buster.png",
+                "codes": "starting_weapon",
+                "inherit_codes": false,
+                "name": "Shuffle Starting Weapon - Machine Buster"
+            },
+            {
+                "img": "images/weapons/powered_buster.png",
+                "codes": "starting_weapon",
+                "inherit_codes": false,
+                "name": "Shuffle Starting Weapon - Powered Buster"
+            },
+            {
+                "img": "images/weapons/drill_arm.png",
+                "codes": "starting_weapon",
+                "inherit_codes": false,
+                "name": "Shuffle Starting Weapon - Drill Arm"
+            },
+            {
+                "img": "images/weapons/grenade_arm.png",
+                "codes": "starting_weapon",
+                "inherit_codes": false,
+                "name": "Shuffle Starting Weapon - Grenade Arm"
+            },
+            {
+                "img": "images/weapons/spread_buster.png",
+                "codes": "starting_weapon",
+                "inherit_codes": false,
+                "name": "Shuffle Starting Weapon - Spread Buster"
+            },
+            {
+                "img": "images/weapons/vacuum_arm.png",
+                "codes": "starting_weapon",
+                "inherit_codes": false,
+                "name": "Shuffle Starting Weapon - Vacuum Arm"
+            },
+            {
+                "img": "images/weapons/active_buster.png",
+                "codes": "starting_weapon",
+                "inherit_codes": false,
+                "name": "Shuffle Starting Weapon - Active Buster"
+            },
+            {
+                "img": "images/weapons/blade_arm.png",
+                "codes": "starting_weapon",
+                "inherit_codes": false,
+                "name": "Shuffle Starting Weapon - Blade Arm"
+            },
+            {
+                "img": "images/weapons/grand_grenade.png",
+                "codes": "starting_weapon",
+                "inherit_codes": false,
+                "name": "Shuffle Starting Weapon - Grand Grenade"
+            },
+            {
+                "img": "images/weapons/splash_mine.png",
+                "codes": "starting_weapon",
+                "inherit_codes": false,
+                "name": "Shuffle Starting Weapon - Splash Mine"
+            },
+            {
+                "img": "images/weapons/shield_arm.png",
+                "codes": "starting_weapon",
+                "inherit_codes": false,
+                "name": "Shuffle Starting Weapon - Shield Arm"
+            },
+            {
+                "img": "images/weapons/shining_laser.png",
+                "codes": "starting_weapon",
+                "inherit_codes": false,
+                "name": "Shuffle Starting Weapon - Shining Laser"
+            }
+        ]
+    },
+    {
         "name": "Shuffle Citizen's Card",
         "type": "progressive",
         "allow_disabled": false,

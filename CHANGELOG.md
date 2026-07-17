@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to the version set in [MMLAP](https://github.com/functorial/MMLAP),
 which is then suffixed with an incremental version number for this project.
 
+## [v0.3.0.1]
+
+### Added
+
+- Support for randomized starting weapon.
+
 ## [v0.3.0.0]
 
 ### Added
