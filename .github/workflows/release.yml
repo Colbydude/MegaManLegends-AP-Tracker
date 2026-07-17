@@ -19,8 +19,10 @@ jobs:
             - name: Read version from tag
               id: manifest
               run: |
-                  echo "version=${{ github.ref_name }}" >> $GITHUB_OUTPUT
-                  echo "artifact=MML-AP-${{ github.ref_name }}.zip" >> $GITHUB_OUTPUT
+                  TAG="${{ github.ref_name }}"
+                  echo "version=$TAG" >> $GITHUB_OUTPUT
+                  echo "package_version=${TAG#v}" >> $GITHUB_OUTPUT
+                  echo "artifact=MML-AP-$TAG.zip" >> $GITHUB_OUTPUT
 
             - name: Prepare archive
               run: |
@@ -86,7 +88,7 @@ jobs:
                     }
                   ' release_notes.md | jq -R -s -c 'split("\n") | map(select(length > 0))')
 
-                  jq --arg version "${{ steps.manifest.outputs.version }}" \
+                  jq --arg version "${{ steps.manifest.outputs.package_version }}" \
                     --arg url "${{ steps.asset.outputs.url }}" \
                     --arg sha "${{ steps.sha.outputs.sha }}" \
                     --argjson changelog "$CHANGELOG" \
