@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+      "package_version": "0.3.0.1",
+      "download_url": "https://github.com/Colbydude/MegaManLegends-AP-Tracker/releases/download/v0.3.0.1/MML-AP-v0.3.0.1.zip",
+      "sha256": "aa455d802ab66c3cc1fb74c8a004706b96ced62e9bf40f50fe0e459ef044e332",
+      "changelog": [
+        "Added: Support for randomized starting weapon."
+      ]
+    },
+    {
       "package_version": "0.3.0.0",
       "download_url": "https://github.com/Colbydude/MegaManLegends-AP-Tracker/releases/download/v0.3.0.0/MML-AP-v0.3.0.0.zip",
       "sha256": "fc51df12abf76df7ad98e59f90f162c2cab64a4fbdc7719b0b24c0557f715ae0",
