@@ -53,6 +53,7 @@ which is then suffixed with an incremental version number for this project.
 - Support for Archipelago location and item auto-tracking.
 - Support for auto-tabbing based on the player's map location.
 
+[v0.3.0.1]: https://github.com/Colbydude/MegaManLegends-AP-Tracker/releases/tag/v0.3.0.1
 [v0.3.0.0]: https://github.com/Colbydude/MegaManLegends-AP-Tracker/releases/tag/v0.3.0.0
 [v0.2.6.2]: https://github.com/Colbydude/MegaManLegends-AP-Tracker/releases/tag/v0.2.6.2
 [v0.2.6.1]: https://github.com/Colbydude/MegaManLegends-AP-Tracker/releases/tag/v0.2.6.1
